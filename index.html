@@ -23,6 +23,8 @@
             --card-bg: rgba(255, 255, 255, 0.02);
             --card-hover: rgba(255, 255, 255, 0.06);
             --drawer-bg: rgba(9, 15, 30, 0.9);
+            --notice-bg: rgba(225, 29, 72, 0.06);
+            --notice-border: rgba(225, 29, 72, 0.2);
         }
 
         /* Premium Light / Lighting Mode Theme */
@@ -37,6 +39,8 @@
             --card-bg: rgba(255, 255, 255, 0.7);
             --card-hover: rgba(225, 29, 72, 0.04);
             --drawer-bg: rgba(255, 255, 255, 0.95);
+            --notice-bg: rgba(225, 29, 72, 0.04);
+            --notice-border: rgba(225, 29, 72, 0.15);
         }
 
         * {
@@ -81,6 +85,12 @@
             flex-shrink: 0;
         }
 
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
         .brand-logo {
             display: flex;
             align-items: center;
@@ -96,6 +106,17 @@
         }
 
         .brand-logo span { color: var(--accent-red); }
+
+        /* প্লেইন টেক্সট টোটাল চ্যানেল কাউন্টার (ব্যাকগ্রাউন্ড ছাড়া) */
+        .total-ch-badge {
+            color: var(--accent-red);
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding-left: 5px;
+            border-left: 2px solid var(--border-light); /* লোগো থেকে আলাদা করার জন্য হালকা দাগ */
+            padding: 0 10px;
+        }
 
         .menu-toggle-btn {
             background: var(--card-bg);
@@ -347,6 +368,28 @@
             transition: background 0.4s;
         }
 
+        /* ----- Premium Moving Notice CSS ----- */
+        .premium-notice-bar {
+            background: var(--notice-bg);
+            border-bottom: 1px solid var(--notice-border);
+            padding: 6px 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+        .notice-ticker {
+            flex: 1;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .notice-ticker marquee {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-main);
+            vertical-align: middle;
+        }
+
         .sidebar-tools {
             padding: 16px;
             border-bottom: 1px solid var(--border-light);
@@ -554,8 +597,11 @@
 <body>
 
     <header class="premium-header">
-        <div class="brand-logo" id="logo-text">
-            <i class="fas fa-play"></i> বাংলা<span>টিভি</span>
+        <div class="header-left">
+            <div class="brand-logo" id="logo-text">
+                <i class="fas fa-play"></i> বাংলা<span>টিভি</span>
+            </div>
+            <div class="total-ch-badge" id="total-channel-counter">Total CH: 0</div>
         </div>
         <button class="menu-toggle-btn" id="open-menu">
             <i class="fas fa-bars"></i>
@@ -571,7 +617,6 @@
             </button>
         </div>
 
-        <!-- থিম চেঞ্জার (এখানে লেখা সংশোধন করে সহজ বাংলা করা হয়েছে) -->
         <div class="feature-item">
             <label id="lbl-theme">থিম ডিসপ্লে মোড</label>
             <button class="btn-professional btn-theme" id="theme-toggle">
@@ -583,7 +628,6 @@
             </button>
         </div>
 
-        <!-- ভাষা পরিবর্তন অপশন -->
         <div class="feature-item">
             <label id="lbl-lang">ভাষা / Language</label>
             <button class="btn-professional btn-lang" id="lang-toggle">
@@ -595,7 +639,6 @@
             </button>
         </div>
 
-        <!-- ভিডিও অ্যাসপেক্ট রেশিও কন্ট্রোল -->
         <div class="feature-item">
             <label id="lbl-ratio">ভিডিও সাইজ (Aspect Ratio)</label>
             <div class="feature-select-wrapper">
@@ -607,9 +650,8 @@
             </div>
         </div>
 
-        <!-- রিফ্রেশ প্লেলিস্ট -->
         <div class="feature-item">
-            <label id="lbl-action">প্লেয়ার অ্যাকশন</label>
+            <label id="lbl-action">প্লেয়ার টুলস</label>
             <button class="btn-professional btn-refresh" id="refresh-player">
                 <div class="btn-left">
                     <i class="fas fa-sync-alt"></i>
@@ -619,7 +661,6 @@
             </button>
         </div>
 
-        <!-- টেলিগ্রাম সাপোর্ট -->
         <div class="feature-item">
             <label id="lbl-support">যোগাযোগ</label>
             <a href="https://t.me/banglatvlivefree" target="_blank" style="text-decoration: none;">
@@ -647,6 +688,18 @@
         </section>
 
         <aside class="sidebar-section">
+            <div class="premium-notice-bar">
+                <div style="background-color: #e11d48; color: #ffffff; padding: 3px 8px; border-radius: 6px; font-size: 12px; font-weight: 700; display: flex; align-items: center; gap: 5px; flex-shrink: 0; box-shadow: 0 2px 8px rgba(225, 29, 72, 0.3);">
+                    <i class="fas fa-bullhorn" style="color: #ffffff;"></i>
+                    <span id="notice-label">নোটিশ</span>
+                </div>
+                <div class="notice-ticker">
+                    <marquee behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();" id="notice-text">
+                        স্বাগতম বাংলা টিভি লাইভ স্ট্রিমিং অ্যাপে! বাফারিং ছাড়া ঝকঝকে হাই-কোয়ালিটি লাইভ টিভি দেখতে আপনার ইন্টারনেট কানেকশন চেক করুন। কোনো চ্যানেল লোড না হলে মেনু থেকে প্লেলিস্ট রিফ্রেশ করুন। আমাদের সাথে থাকার জন্য ধন্যবাদ!
+                    </marquee>
+                </div>
+            </div>
+
             <div class="sidebar-tools">
                 <div class="filter-box">
                     <select id="category-dropdown">
@@ -697,7 +750,7 @@
                 lblRatio: "ভিডিও সাইজ (Aspect Ratio)",
                 optStretch: "Stretch (পুরো স্ক্রিন)",
                 optContain: "Contained (অরিজিনাল)",
-                lblAction: "প্লেয়ার অ্যাকশন",
+                lblAction: "প্লেয়ার টুলস",
                 refreshText: "রিফ্রেশ প্লেলিস্ট",
                 lblSupport: "যোগাযোগ",
                 supportText: "টেলিগ্রাম সাপোর্ট গ্রুপ",
@@ -705,7 +758,9 @@
                 welcomeDesc: "চ্যানেল তালিকা থেকে পছন্দের চ্যানেল নির্বাচন করুন।",
                 searchPlaceholder: "খুঁজুন চ্যানেল...",
                 allCat: "সব ক্যাটাগরি",
-                noChannel: "কোনো চ্যানেল পাওয়া যায়নি!"
+                noChannel: "কোনো চ্যানেল পাওয়া যায়নি!",
+                noticeLabel: "নোটিশ",
+                notice: "স্বাগতম বাংলা টিভি লাইভ স্ট্রিমিং অ্যাপে! বাফারিং ছাড়া ঝকঝকে হাই-কোয়ালিটি লাইভ টিভি দেখতে আপনার ইন্টারনেট কানেকশন চেক করুন। কোনো চ্যানেল লোড না হলে মেনু থেকে প্লেলিস্ট রিফ্রেশ করুন। আমাদের সাথে থাকার জন্য ধন্যবাদ!"
             },
             en: {
                 title: "Bangla TV - Premium Live Streaming",
@@ -719,7 +774,7 @@
                 lblRatio: "Video Size (Aspect Ratio)",
                 optStretch: "Stretch (Full Screen)",
                 optContain: "Contained (Original)",
-                lblAction: "Player Action",
+                lblAction: "Player Tools",
                 refreshText: "Refresh Playlist",
                 lblSupport: "Contact Us",
                 supportText: "Telegram Support Group",
@@ -727,7 +782,9 @@
                 welcomeDesc: "Select your favorite channel from the list to start streaming.",
                 searchPlaceholder: "Search channel...",
                 allCat: "All Categories",
-                noChannel: "No channel found!"
+                noChannel: "No channel found!",
+                noticeLabel: "Notice",
+                notice: "Welcome to Bangla TV Live Streaming App! Check your internet connection for smooth buffer-free streaming. If channels fail to load, refresh the playlist from the menu. Thanks for staying with us!"
             }
         };
 
@@ -736,6 +793,7 @@
         const listContainer = document.getElementById('channels-list');
         const searchInput = document.getElementById('search-input');
         const categoryDropdown = document.getElementById('category-dropdown');
+        const totalChannelCounter = document.getElementById('total-channel-counter');
 
         const openMenuBtn = document.getElementById('open-menu');
         const closeMenuBtn = document.getElementById('close-menu');
@@ -795,6 +853,8 @@
             document.getElementById('support-text').textContent = currentLabels.supportText;
             document.getElementById('welcome-title').textContent = currentLabels.welcomeTitle;
             document.getElementById('welcome-desc').textContent = currentLabels.welcomeDesc;
+            document.getElementById('notice-label').textContent = currentLabels.noticeLabel;
+            document.getElementById('notice-text').textContent = currentLabels.notice;
             
             searchInput.placeholder = currentLabels.searchPlaceholder;
             
@@ -818,6 +878,7 @@
 
         document.getElementById('refresh-player').addEventListener('click', () => {
             listContainer.innerHTML = '';
+            totalChannelCounter.textContent = "Total CH: 0";
             for(let i=0; i<9; i++) {
                 listContainer.innerHTML += `
                     <div class="skeleton-card shimmer-effect">
@@ -881,6 +942,9 @@
             }
 
             if(allChannels.length === 0) return false;
+
+            // অটোমেটিক প্লেলিস্টের মোট চ্যানেল সংখ্যা বসানো
+            totalChannelCounter.textContent = `Total CH: ${allChannels.length}`;
 
             categoryDropdown.innerHTML = `<option value="all" id="opt-all-cat">${dict[currentLanguage].allCat}</option>`;
             Array.from(uniqueCategories).sort().forEach(cat => {
