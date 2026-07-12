@@ -491,7 +491,7 @@
             width: 100%;
         }
 
-        /* Skeleton Loaders */
+        /* ----- Shimmer Animation ----- */
         .skeleton-card {
             display: flex;
             flex-direction: column;
@@ -571,9 +571,9 @@
             </button>
         </div>
 
-        <!-- থিম চেঞ্জার (ডার্ক ও লাইটিং মোড) -->
+        <!-- থিম চেঞ্জার (এখানে লেখা সংশোধন করে সহজ বাংলা করা হয়েছে) -->
         <div class="feature-item">
-            <label id="lbl-theme">ডিসপ্লে লাইটিং মুড</label>
+            <label id="lbl-theme">থিম ডিসপ্লে মোড</label>
             <button class="btn-professional btn-theme" id="theme-toggle">
                 <div class="btn-left">
                     <i class="fas fa-moon" id="theme-icon"></i>
@@ -607,20 +607,20 @@
             </div>
         </div>
 
-        <!-- রিফ্রেশ প্লেয়ার -->
+        <!-- রিফ্রেশ প্লেলিস্ট -->
         <div class="feature-item">
             <label id="lbl-action">প্লেয়ার অ্যাকশন</label>
             <button class="btn-professional btn-refresh" id="refresh-player">
                 <div class="btn-left">
                     <i class="fas fa-sync-alt"></i>
-                    <span id="refresh-text">রিফ্রেশ প্লেয়ার</span>
+                    <span id="refresh-text">রিফ্রেশ প্লেলিস্ট</span>
                 </div>
                 <i class="fas fa-redo-alt" style="font-size:11px; opacity:0.7;"></i>
             </button>
         </div>
 
-        <!-- টেলিগ্রাম সাপোর্ট (আপডেটেড লিংক) -->
-        <div class="feature-item" style="margin-top: auto;">
+        <!-- টেলিগ্রাম সাপোর্ট -->
+        <div class="feature-item">
             <label id="lbl-support">যোগাযোগ</label>
             <a href="https://t.me/banglatvlivefree" target="_blank" style="text-decoration: none;">
                 <button class="btn-professional btn-support">
@@ -655,7 +655,7 @@
                 </div>
                 <div class="search-box">
                     <i class="fas fa-search"></i>
-                    <input type="text" id="search-input" placeholder="খুঁজুন...">
+                    <input type="text" id="search-input" placeholder="খুঁজুন চ্যানেল...">
                 </div>
             </div>
 
@@ -689,7 +689,7 @@
                 title: "বাংলা টিভি - Premium Live Streaming",
                 logo: '<i class="fas fa-play"></i> বাংলা<span>টিভি</span>',
                 menuTitle: "ফিচার মেনু",
-                lblTheme: "ডিসপ্লে লাইটিং মুড",
+                lblTheme: "থিম ডিসপ্লে মোড",
                 themeDark: "ডিপ ডার্ক মোড অন",
                 themeLight: "নিওন লাইট মোড অন",
                 lblLang: "ভাষা / Language",
@@ -698,21 +698,20 @@
                 optStretch: "Stretch (পুরো স্ক্রিন)",
                 optContain: "Contained (অরিজিনাল)",
                 lblAction: "প্লেয়ার অ্যাকশন",
-                refreshText: "রিফ্রেশ প্লেয়ার",
+                refreshText: "রিফ্রেশ প্লেলিস্ট",
                 lblSupport: "যোগাযোগ",
                 supportText: "টেলিগ্রাম সাপোর্ট গ্রুপ",
                 welcomeTitle: "সরাসরি সম্প্রচার",
                 welcomeDesc: "চ্যানেল তালিকা থেকে পছন্দের চ্যানেল নির্বাচন করুন।",
-                searchPlaceholder: "খুঁজুন...",
+                searchPlaceholder: "খুঁজুন চ্যানেল...",
                 allCat: "সব ক্যাটাগরি",
-                noChannel: "কোনো চ্যানেল পাওয়া যায়নি!",
-                alertSelect: "প্রথমে একটি চ্যানেল প্লে করুন!"
+                noChannel: "কোনো চ্যানেল পাওয়া যায়নি!"
             },
             en: {
                 title: "Bangla TV - Premium Live Streaming",
                 logo: '<i class="fas fa-play"></i> Bangla<span>TV</span>',
                 menuTitle: "Feature Menu",
-                lblTheme: "Display Lighting Mode",
+                lblTheme: "Theme Display Mode",
                 themeDark: "Deep Dark Mode On",
                 themeLight: "Neon Light Mode On",
                 lblLang: "Language / ভাষা",
@@ -721,15 +720,14 @@
                 optStretch: "Stretch (Full Screen)",
                 optContain: "Contained (Original)",
                 lblAction: "Player Action",
-                refreshText: "Refresh Player",
+                refreshText: "Refresh Playlist",
                 lblSupport: "Contact Us",
                 supportText: "Telegram Support Group",
                 welcomeTitle: "Live Streaming",
                 welcomeDesc: "Select your favorite channel from the list to start streaming.",
                 searchPlaceholder: "Search channel...",
                 allCat: "All Categories",
-                noChannel: "No channel found!",
-                alertSelect: "Please select a channel to play first!"
+                noChannel: "No channel found!"
             }
         };
 
@@ -799,7 +797,14 @@
             document.getElementById('welcome-desc').textContent = currentLabels.welcomeDesc;
             
             searchInput.placeholder = currentLabels.searchPlaceholder;
-            document.getElementById('opt-all-cat').textContent = currentLabels.allCat;
+            
+            const savedValue = categoryDropdown.value;
+            categoryDropdown.innerHTML = `<option value="all" id="opt-all-cat">${currentLabels.allCat}</option>`;
+            Array.from(uniqueCategories).sort().forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat; option.textContent = cat; categoryDropdown.appendChild(option);
+            });
+            categoryDropdown.value = savedValue;
             
             renderChannels(); 
         }
@@ -812,8 +817,18 @@
         });
 
         document.getElementById('refresh-player').addEventListener('click', () => {
-            if(currentActiveChannel) { launchStream(currentActiveChannel); closeMenu(); } 
-            else { alert(dict[currentLanguage].alertSelect); }
+            listContainer.innerHTML = '';
+            for(let i=0; i<9; i++) {
+                listContainer.innerHTML += `
+                    <div class="skeleton-card shimmer-effect">
+                        <div class="skeleton-logo"></div>
+                        <div class="skeleton-text-1"></div>
+                        <div class="skeleton-text-2"></div>
+                    </div>
+                `;
+            }
+            fetchPlaylist();
+            closeMenu();
         });
 
         searchInput.addEventListener('input', renderChannels);
