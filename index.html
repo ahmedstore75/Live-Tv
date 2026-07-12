@@ -217,7 +217,7 @@
             align-content: start;
         }
 
-        /* প্রিমিয়াম ভার্টিকাল চ্যানেল কার্ড স্ট্রাকচার (Original) */
+        /* প্রিমিয়াম ভার্টিকাল চ্যানেল কার্ড স্ট্রাকচার */
         .channel-card {
             display: flex;
             flex-direction: column; 
@@ -231,6 +231,7 @@
             transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
             text-align: center;
             width: 100%; 
+            min-height: 120px; /* কার্ডের মিনিমাম হাইট ফিক্সড করা হলো যাতে চ্যাপ্টা না হয় */
             overflow: hidden;
         }
 
@@ -247,7 +248,7 @@
             box-shadow: 0 0 15px rgba(225, 29, 72, 0.15);
         }
 
-        /* লোগো বক্স টিউন (Original) */
+        /* লোগো বক্স টিউন */
         .card-logo {
             width: 55px;
             height: 55px;
@@ -278,12 +279,13 @@
             z-index: 1;
         }
 
-        /* টেক্সট ইনফো (Original) */
+        /* টেক্সট ইনফো */
         .card-info {
             display: flex;
             flex-direction: column;
             width: 100%;
             overflow: hidden;
+            flex-shrink: 0;
         }
 
         .card-title {
@@ -308,7 +310,7 @@
             width: 100%;
         }
 
-        /* ----- പ്രিমিয়াম স্কেলেটন লোডার (Skeleton Loader) ডিজাইন ----- */
+        /* ----- প্রিমিয়াম স্কেলেটন লোডার ডিজাইন ----- */
         .skeleton-card {
             display: flex;
             flex-direction: column;
@@ -318,6 +320,7 @@
             border: 1px solid rgba(255, 255, 255, 0.03);
             border-radius: 14px;
             width: 100%;
+            min-height: 120px;
         }
 
         .skeleton-logo {
@@ -326,6 +329,7 @@
             background: rgba(255, 255, 255, 0.05);
             border-radius: 12px;
             margin-bottom: 10px;
+            flex-shrink: 0;
         }
 
         .skeleton-text-1 {
@@ -334,6 +338,7 @@
             background: rgba(255, 255, 255, 0.05);
             border-radius: 4px;
             margin-bottom: 6px;
+            flex-shrink: 0;
         }
 
         .skeleton-text-2 {
@@ -341,9 +346,10 @@
             height: 9px;
             background: rgba(255, 255, 255, 0.03);
             border-radius: 4px;
+            flex-shrink: 0;
         }
 
-        /* শিমার (Shimmer) অ্যানিমেশন ইফেক্ট */
+        /* শিমার অ্যানিমেশন ইফেক্ট */
         .shimmer-effect {
             position: relative;
             overflow: hidden;
@@ -383,29 +389,46 @@
         @media (max-width: 950px) {
             .app-workspace { 
                 flex-direction: column; 
-                overflow: hidden; /* পুরো পেজ স্ক্রল হওয়া বন্ধ রাখবে */
+                overflow: hidden; 
             }
             .player-section { 
                 flex: none; 
                 padding: 12px; 
                 width: 100%; 
                 background-color: var(--bg-base);
-                z-index: 40; /* প্লেয়ারটি ওপরে ফিক্সড থাকবে */
+                z-index: 40; 
             }
             .sidebar-section { 
                 width: 100%; 
-                flex: 1; /* স্ক্রিনের বাকি অংশ sidebar নিবে */
+                flex: 1; 
                 overflow: hidden; 
                 border-left: none; 
                 border-top: 1px solid var(--border-light); 
             }
             
             .channels-list { 
-                grid-template-columns: repeat(2, minmax(0, 1fr)); /* আপনার মূল কোডের রেসপনসিভ ডিজাইন (২ কলাম) */
+                grid-template-columns: repeat(2, minmax(0, 1fr)); /* মূল ২ কলাম লেআউট */
                 padding: 12px; 
-                gap: 10px;
+                gap: 12px;
                 width: 100%;
-                overflow-y: auto; /* শুধুমাত্র চ্যানেল লিস্টটি স্ক্রল হবে */
+                overflow-y: auto; 
+            }
+
+            /* মোবাইলে কার্ডগুলোর প্রিমিয়াম স্টাইল বজায় রাখার জন্য টিউনিং */
+            .channel-card, .skeleton-card {
+                padding: 14px 10px;
+                min-height: 120px;
+            }
+            .card-logo, .skeleton-logo {
+                width: 55px;
+                height: 55px;
+                margin-bottom: 10px;
+            }
+            .card-title {
+                font-size: 13px;
+            }
+            .card-category {
+                font-size: 10px;
             }
         }
     </style>
