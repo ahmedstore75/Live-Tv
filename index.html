@@ -217,6 +217,7 @@
             align-content: start;
         }
 
+        /* প্রিমিয়াম ভার্টিকাল চ্যানেল কার্ড স্ট্রাকচার (Original) */
         .channel-card {
             display: flex;
             flex-direction: column; 
@@ -246,6 +247,7 @@
             box-shadow: 0 0 15px rgba(225, 29, 72, 0.15);
         }
 
+        /* লোগো বক্স টিউন (Original) */
         .card-logo {
             width: 55px;
             height: 55px;
@@ -276,6 +278,7 @@
             z-index: 1;
         }
 
+        /* টেক্সট ইনফো (Original) */
         .card-info {
             display: flex;
             flex-direction: column;
@@ -305,6 +308,7 @@
             width: 100%;
         }
 
+        /* ----- പ്രিমিয়াম স্কেলেটন লোডার (Skeleton Loader) ডিজাইন ----- */
         .skeleton-card {
             display: flex;
             flex-direction: column;
@@ -339,6 +343,7 @@
             border-radius: 4px;
         }
 
+        /* শিমার (Shimmer) অ্যানিমেশন ইফেক্ট */
         .shimmer-effect {
             position: relative;
             overflow: hidden;
@@ -374,11 +379,11 @@
         ::-webkit-scrollbar { width: 5px; }
         ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 10px; }
 
-        /* ----- Responsive Breakpoints (Fixed Part) ----- */
+        /* ----- Responsive Breakpoints (Fixed & Fixed Design) ----- */
         @media (max-width: 950px) {
             .app-workspace { 
                 flex-direction: column; 
-                overflow: hidden; /* পুরো স্ক্রিন স্ক্রল হওয়া বন্ধ করবে */
+                overflow: hidden; /* পুরো পেজ স্ক্রল হওয়া বন্ধ রাখবে */
             }
             .player-section { 
                 flex: none; 
@@ -396,17 +401,11 @@
             }
             
             .channels-list { 
-                grid-template-columns: repeat(3, minmax(0, 1fr)); /* মোবাইলেও ৩ কলামে সুন্দর দেখাবে */
+                grid-template-columns: repeat(2, minmax(0, 1fr)); /* আপনার মূল কোডের রেসপনসিভ ডিজাইন (২ কলাম) */
                 padding: 12px; 
                 gap: 10px;
                 width: 100%;
                 overflow-y: auto; /* শুধুমাত্র চ্যানেল লিস্টটি স্ক্রল হবে */
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .channels-list { 
-                grid-template-columns: repeat(2, minmax(0, 1fr)); /* খুব ছোট মোবাইলে ২ কলাম হবে */
             }
         }
     </style>
