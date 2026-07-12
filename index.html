@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>বাংলা টিভি - Premium Live Streaming</title>
+    <!-- HLS.js for Live Streaming -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <!-- FontAwesome for Premium Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
@@ -379,29 +381,61 @@
         ::-webkit-scrollbar { width: 5px; }
         ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 10px; }
 
-        /* Responsive Breakpoints */
+        /* Responsive Breakpoints - মোবাইলের জন্য স্ক্রল ও পজিশন ফিক্সড */
         @media (max-width: 950px) {
-            .app-workspace { flex-direction: column; overflow-y: auto; }
-            .player-section { flex: none; padding: 12px; width: 100%; }
-            .sidebar-section { width: 100%; flex: none; border-left: none; border-top: 1px solid var(--border-light); }
+            body { overflow: hidden; }
+            .app-workspace { flex-direction: column; overflow: hidden; } /* বডি স্ক্রল হবে না */
             
+            /* প্লেয়ার সেকশন ফিক্সড পজিশন */
+            .player-section { 
+                flex: none; 
+                padding: 10px; 
+                width: 100%; 
+                background: var(--bg-base);
+                z-index: 40;
+            }
+            
+            /* সাইডবার নিজের ভেতরে স্ক্রল হ্যান্ডেল করবে */
+            .sidebar-section { 
+                width: 100%; 
+                flex: 1; 
+                border-left: none; 
+                border-top: 1px solid var(--border-light); 
+                overflow: hidden; 
+                display: flex;
+                flex-direction: column;
+            }
+            
+            /* সার্চ এবং ফিল্টার ফিক্সড থাকবে */
+            .sidebar-tools {
+                position: sticky;
+                top: 0;
+                z-index: 45;
+                background: #020617;
+            }
+            
+            /* শুধুমাত্র এই পার্টটি স্ক্রল হবে */
             .channels-list { 
                 grid-template-columns: repeat(2, minmax(0, 1fr)); 
                 padding: 12px; 
                 gap: 10px;
                 width: 100%;
+                overflow-y: auto; 
+                flex: 1;
             }
         }
     </style>
 </head>
 <body>
 
+    <!-- Header Navigation -->
     <header class="premium-header">
         <div class="brand-logo">
             <i class="fas fa-play"></i> বাংলা<span>টিভি</span>
         </div>
     </header>
 
+    <!-- Main Workspace -->
     <main class="app-workspace">
         <section class="player-section">
             <div class="player-container">
@@ -427,7 +461,9 @@
                 </div>
             </div>
 
+            <!-- Channels Grid List Container -->
             <div class="channels-list" id="channels-list">
+                <!-- শিমার স্কেলেটন লোডার ডামি কার্ড -->
                 <script>
                     for(let i=0; i<9; i++) {
                         document.write(`
@@ -517,11 +553,18 @@
                 
                 if (line.startsWith('#EXTINF:')) {
                     currentItem = {};
+                    
                     const logoMatch = line.match(/tvg-logo="([^"]+)"/i);
                     currentItem.logo = logoMatch ? logoMatch[1] : '';
                     
-                    const groupMatch = line.match(/group-title="([^"]+)"/i);
-                    currentItem.category = groupMatch ? groupMatch[1] : 'LIVE TV';
+                    const groupMatch = line.match(/(?:group-title|group)="([^"]+)"/i);
+                    
+                    if (groupMatch && groupMatch[1].trim() !== "") {
+                        currentItem.category = groupMatch[1].trim();
+                    } else {
+                        currentItem.category = 'LIVE TV'; 
+                    }
+                    
                     uniqueCategories.add(currentItem.category);
                     
                     const commaIndex = line.lastIndexOf(',');
