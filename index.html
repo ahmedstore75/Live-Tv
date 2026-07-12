@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>বাংলা টিভি - Premium Live Streaming</title>
+    <!-- HLS.js for Live Streaming -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <!-- FontAwesome for Premium Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
@@ -102,38 +104,28 @@
             overflow: hidden;
             box-shadow: 0 20px 40px -10px rgba(0,0,0,0.8);
             border: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
+        /* স্ক্রিন ফিট করার জন্য ফিক্সড ভিডিও সিএসএস */
         video {
-            width: 100%;
-            height: 100%;
-            /* object-fit: contain নিশ্চিত করে যে ভিডিও ক্রপ হবে না এবং রেশিও ঠিক থাকবে */
-            object-fit: contain; 
+            width: 100% !important;
+            height: 100% !important;
+            max-width: 100%;
+            max-height: 100%;
+            /* 'fill' দিলে ভিডিওটি টেনে পুরো স্ক্রিনে ফিট হয়ে যাবে, কোনো কালো বর্ডার থাকবে না */
+            object-fit: fill; 
             background: #000;
         }
 
-        /* ফুলস্ক্রিন বাটনের নতুন স্টাইল */
-        .fullscreen-btn {
-            position: absolute;
-            bottom: 15px;
-            right: 15px;
-            background: rgba(15, 23, 42, 0.8);
-            border: 1px solid var(--border-light);
-            color: white;
-            padding: 10px 14px;
-            border-radius: 8px;
-            cursor: pointer;
-            z-index: 20;
-            display: none; /* চ্যানেল প্লে হলে স্ক্রিপ্ট দিয়ে এটি দৃশ্যমান করা হবে */
-            align-items: center;
-            gap: 8px;
-            font-size: 13px;
-            backdrop-filter: blur(8px);
-            transition: background 0.2s;
+        /* মোবাইল বা ফুলস্ক্রিন মোডে যাতে ব্রাউজার নিজে থেকে ভিডিও ফিট করে */
+        video:fullscreen {
+            object-fit: fill;
         }
-
-        .fullscreen-btn:hover {
-            background: var(--accent-red);
+        video:-webkit-full-screen {
+            object-fit: fill;
         }
 
         .welcome-overlay {
@@ -334,24 +326,23 @@
 </head>
 <body>
 
+    <!-- Header Navigation -->
     <header class="premium-header">
         <div class="brand-logo">
             <i class="fas fa-play"></i> বাংলা<span>টিভি</span>
         </div>
     </header>
 
+    <!-- Main Workspace -->
     <main class="app-workspace">
         <section class="player-section">
-            <div class="player-container" id="player-container">
+            <div class="player-container">
                 <div class="welcome-overlay" id="welcome-screen">
                     <i class="fas fa-satellite-dish"></i>
                     <h2>সরাসরি সম্প্রচার</h2>
                     <p>চ্যানেল তালিকা থেকে পছন্দের চ্যানেল নির্বাচন করুন।</p>
                 </div>
                 <video id="video-player" controls autoplay playsinline></video>
-                <button class="fullscreen-btn" id="fullscreen-btn">
-                    <i class="fas fa-expand"></i> ফুল স্ক্রিন ফিট
-                </button>
             </div>
         </section>
 
@@ -368,6 +359,7 @@
                 </div>
             </div>
 
+            <!-- Channels Row List Container -->
             <div class="channels-list" id="channels-list">
                 <div class="status-msg" id="loading-msg">
                     <i class="fas fa-circle-notch fa-spin" style="font-size: 26px; color: var(--accent-red); margin-bottom: 12px;"></i>
@@ -384,18 +376,15 @@
         let uniqueCategories = new Set();
         let hlsPlayer = null;
 
-        const playerContainer = document.getElementById('player-container');
         const playerEl = document.getElementById('video-player');
         const welcomeScreen = document.getElementById('welcome-screen');
         const listContainer = document.getElementById('channels-list');
         const searchInput = document.getElementById('search-input');
         const categoryDropdown = document.getElementById('category-dropdown');
-        const fullscreenBtn = document.getElementById('fullscreen-btn');
 
         searchInput.addEventListener('input', renderChannels);
         categoryDropdown.addEventListener('change', renderChannels);
 
-        // ক্যাটাগরি ড্রপডাউন পরিবর্তন করলে সার্চ বক্স নিজে থেকেই খালি হয়ে যাবে
         categoryDropdown.addEventListener('change', () => {
             searchInput.value = '';
         });
@@ -485,7 +474,6 @@
             return true;
         }
 
-        // ফিক্সড স্মার্ট সার্চ এবং ফিল্টার লজিক
         function renderChannels() {
             const query = searchInput.value.toLowerCase().trim();
             const filterCat = categoryDropdown.value;
@@ -493,13 +481,9 @@
 
             const results = allChannels.filter(ch => {
                 const titleMatch = ch.title.toLowerCase().includes(query);
-                
-                // যদি সার্চ বক্সে কিছু লেখা থাকে, তবে ক্যাটাগরি ফিল্টার এড়িয়ে (Ignore) সব চ্যানেল থেকে সার্চ করবে
                 if (query.length > 0) {
                     return titleMatch;
                 }
-                
-                // সার্চ বক্স খালি থাকলে ক্যাটাগরি ড্রপডাউন মেনে ফিল্টার করবে
                 const catMatch = filterCat === 'all' || ch.category === filterCat;
                 return titleMatch && catMatch;
             });
@@ -537,7 +521,6 @@
         function launchStream(channel) {
             welcomeScreen.style.opacity = '0';
             setTimeout(() => { welcomeScreen.style.display = 'none'; }, 400);
-            fullscreenBtn.style.display = 'flex'; // চ্যানেল চালু হলে বাটন দেখাবে
 
             if (Hls.isSupported()) {
                 if (hlsPlayer) { hlsPlayer.destroy(); }
@@ -554,57 +537,6 @@
                 });
             }
         }
-
-        // ----- FullScreen & Auto Rotate Logic -----
-        fullscreenBtn.addEventListener('click', () => {
-            toggleFullScreen(playerContainer);
-        });
-
-        function toggleFullScreen(element) {
-            if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
-                // ফুলস্ক্রিন অ্যাক্টিভ করা
-                if (element.requestFullscreen) {
-                    element.requestFullscreen();
-                } else if (element.webkitRequestFullscreen) { /* Safari */
-                    element.webkitRequestFullscreen();
-                } else if (element.msRequestFullscreen) { /* IE11 */
-                    element.msRequestFullscreen();
-                }
-                
-                // মোবাইল ডিভাইসে অটো-রোটেট (Landscape) করার চেষ্টা করা
-                if (screen.orientation && screen.orientation.lock) {
-                    screen.orientation.lock('landscape').catch(err => {
-                        console.log("Orientation lock not supported or allowed:", err);
-                    });
-                }
-            } else {
-                // ফুলস্ক্রিন থেকে বের হওয়া
-                if (document.exitFullscreen) {
-                    document.exitFullscreen();
-                } else if (document.webkitExitFullscreen) {
-                    document.webkitExitFullscreen();
-                } else if (document.msExitFullscreen) {
-                    document.msExitFullscreen();
-                }
-                
-                // স্ক্রিন ওরিয়েন্টেশন আনলক করা
-                if (screen.orientation && screen.orientation.unlock) {
-                    screen.orientation.unlock();
-                }
-            }
-        }
-
-        // ফুলস্ক্রিন স্ট্যাটাস চেঞ্জ হলে বাটনের আইকন পরিবর্তন করা
-        function onFullscreenChange() {
-            if (document.fullscreenElement || document.webkitFullscreenElement) {
-                fullscreenBtn.innerHTML = `<i class="fas fa-compress"></i> নরমাল মোড`;
-            } else {
-                fullscreenBtn.innerHTML = `<i class="fas fa-expand"></i> ফুল স্ক্রিন ফিট`;
-            }
-        }
-
-        document.addEventListener('fullscreenchange', onFullscreenChange);
-        document.addEventListener('webkitfullscreenchange', onFullscreenChange);
 
         window.addEventListener('DOMContentLoaded', fetchPlaylist);
     </script>
