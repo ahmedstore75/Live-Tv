@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>বাংলা টিভি - Premium Live Streaming</title>
-    <!-- HLS.js for Live Streaming -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <!-- FontAwesome for Premium Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
@@ -219,7 +217,6 @@
             align-content: start;
         }
 
-        /* প্রিমিয়াম ভার্টিকাল চ্যানেল কার্ড স্ট্রাকচার */
         .channel-card {
             display: flex;
             flex-direction: column; 
@@ -249,7 +246,6 @@
             box-shadow: 0 0 15px rgba(225, 29, 72, 0.15);
         }
 
-        /* লোগো বক্স টিউন */
         .card-logo {
             width: 55px;
             height: 55px;
@@ -280,7 +276,6 @@
             z-index: 1;
         }
 
-        /* টেক্সট ইনফো */
         .card-info {
             display: flex;
             flex-direction: column;
@@ -310,7 +305,6 @@
             width: 100%;
         }
 
-        /* ----- প্রিমিয়াম স্কেলেটন লোডার (Skeleton Loader) ডিজাইন ----- */
         .skeleton-card {
             display: flex;
             flex-direction: column;
@@ -345,7 +339,6 @@
             border-radius: 4px;
         }
 
-        /* শিমার (Shimmer) অ্যানিমেশন ইফেক্ট */
         .shimmer-effect {
             position: relative;
             overflow: hidden;
@@ -381,61 +374,51 @@
         ::-webkit-scrollbar { width: 5px; }
         ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 10px; }
 
-        /* Responsive Breakpoints - মোবাইলের জন্য স্ক্রল ও পজিশন ফিক্সড */
+        /* ----- Responsive Breakpoints (Fixed Part) ----- */
         @media (max-width: 950px) {
-            body { overflow: hidden; }
-            .app-workspace { flex-direction: column; overflow: hidden; } /* বডি স্ক্রল হবে না */
-            
-            /* প্লেয়ার সেকশন ফিক্সড পজিশন */
+            .app-workspace { 
+                flex-direction: column; 
+                overflow: hidden; /* পুরো স্ক্রিন স্ক্রল হওয়া বন্ধ করবে */
+            }
             .player-section { 
                 flex: none; 
-                padding: 10px; 
+                padding: 12px; 
                 width: 100%; 
-                background: var(--bg-base);
-                z-index: 40;
+                background-color: var(--bg-base);
+                z-index: 40; /* প্লেয়ারটি ওপরে ফিক্সড থাকবে */
             }
-            
-            /* সাইডবার নিজের ভেতরে স্ক্রল হ্যান্ডেল করবে */
             .sidebar-section { 
                 width: 100%; 
-                flex: 1; 
+                flex: 1; /* স্ক্রিনের বাকি অংশ sidebar নিবে */
+                overflow: hidden; 
                 border-left: none; 
                 border-top: 1px solid var(--border-light); 
-                overflow: hidden; 
-                display: flex;
-                flex-direction: column;
             }
             
-            /* সার্চ এবং ফিল্টার ফিক্সড থাকবে */
-            .sidebar-tools {
-                position: sticky;
-                top: 0;
-                z-index: 45;
-                background: #020617;
-            }
-            
-            /* শুধুমাত্র এই পার্টটি স্ক্রল হবে */
             .channels-list { 
-                grid-template-columns: repeat(2, minmax(0, 1fr)); 
+                grid-template-columns: repeat(3, minmax(0, 1fr)); /* মোবাইলেও ৩ কলামে সুন্দর দেখাবে */
                 padding: 12px; 
                 gap: 10px;
                 width: 100%;
-                overflow-y: auto; 
-                flex: 1;
+                overflow-y: auto; /* শুধুমাত্র চ্যানেল লিস্টটি স্ক্রল হবে */
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .channels-list { 
+                grid-template-columns: repeat(2, minmax(0, 1fr)); /* খুব ছোট মোবাইলে ২ কলাম হবে */
             }
         }
     </style>
 </head>
 <body>
 
-    <!-- Header Navigation -->
     <header class="premium-header">
         <div class="brand-logo">
             <i class="fas fa-play"></i> বাংলা<span>টিভি</span>
         </div>
     </header>
 
-    <!-- Main Workspace -->
     <main class="app-workspace">
         <section class="player-section">
             <div class="player-container">
@@ -461,9 +444,7 @@
                 </div>
             </div>
 
-            <!-- Channels Grid List Container -->
             <div class="channels-list" id="channels-list">
-                <!-- শিমার স্কেলেটন লোডার ডামি কার্ড -->
                 <script>
                     for(let i=0; i<9; i++) {
                         document.write(`
@@ -562,7 +543,7 @@
                     if (groupMatch && groupMatch[1].trim() !== "") {
                         currentItem.category = groupMatch[1].trim();
                     } else {
-                        currentItem.category = 'LIVE TV'; 
+                        currentItem.category = 'LIVE TV';
                     }
                     
                     uniqueCategories.add(currentItem.category);
