@@ -21,11 +21,15 @@
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
             --card-bg: rgba(255, 255, 255, 0.02);
-            --card-hover: rgba(255, 255, 255, 0.06);
-            --drawer-bg: #0b1329;
+            --card-hover: rgba(255, 255, 255, 0.05);
+            --drawer-bg: rgba(11, 19, 41, 0.85);
             --notice-bg: rgba(225, 29, 72, 0.06);
             --notice-border: rgba(225, 29, 72, 0.2);
             --modal-bg: #0f172a;
+            
+            /* Professional Button Extras */
+            --btn-icon-bg: rgba(255, 255, 255, 0.05);
+            --btn-icon-color: #94a3b8;
         }
 
         /* Premium Light Theme */
@@ -39,10 +43,14 @@
             --text-muted: #64748b;
             --card-bg: rgba(0, 0, 0, 0.02);
             --card-hover: rgba(225, 29, 72, 0.04);
-            --drawer-bg: #f8fafc;
+            --drawer-bg: rgba(248, 250, 252, 0.9);
             --notice-bg: rgba(225, 29, 72, 0.04);
             --notice-border: rgba(225, 29, 72, 0.15);
             --modal-bg: #ffffff;
+            
+            /* Professional Button Extras */
+            --btn-icon-bg: rgba(0, 0, 0, 0.04);
+            --btn-icon-color: #64748b;
         }
 
         * {
@@ -140,7 +148,7 @@
             box-shadow: 0 0 15px rgba(225, 29, 72, 0.2);
         }
 
-        /* ----- Premium Drawer ----- */
+        /* ----- Premium Drawer (Glassmorphism) ----- */
         .premium-drawer {
             position: fixed;
             top: 0;
@@ -148,14 +156,16 @@
             width: 360px;
             height: 100vh;
             background: var(--drawer-bg);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
             border-left: 1px solid var(--border-light);
             z-index: 100;
             padding: 24px;
             display: flex;
             flex-direction: column;
-            gap: 14px;
-            transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1), background 0.4s;
-            box-shadow: -10px 0 40px rgba(0,0,0,0.4);
+            gap: 12px;
+            transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: -15px 0 40px rgba(0,0,0,0.3);
             overflow-y: auto;
         }
         .premium-drawer.open { right: 0; }
@@ -164,10 +174,10 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding-bottom: 6px;
+            padding-bottom: 10px;
         }
         .drawer-header h3 {
-            font-size: 20px;
+            font-size: 19px;
             font-weight: 700;
             letter-spacing: 0.5px;
         }
@@ -190,18 +200,18 @@
             display: flex;
             align-items: center;
             gap: 16px;
-            margin-bottom: 6px;
+            margin-bottom: 10px;
         }
         .profile-avatar {
-            width: 52px;
-            height: 52px;
+            width: 48px;
+            height: 48px;
             background: #e11d48;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 22px;
+            font-size: 18px;
             box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
         }
         .profile-info {
@@ -211,7 +221,7 @@
             align-items: flex-start;
         }
         .profile-name {
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
         }
         .vip-badge {
@@ -219,21 +229,21 @@
             color: white;
             font-size: 11px;
             font-weight: 700;
-            padding: 3px 10px;
+            padding: 2px 8px;
             border-radius: 20px;
             display: flex;
             align-items: center;
             gap: 4px;
             letter-spacing: 0.5px;
-            box-shadow: 0 2px 8px rgba(225, 29, 72, 0.4);
         }
 
-        /* ----- Premium Buttons ----- */
+        /* ----- Ultra Professional Buttons Style ----- */
         .btn-professional {
+            position: relative;
             border: 1px solid var(--border-light);
             background: var(--card-bg);
-            border-radius: 14px;
-            padding: 14px 18px;
+            border-radius: 16px;
+            padding: 12px 16px;
             color: var(--text-main);
             display: flex;
             align-items: center;
@@ -241,18 +251,37 @@
             cursor: pointer;
             font-size: 15px;
             font-weight: 500;
-            transition: all 0.25s ease, background 0.4s, border 0.4s;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
             width: 100%;
             text-decoration: none;
             outline: none;
-            text-align: left;
+            overflow: hidden;
             font-family: inherit;
         }
 
+        /* Hover Mechanics */
         .btn-professional:hover {
             background: var(--card-hover);
-            border-color: rgba(225, 29, 72, 0.3);
-            transform: translateX(2px);
+            border-color: rgba(225, 29, 72, 0.25);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Left Accent Interactive Indicator Bar */
+        .btn-professional::before {
+            content: '';
+            position: absolute;
+            left: 0; top: 25%;
+            width: 3px; height: 50%;
+            background: var(--accent-red);
+            border-radius: 0 4px 4px 0;
+            opacity: 0;
+            transform: scaleY(0.3);
+            transition: all 0.3s ease;
+        }
+        .btn-professional:hover::before {
+            opacity: 1;
+            transform: scaleY(1);
         }
 
         .btn-professional .btn-left {
@@ -262,27 +291,52 @@
             width: 85%;
         }
 
+        /* Soft Icon Container Wrapper */
+        .btn-professional .icon-wrap {
+            width: 36px;
+            height: 36px;
+            background: var(--btn-icon-bg);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+        .btn-professional:hover .icon-wrap {
+            background: rgba(225, 29, 72, 0.1);
+        }
+        .btn-professional:hover .icon-wrap i {
+            color: var(--accent-red);
+            transform: scale(1.05);
+        }
+
         .btn-professional .btn-left i {
-            font-size: 16px;
-            color: var(--text-muted);
-            width: 20px;
-            text-align: center;
+            font-size: 15px;
+            color: var(--btn-icon-color);
+            transition: all 0.3s ease;
         }
 
         .btn-professional .btn-right-icon {
-            font-size: 14px;
+            font-size: 13px;
             color: var(--text-muted);
-            opacity: 0.7;
+            opacity: 0.6;
+            transition: transform 0.3s ease;
+        }
+        .btn-professional:hover .btn-right-icon {
+            opacity: 1;
+            transform: translateX(2px);
         }
 
-        /* Switch Toggle Button Styling */
+        /* Switch Toggle Special Style */
         .switch-container { cursor: default; }
         .switch-container:hover { transform: none; }
+        .switch-container:hover::before { display: none; }
         .custom-switch {
             position: relative;
             display: inline-block;
-            width: 44px;
-            height: 24px;
+            width: 42px;
+            height: 22px;
         }
         .custom-switch input { opacity: 0; width: 0; height: 0; }
         .slider {
@@ -294,25 +348,22 @@
             transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
             border-radius: 24px;
         }
-        .light-mode .slider {
-            background-color: rgba(0, 0, 0, 0.1);
-        }
+        .light-mode .slider { background-color: rgba(0, 0, 0, 0.08); }
         .slider:before {
             position: absolute;
             content: "";
-            height: 16px;
-            width: 16px;
+            height: 14px;
+            width: 14px;
             left: 3px;
             bottom: 3px;
             background-color: white;
             transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
             border-radius: 50%;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         input:checked + .slider { background-color: #e11d48; border-color: #e11d48; }
         input:checked + .slider:before { transform: translateX(20px); }
 
-        /* dropdown wrap inside list item */
+        /* Dropdown Element Inside Box Style */
         .feature-select-wrapper { position: relative; width: 100%; }
         .feature-select {
             width: 100%;
@@ -325,18 +376,19 @@
             cursor: pointer;
             appearance: none;
             -webkit-appearance: none;
-            padding-right: 24px;
+            padding-right: 20px;
             font-family: inherit;
         }
-        .feature-select option { background-color: var(--drawer-bg); color: var(--text-main); }
+        .feature-select option { background-color: var(--modal-bg); color: var(--text-main); }
 
         .drawer-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.4);
             z-index: 90;
             display: none;
-            backdrop-filter: blur(4px);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
         }
 
         /* ----- Subscription Modal Style ----- */
@@ -382,7 +434,6 @@
             z-index: 30;
         }
 
-        /* FIXED RADIUS LOCK */
         .player-container {
             width: 100%;
             background: #000;
@@ -479,6 +530,17 @@
             color: var(--text-main);
             font-size: 13px;
             outline: none;
+        }
+
+        /* ফিক্সড: ড্রপডাউনের অপশন সাদা হওয়া বন্ধ করার কাস্টম কোড */
+        .filter-box select option {
+            background-color: #0f172a;
+            color: #f8fafc;
+            padding: 10px;
+        }
+        .light-mode .filter-box select option {
+            background-color: #ffffff;
+            color: #0f172a;
         }
 
         .search-box { flex: 1.2; position: relative; }
@@ -662,7 +724,7 @@
 
         <div class="btn-professional switch-container">
             <div class="btn-left">
-                <i class="fas fa-moon" id="theme-icon"></i>
+                <div class="icon-wrap"><i class="fas fa-moon" id="theme-icon"></i></div>
                 <span id="theme-text">ডার্ক মোড অ্যাক্টিভ</span>
             </div>
             <label class="custom-switch">
@@ -673,7 +735,7 @@
 
         <button class="btn-professional" id="btn-favorites">
             <div class="btn-left">
-                <i class="fas fa-star" style="color: inherit;"></i>
+                <div class="icon-wrap"><i class="fas fa-star" style="color: inherit;"></i></div>
                 <span id="txt-fav">প্রিয় চ্যানেল তালিকা</span>
             </div>
             <i class="fas fa-chevron-right btn-right-icon"></i>
@@ -681,7 +743,7 @@
 
         <button class="btn-professional" id="btn-recent">
             <div class="btn-left">
-                <i class="fas fa-history"></i>
+                <div class="icon-wrap"><i class="fas fa-history"></i></div>
                 <span id="txt-recent">সাম্প্রতিক চ্যানেল</span>
             </div>
             <i class="fas fa-chevron-right btn-right-icon"></i>
@@ -689,7 +751,7 @@
 
         <div class="btn-professional">
             <div class="btn-left">
-                <i class="fas fa-expand"></i>
+                <div class="icon-wrap"><i class="fas fa-expand"></i></div>
                 <div class="feature-select-wrapper">
                     <select class="feature-select" id="aspect-ratio-select">
                         <option value="fill" id="opt-stretch">ভিডিও সাইজ: Stretch</option>
@@ -702,7 +764,7 @@
 
         <button class="btn-professional" id="btn-subscription">
             <div class="btn-left">
-                <i class="fas fa-gem"></i>
+                <div class="icon-wrap"><i class="fas fa-gem"></i></div>
                 <span id="txt-sub">সাবস্ক্রিপশন প্ল্যান</span>
             </div>
             <i class="fas fa-chevron-right btn-right-icon"></i>
@@ -710,7 +772,7 @@
 
         <button class="btn-professional" id="refresh-player">
             <div class="btn-left">
-                <i class="fas fa-sync-alt"></i>
+                <div class="icon-wrap"><i class="fas fa-sync-alt"></i></div>
                 <span id="refresh-text">প্লেয়ার রিফ্রেশ করুন</span>
             </div>
             <i class="fas fa-chevron-right btn-right-icon"></i>
@@ -718,7 +780,7 @@
 
         <button class="btn-professional" id="lang-toggle">
             <div class="btn-left">
-                <i class="fas fa-language"></i>
+                <div class="icon-wrap"><i class="fas fa-language"></i></div>
                 <span id="lang-text">English Interface</span>
             </div>
             <i class="fas fa-chevron-right btn-right-icon"></i>
@@ -726,7 +788,7 @@
 
         <button class="btn-professional" id="btn-support">
             <div class="btn-left">
-                <i class="fas fa-headset"></i>
+                <div class="icon-wrap"><i class="fas fa-headset"></i></div>
                 <span id="support-text">হেল্প ও সাপোর্ট</span>
             </div>
             <i class="fas fa-chevron-right btn-right-icon"></i>
@@ -882,11 +944,10 @@
         closeMenuBtn.addEventListener('click', closeMenu);
         overlay.addEventListener('click', () => { closeMenu(); subModal.classList.remove('show'); setTimeout(()=>subModal.style.display='none', 300); });
 
-        // Help & Support Click Handler (FIXED WEBVIEW SAFE METHOD)
+        // Help & Support Click Handler 
         btnSupport.addEventListener('click', () => {
             closeMenu();
             const supportUrl = "https://t.me/banglatvlivefree";
-            // WebView এবং ইন্টারনাল ব্রাউজার সাপোর্টের জন্য সর্বোচ্চ নিরাপদ উইন্ডো ওপেনার মেথড
             window.open(supportUrl, '_blank', 'noopener,noreferrer');
         });
 
