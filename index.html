@@ -22,12 +22,13 @@
             --text-muted: #94a3b8;
             --card-bg: rgba(255, 255, 255, 0.02);
             --card-hover: rgba(255, 255, 255, 0.06);
-            --drawer-bg: rgba(9, 15, 30, 0.9);
+            --drawer-bg: #0b1329;
             --notice-bg: rgba(225, 29, 72, 0.06);
             --notice-border: rgba(225, 29, 72, 0.2);
+            --modal-bg: #0f172a;
         }
 
-        /* Premium Light / Lighting Mode Theme */
+        /* Premium Light Theme */
         .light-mode {
             --bg-base: #f1f5f9; 
             --bg-panel: rgba(255, 255, 255, 0.75); 
@@ -36,11 +37,12 @@
             --accent-red-glow: rgba(225, 29, 72, 0.2);
             --text-main: #0f172a;
             --text-muted: #64748b;
-            --card-bg: rgba(255, 255, 255, 0.7);
+            --card-bg: rgba(0, 0, 0, 0.02);
             --card-hover: rgba(225, 29, 72, 0.04);
-            --drawer-bg: rgba(255, 255, 255, 0.95);
+            --drawer-bg: #f8fafc;
             --notice-bg: rgba(225, 29, 72, 0.04);
             --notice-border: rgba(225, 29, 72, 0.15);
+            --modal-bg: #ffffff;
         }
 
         * {
@@ -107,14 +109,13 @@
 
         .brand-logo span { color: var(--accent-red); }
 
-        /* প্লেইন টেক্সট টোটাল চ্যানেল কাউন্টার (ব্যাকগ্রাউন্ড ছাড়া) */
         .total-ch-badge {
             color: var(--accent-red);
             font-size: 14px;
             font-weight: 700;
             letter-spacing: 0.5px;
             padding-left: 5px;
-            border-left: 2px solid var(--border-light); /* লোগো থেকে আলাদা করার জন্য হালকা দাগ */
+            border-left: 2px solid var(--border-light); 
             padding: 0 10px;
         }
 
@@ -143,20 +144,19 @@
         .premium-drawer {
             position: fixed;
             top: 0;
-            right: -340px;
-            width: 340px;
+            right: -360px;
+            width: 360px;
             height: 100vh;
             background: var(--drawer-bg);
-            backdrop-filter: blur(25px);
-            -webkit-backdrop-filter: blur(25px);
             border-left: 1px solid var(--border-light);
             z-index: 100;
-            padding: 30px 24px;
+            padding: 24px;
             display: flex;
             flex-direction: column;
-            gap: 22px;
-            transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: -10px 0 40px rgba(0,0,0,0.3);
+            gap: 14px;
+            transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1), background 0.4s;
+            box-shadow: -10px 0 40px rgba(0,0,0,0.4);
+            overflow-y: auto;
         }
         .premium-drawer.open { right: 0; }
         
@@ -164,11 +164,10 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            border-bottom: 1px solid var(--border-light);
-            padding-bottom: 18px;
+            padding-bottom: 6px;
         }
         .drawer-header h3 {
-            font-size: 19px;
+            font-size: 20px;
             font-weight: 700;
             letter-spacing: 0.5px;
         }
@@ -182,98 +181,185 @@
         }
         .close-drawer-btn:hover { color: var(--accent-red); }
 
-        .feature-item {
+        /* User Profile Card */
+        .user-profile-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-light);
+            border-radius: 16px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 6px;
+        }
+        .profile-avatar {
+            width: 52px;
+            height: 52px;
+            background: #e11d48;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 22px;
+            box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
+        }
+        .profile-info {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 4px;
+            align-items: flex-start;
         }
-        .feature-item label {
-            font-size: 11px;
+        .profile-name {
+            font-size: 16px;
             font-weight: 600;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
+        }
+        .vip-badge {
+            background: #e11d48;
+            color: white;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 8px rgba(225, 29, 72, 0.4);
         }
 
+        /* ----- Premium Buttons ----- */
         .btn-professional {
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-light);
+            background: var(--card-bg);
             border-radius: 14px;
             padding: 14px 18px;
-            color: white;
+            color: var(--text-main);
             display: flex;
             align-items: center;
             justify-content: space-between;
             cursor: pointer;
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 500;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: all 0.25s ease, background 0.4s, border 0.4s;
             width: 100%;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-decoration: none;
+            outline: none;
+            text-align: left;
+            font-family: inherit;
         }
 
         .btn-professional:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-            filter: brightness(1.15);
+            background: var(--card-hover);
+            border-color: rgba(225, 29, 72, 0.3);
+            transform: translateX(2px);
         }
 
         .btn-professional .btn-left {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 14px;
+            width: 85%;
         }
 
-        .btn-professional i { font-size: 16px; }
+        .btn-professional .btn-left i {
+            font-size: 16px;
+            color: var(--text-muted);
+            width: 20px;
+            text-align: center;
+        }
 
-        .btn-theme { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
-        .btn-lang { background: linear-gradient(135deg, #10b981, #047857); }
-        .btn-refresh { background: linear-gradient(135deg, #f59e0b, #b45309); }
-        .btn-support { background: linear-gradient(135deg, #06b6d4, #0891b2); }
+        .btn-professional .btn-right-icon {
+            font-size: 14px;
+            color: var(--text-muted);
+            opacity: 0.7;
+        }
 
-        .light-mode .btn-professional { color: #ffffff; }
-
-        .feature-select-wrapper {
+        /* Switch Toggle Button Styling */
+        .switch-container { cursor: default; }
+        .switch-container:hover { transform: none; }
+        .custom-switch {
             position: relative;
-            width: 100%;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
         }
+        .custom-switch input { opacity: 0; width: 0; height: 0; }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            inset: 0;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--border-light);
+            transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 24px;
+        }
+        .light-mode .slider {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        input:checked + .slider { background-color: #e11d48; border-color: #e11d48; }
+        input:checked + .slider:before { transform: translateX(20px); }
+
+        /* dropdown wrap inside list item */
+        .feature-select-wrapper { position: relative; width: 100%; }
         .feature-select {
             width: 100%;
-            background: linear-gradient(135deg, #6366f1, #4f46e5); 
+            background: transparent;
             border: none;
-            padding: 14px 18px;
-            border-radius: 14px;
-            color: white;
-            font-size: 14px;
+            color: var(--text-main);
+            font-size: 15px;
             font-weight: 500;
             outline: none;
             cursor: pointer;
             appearance: none;
             -webkit-appearance: none;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            transition: all 0.3s;
+            padding-right: 24px;
+            font-family: inherit;
         }
-        .feature-select:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-        }
-        .select-icon {
-            position: absolute;
-            right: 18px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: white;
-            pointer-events: none;
-            font-size: 12px;
-        }
+        .feature-select option { background-color: var(--drawer-bg); color: var(--text-main); }
 
         .drawer-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0, 0, 0, 0.4);
+            background: rgba(0, 0, 0, 0.5);
             z-index: 90;
             display: none;
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(4px);
         }
+
+        /* ----- Subscription Modal Style ----- */
+        .premium-modal {
+            position: fixed;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            width: 90%; max-width: 400px;
+            background: var(--modal-bg);
+            border: 1px solid var(--border-light);
+            border-radius: 20px;
+            padding: 24px;
+            z-index: 150;
+            display: none;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .premium-modal.show { display: block; transform: translate(-50%, -50%) scale(1); }
+        .modal-header-title { font-size: 20px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; gap: 8px; color: #e11d48; }
+        .modal-body-text { font-size: 14px; color: var(--text-muted); margin-bottom: 20px; line-height: 1.5; }
+        .modal-btn-close { background: #e11d48; color: white; border: none; padding: 10px 20px; border-radius: 10px; cursor: pointer; font-weight: 600; font-family: inherit; width: 100%; transition: opacity 0.2s; }
+        .modal-btn-close:hover { opacity: 0.9; }
 
         /* ----- Workspace Layout ----- */
         .app-workspace {
@@ -296,13 +382,14 @@
             z-index: 30;
         }
 
+        /* FIXED RADIUS LOCK */
         .player-container {
             width: 100%;
             background: #000;
-            border-radius: 16px;
+            border-radius: 16px !important; 
             aspect-ratio: 16 / 9;
             position: relative;
-            overflow: hidden;
+            overflow: hidden !important;
             box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
             border: 1px solid rgba(255, 255, 255, 0.05);
             display: flex;
@@ -317,6 +404,7 @@
             max-height: 100%;
             object-fit: fill; 
             background: #000;
+            border-radius: 16px !important; 
         }
 
         .aspect-contained video { object-fit: contain !important; }
@@ -331,6 +419,7 @@
             align-items: center;
             justify-content: center;
             z-index: 10;
+            border-radius: 16px !important;
         }
         .light-mode .welcome-overlay {
             background: linear-gradient(135deg, rgba(241, 245, 249, 0.98), rgba(226, 232, 240, 0.98));
@@ -343,18 +432,8 @@
             filter: drop-shadow(0 0 15px var(--accent-red-glow));
         }
 
-        .welcome-overlay h2 {
-            font-size: 28px;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-
-        .welcome-overlay p {
-            color: var(--text-muted);
-            font-size: 15px;
-            max-width: 400px;
-            text-align: center;
-        }
+        .welcome-overlay h2 { font-size: 28px; font-weight: 700; margin-bottom: 10px; }
+        .welcome-overlay p { color: var(--text-muted); font-size: 15px; max-width: 400px; text-align: center; }
 
         /* ----- Sidebar Section ----- */
         .sidebar-section {
@@ -368,7 +447,7 @@
             transition: background 0.4s;
         }
 
-        /* ----- Premium Moving Notice CSS ----- */
+        /* ----- Premium Moving Notice ----- */
         .premium-notice-bar {
             background: var(--notice-bg);
             border-bottom: 1px solid var(--notice-border);
@@ -378,17 +457,8 @@
             gap: 10px;
             flex-shrink: 0;
         }
-        .notice-ticker {
-            flex: 1;
-            overflow: hidden;
-            white-space: nowrap;
-        }
-        .notice-ticker marquee {
-            font-size: 13px;
-            font-weight: 500;
-            color: var(--text-main);
-            vertical-align: middle;
-        }
+        .notice-ticker { flex: 1; overflow: hidden; white-space: nowrap; }
+        .notice-ticker marquee { font-size: 13px; font-weight: 500; color: var(--text-main); vertical-align: middle; }
 
         .sidebar-tools {
             padding: 16px;
@@ -412,15 +482,7 @@
         }
 
         .search-box { flex: 1.2; position: relative; }
-        .search-box i {
-            position: absolute;
-            left: 14px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--text-muted);
-            font-size: 13px;
-        }
-
+        .search-box i { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 13px; }
         .search-box input {
             width: 100%;
             background: var(--card-bg);
@@ -458,6 +520,7 @@
             width: 100%; 
             min-height: 120px;
             overflow: hidden;
+            position: relative;
         }
 
         .channel-card:hover {
@@ -472,6 +535,18 @@
             border: 1px solid var(--accent-red);
             box-shadow: 0 0 15px rgba(225, 29, 72, 0.15);
         }
+
+        .fav-badge-icon {
+            position: absolute;
+            top: 8px; right: 8px;
+            font-size: 12px;
+            color: #94a3b8;
+            cursor: pointer;
+            z-index: 10;
+            transition: color 0.2s, transform 0.2s;
+            padding: 4px;
+        }
+        .fav-badge-icon.is-fav { color: #f59e0b !important; transform: scale(1.15); }
 
         .card-logo {
             width: 55px;
@@ -488,51 +563,12 @@
             position: relative;
         }
 
-        .card-logo img {
-            max-width: 100%;
-            max-height: 100%;
-            border-radius: 6px;
-            object-fit: contain;
-            z-index: 2;
-        }
+        .card-logo img { max-width: 100%; max-height: 100%; border-radius: 6px; object-fit: contain; z-index: 2; }
+        .card-logo i { position: absolute; font-size: 20px; color: var(--text-muted); opacity: 0.3; z-index: 1; }
 
-        .card-logo i {
-            position: absolute;
-            font-size: 20px;
-            color: var(--text-muted);
-            opacity: 0.3;
-            z-index: 1;
-        }
-
-        .card-info {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            overflow: hidden;
-            flex-shrink: 0;
-        }
-
-        .card-title {
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--text-main);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            width: 100%;
-        }
-
-        .card-category {
-            font-size: 10px;
-            color: var(--text-muted);
-            margin-top: 3px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            text-transform: uppercase;
-            letter-spacing: 0.3px;
-            width: 100%;
-        }
+        .card-info { display: flex; flex-direction: column; width: 100%; overflow: hidden; flex-shrink: 0; }
+        .card-title { font-size: 13px; font-weight: 600; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; }
+        .card-category { font-size: 10px; color: var(--text-muted); margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-transform: uppercase; letter-spacing: 0.3px; width: 100%; }
 
         /* ----- Shimmer Animation ----- */
         .skeleton-card {
@@ -546,26 +582,9 @@
             width: 100%;
             min-height: 120px;
         }
-        .skeleton-logo {
-            width: 55px;
-            height: 55px;
-            background: var(--border-light);
-            border-radius: 12px;
-            margin-bottom: 10px;
-        }
-        .skeleton-text-1 {
-            width: 70%;
-            height: 12px;
-            background: var(--border-light);
-            border-radius: 4px;
-            margin-bottom: 6px;
-        }
-        .skeleton-text-2 {
-            width: 45%;
-            height: 9px;
-            background: var(--border-light);
-            border-radius: 4px;
-        }
+        .skeleton-logo { width: 55px; height: 55px; background: var(--border-light); border-radius: 12px; margin-bottom: 10px; }
+        .skeleton-text-1 { width: 70%; height: 12px; background: var(--border-light); border-radius: 4px; margin-bottom: 6px; }
+        .skeleton-text-2 { width: 45%; height: 9px; background: var(--border-light); border-radius: 4px; }
         .shimmer-effect { position: relative; overflow: hidden; }
         .shimmer-effect::after {
             position: absolute;
@@ -585,6 +604,7 @@
         @media (max-width: 950px) {
             .app-workspace { flex-direction: column; overflow: hidden; }
             .player-section { flex: none; padding: 12px; width: 100%; z-index: 40; }
+            .player-container, video, .welcome-overlay { border-radius: 16px !important; } 
             .sidebar-section { width: 100%; flex: 1; overflow: hidden; border-left: none; border-top: 1px solid var(--border-light); }
             .channels-list { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 12px; gap: 12px; width: 100%; overflow-y: auto; }
             .channel-card, .skeleton-card { padding: 14px 10px; min-height: 120px; }
@@ -609,70 +629,108 @@
     </header>
 
     <div class="drawer-overlay" id="drawer-overlay"></div>
+    
+    <div class="premium-modal" id="sub-modal">
+        <div class="modal-header-title">
+            <i class="fas fa-gem"></i> VIP PREMIUM PLAN
+        </div>
+        <div class="modal-body-text" id="sub-modal-body">
+            আপনি বর্তমানে সম্পূর্ণ ফ্রিতে লাইভ স্ট্রিমিং সেবা উপভোগ করছেন। এক্সক্লুসিভ পিওর কোয়ালিটি লাইভ টিভি বা কাস্টম ফিচারের আপডেটের জন্য আমাদের টেলিগ্রাম সাপোর্ট চ্যানেলে নজর রাখুন।
+        </div>
+        <button class="modal-btn-close" id="btn-close-modal">ঠিক আছে</button>
+    </div>
+
     <div class="premium-drawer" id="premium-drawer">
         <div class="drawer-header">
-            <h3 id="menu-title">ফিচার মেনু</h3>
+            <h3 id="menu-title">প্রিমিয়াম মেনু</h3>
             <button class="close-drawer-btn" id="close-menu">
                 <i class="fas fa-times"></i>
             </button>
         </div>
 
-        <div class="feature-item">
-            <label id="lbl-theme">থিম ডিসপ্লে মোড</label>
-            <button class="btn-professional btn-theme" id="theme-toggle">
-                <div class="btn-left">
-                    <i class="fas fa-moon" id="theme-icon"></i>
-                    <span id="theme-text">ডিপ ডার্ক মোড অন</span>
+        <div class="user-profile-card">
+            <div class="profile-avatar">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="profile-info">
+                <span class="profile-name" id="user-name-text">অতিথি ইউজার</span>
+                <div class="vip-badge">
+                    <i class="fas fa-crown"></i> VIP PREMIUM
                 </div>
-                <i class="fas fa-chevron-right" style="font-size:11px; opacity:0.7;"></i>
-            </button>
-        </div>
-
-        <div class="feature-item">
-            <label id="lbl-lang">ভাষা / Language</label>
-            <button class="btn-professional btn-lang" id="lang-toggle">
-                <div class="btn-left">
-                    <i class="fas fa-language"></i>
-                    <span id="lang-text">English Interface</span>
-                </div>
-                <i class="fas fa-toggle-off" id="lang-toggle-icon" style="font-size: 16px;"></i>
-            </button>
-        </div>
-
-        <div class="feature-item">
-            <label id="lbl-ratio">ভিডিও সাইজ (Aspect Ratio)</label>
-            <div class="feature-select-wrapper">
-                <select class="feature-select" id="aspect-ratio-select">
-                    <option value="fill" id="opt-stretch">Stretch (পুরো স্ক্রিন)</option>
-                    <option value="contain" id="opt-contain">Contained (অরিজিনাল)</option>
-                </select>
-                <i class="fas fa-chevron-down select-icon"></i>
             </div>
         </div>
 
-        <div class="feature-item">
-            <label id="lbl-action">প্লেয়ার টুলস</label>
-            <button class="btn-professional btn-refresh" id="refresh-player">
-                <div class="btn-left">
-                    <i class="fas fa-sync-alt"></i>
-                    <span id="refresh-text">রিফ্রেশ প্লেলিস্ট</span>
-                </div>
-                <i class="fas fa-redo-alt" style="font-size:11px; opacity:0.7;"></i>
-            </button>
+        <div class="btn-professional switch-container">
+            <div class="btn-left">
+                <i class="fas fa-moon" id="theme-icon"></i>
+                <span id="theme-text">ডার্ক মোড অ্যাক্টিভ</span>
+            </div>
+            <label class="custom-switch">
+                <input type="checkbox" id="theme-toggle-switch" checked>
+                <span class="slider"></span>
+            </label>
         </div>
 
-        <div class="feature-item">
-            <label id="lbl-support">যোগাযোগ</label>
-            <a href="https://t.me/banglatvlivefree" target="_blank" style="text-decoration: none;">
-                <button class="btn-professional btn-support">
-                    <div class="btn-left">
-                        <i class="fab fa-telegram-plane"></i>
-                        <span id="support-text">টেলিগ্রাম সাপোর্ট গ্রুপ</span>
-                    </div>
-                    <i class="fas fa-external-link-alt" style="font-size:11px; opacity:0.7;"></i>
-                </button>
-            </a>
+        <button class="btn-professional" id="btn-favorites">
+            <div class="btn-left">
+                <i class="fas fa-star" style="color: inherit;"></i>
+                <span id="txt-fav">প্রিয় চ্যানেল তালিকা</span>
+            </div>
+            <i class="fas fa-chevron-right btn-right-icon"></i>
+        </button>
+
+        <button class="btn-professional" id="btn-recent">
+            <div class="btn-left">
+                <i class="fas fa-history"></i>
+                <span id="txt-recent">সাম্প্রতিক চ্যানেল</span>
+            </div>
+            <i class="fas fa-chevron-right btn-right-icon"></i>
+        </button>
+
+        <div class="btn-professional">
+            <div class="btn-left">
+                <i class="fas fa-expand"></i>
+                <div class="feature-select-wrapper">
+                    <select class="feature-select" id="aspect-ratio-select">
+                        <option value="fill" id="opt-stretch">ভিডিও সাইজ: Stretch</option>
+                        <option value="contain" id="opt-contain">ভিডিও সাইজ: Contained</option>
+                    </select>
+                </div>
+            </div>
+            <i class="fas fa-chevron-down btn-right-icon" style="font-size: 11px;"></i>
         </div>
+
+        <button class="btn-professional" id="btn-subscription">
+            <div class="btn-left">
+                <i class="fas fa-gem"></i>
+                <span id="txt-sub">সাবস্ক্রিপশন প্ল্যান</span>
+            </div>
+            <i class="fas fa-chevron-right btn-right-icon"></i>
+        </button>
+
+        <button class="btn-professional" id="refresh-player">
+            <div class="btn-left">
+                <i class="fas fa-sync-alt"></i>
+                <span id="refresh-text">প্লেয়ার রিফ্রেশ করুন</span>
+            </div>
+            <i class="fas fa-chevron-right btn-right-icon"></i>
+        </button>
+
+        <button class="btn-professional" id="lang-toggle">
+            <div class="btn-left">
+                <i class="fas fa-language"></i>
+                <span id="lang-text">English Interface</span>
+            </div>
+            <i class="fas fa-chevron-right btn-right-icon"></i>
+        </button>
+
+        <button class="btn-professional" id="btn-support">
+            <div class="btn-left">
+                <i class="fas fa-headset"></i>
+                <span id="support-text">হেল্প ও সাপোর্ট</span>
+            </div>
+            <i class="fas fa-chevron-right btn-right-icon"></i>
+        </button>
     </div>
 
     <main class="app-workspace">
@@ -733,56 +791,68 @@
 
         let allChannels = [];
         let uniqueCategories = new Set();
+        let recentChannels = []; 
+        let favoriteChannels = JSON.parse(localStorage.getItem('tv_fav_channels')) || []; 
         let hlsPlayer = null;
         let currentActiveChannel = null;
         let currentLanguage = 'bn';
+        let showRecentOnly = false; 
+        let showFavoritesOnly = false; 
 
         const dict = {
             bn: {
                 title: "বাংলা টিভি - Premium Live Streaming",
                 logo: '<i class="fas fa-play"></i> বাংলা<span>টিভি</span>',
-                menuTitle: "ফিচার মেনু",
-                lblTheme: "থিম ডিসপ্লে মোড",
-                themeDark: "ডিপ ডার্ক মোড অন",
-                themeLight: "নিওন লাইট মোড অন",
-                lblLang: "ভাষা / Language",
+                menuTitle: "প্রিমিয়াম মেনু",
+                userName: "অতিথি ইউজার",
+                themeDark: "ডার্ক মোড অ্যাক্টিভ",
+                themeLight: "লাইট মোড অ্যাক্টিভ",
+                subText: "সাবস্ক্রিপশন প্ল্যান",
+                recentText: "সাম্প্রতিক চ্যানেল",
+                recentActiveText: "সব চ্যানেল দেখুন",
+                favText: "প্রিয় চ্যানেল তালিকা",
+                favActiveText: "সব চ্যানেল দেখুন",
+                optStretch: "ভিডিও সাইজ: Stretch",
+                optContain: "ভিডিও সাইজ: Contained",
+                refreshText: "প্লেয়ার রিফ্রেশ করুন",
                 langBtnText: "English Interface",
-                lblRatio: "ভিডিও সাইজ (Aspect Ratio)",
-                optStretch: "Stretch (পুরো স্ক্রিন)",
-                optContain: "Contained (অরিজিনাল)",
-                lblAction: "প্লেয়ার টুলস",
-                refreshText: "রিফ্রেশ প্লেলিস্ট",
-                lblSupport: "যোগাযোগ",
-                supportText: "টেলিগ্রাম সাপোর্ট গ্রুপ",
+                supportText: "হেল্প ও সাপোর্ট",
                 welcomeTitle: "সরাসরি সম্প্রচার",
                 welcomeDesc: "চ্যানেল তালিকা থেকে পছন্দের চ্যানেল নির্বাচন করুন।",
                 searchPlaceholder: "খুঁজুন চ্যানেল...",
                 allCat: "সব ক্যাটাগরি",
                 noChannel: "কোনো চ্যানেল পাওয়া যায়নি!",
+                recentEmpty: "সাম্প্রতিক প্লে করা কোনো চ্যানেল নেই!",
+                favEmpty: "প্রিয় তালিকায় কোনো চ্যানেল যোগ করা হয়নি!",
+                modalBody: "আপনি বর্তমানে সম্পূর্ণ ফ্রিতে লাইভ স্ট্রিমিং সেবা উপভোগ করছেন। এক্সক্লুসিভ পিওর কোয়ালিটি লাইভ টিভি বা কাস্টম ফিচারের আপডেটের জন্য আমাদের টেলিগ্রাম সাপোর্ট চ্যানেলে নজর রাখুন।",
                 noticeLabel: "নোটিশ",
                 notice: "স্বাগতম বাংলা টিভি লাইভ স্ট্রিমিং অ্যাপে! বাফারিং ছাড়া ঝকঝকে হাই-কোয়ালিটি লাইভ টিভি দেখতে আপনার ইন্টারনেট কানেকশন চেক করুন। কোনো চ্যানেল লোড না হলে মেনু থেকে প্লেলিস্ট রিফ্রেশ করুন। আমাদের সাথে থাকার জন্য ধন্যবাদ!"
             },
             en: {
                 title: "Bangla TV - Premium Live Streaming",
                 logo: '<i class="fas fa-play"></i> Bangla<span>TV</span>',
-                menuTitle: "Feature Menu",
-                lblTheme: "Theme Display Mode",
-                themeDark: "Deep Dark Mode On",
-                themeLight: "Neon Light Mode On",
-                lblLang: "Language / ভাষা",
+                menuTitle: "Premium Menu",
+                userName: "Guest User",
+                themeDark: "Dark Mode Active",
+                themeLight: "Light Mode Active",
+                subText: "Subscription Plan",
+                recentText: "Recent Channels",
+                recentActiveText: "Show All Channels",
+                favText: "Favorite Channels",
+                favActiveText: "Show All Channels",
+                optStretch: "Video Size: Stretch",
+                optContain: "Video Size: Contained",
+                refreshText: "Refresh Player",
                 langBtnText: "বাংলা ইন্টারফেস",
-                lblRatio: "Video Size (Aspect Ratio)",
-                optStretch: "Stretch (Full Screen)",
-                optContain: "Contained (Original)",
-                lblAction: "Player Tools",
-                refreshText: "Refresh Playlist",
-                lblSupport: "Contact Us",
-                supportText: "Telegram Support Group",
+                supportText: "Help & Support",
                 welcomeTitle: "Live Streaming",
                 welcomeDesc: "Select your favorite channel from the list to start streaming.",
                 searchPlaceholder: "Search channel...",
                 allCat: "All Categories",
                 noChannel: "No channel found!",
+                recentEmpty: "No recently played channels!",
+                favEmpty: "No channels added to favorites yet!",
+                modalBody: "You are currently enjoying live streaming service for free. Keep an eye on our Telegram support group for exclusive high-quality updates or premium custom features.",
                 noticeLabel: "Notice",
                 notice: "Welcome to Bangla TV Live Streaming App! Check your internet connection for smooth buffer-free streaming. If channels fail to load, refresh the playlist from the menu. Thanks for staying with us!"
             }
@@ -800,34 +870,100 @@
         const drawer = document.getElementById('premium-drawer');
         const overlay = document.getElementById('drawer-overlay');
 
-        openMenuBtn.addEventListener('click', () => { drawer.classList.add('open'); overlay.style.display = 'block'; });
-        const closeMenu = () => { drawer.classList.remove('open'); overlay.style.display = 'none'; };
-        closeMenuBtn.addEventListener('click', closeMenu);
-        overlay.addEventListener('click', closeMenu);
+        const subModal = document.getElementById('sub-modal');
+        const closeModalBtn = document.getElementById('btn-close-modal');
+        const btnSubscription = document.getElementById('btn-subscription');
+        const btnRecent = document.getElementById('btn-recent');
+        const btnFavorites = document.getElementById('btn-favorites');
+        const btnSupport = document.getElementById('btn-support');
 
-        const themeToggle = document.getElementById('theme-toggle');
+        openMenuBtn.addEventListener('click', () => { drawer.classList.add('open'); overlay.style.display = 'block'; });
+        const closeMenu = () => { drawer.classList.remove('open'); if(subModal.style.display !== 'block') overlay.style.display = 'none'; };
+        closeMenuBtn.addEventListener('click', closeMenu);
+        overlay.addEventListener('click', () => { closeMenu(); subModal.classList.remove('show'); setTimeout(()=>subModal.style.display='none', 300); });
+
+        // Help & Support Click Handler (FIXED WEBVIEW SAFE METHOD)
+        btnSupport.addEventListener('click', () => {
+            closeMenu();
+            const supportUrl = "https://t.me/banglatvlivefree";
+            // WebView এবং ইন্টারনাল ব্রাউজার সাপোর্টের জন্য সর্বোচ্চ নিরাপদ উইন্ডো ওপেনার মেথড
+            window.open(supportUrl, '_blank', 'noopener,noreferrer');
+        });
+
+        // Subscription Modal Action
+        btnSubscription.addEventListener('click', () => {
+            drawer.classList.remove('open');
+            subModal.style.display = 'block';
+            setTimeout(() => subModal.classList.add('show'), 10);
+        });
+        closeModalBtn.addEventListener('click', () => {
+            subModal.classList.remove('show');
+            setTimeout(() => { subModal.style.display = 'none'; overlay.style.display = 'none'; }, 300);
+        });
+
+        // Recent Channels Filter
+        btnRecent.addEventListener('click', () => {
+            showFavoritesOnly = false;
+            btnFavorites.style.background = "var(--card-bg)";
+            btnFavorites.style.borderColor = "var(--border-light)";
+            document.getElementById('txt-fav').textContent = dict[currentLanguage].favText;
+
+            showRecentOnly = !showRecentOnly;
+            if(showRecentOnly) {
+                btnRecent.style.background = "rgba(225, 29, 72, 0.15)";
+                btnRecent.style.borderColor = "var(--accent-red)";
+                document.getElementById('txt-recent').textContent = dict[currentLanguage].recentActiveText;
+            } else {
+                btnRecent.style.background = "var(--card-bg)";
+                btnRecent.style.borderColor = "var(--border-light)";
+                document.getElementById('txt-recent').textContent = dict[currentLanguage].recentText;
+            }
+            renderChannels();
+            closeMenu();
+        });
+
+        // Favorites Filter Toggle
+        btnFavorites.addEventListener('click', () => {
+            showRecentOnly = false;
+            btnRecent.style.background = "var(--card-bg)";
+            btnRecent.style.borderColor = "var(--border-light)";
+            document.getElementById('txt-recent').textContent = dict[currentLanguage].recentText;
+
+            showFavoritesOnly = !showFavoritesOnly;
+            if(showFavoritesOnly) {
+                btnFavorites.style.background = "rgba(225, 29, 72, 0.15)";
+                btnFavorites.style.borderColor = "var(--accent-red)";
+                document.getElementById('txt-fav').textContent = dict[currentLanguage].favActiveText;
+            } else {
+                btnFavorites.style.background = "var(--card-bg)";
+                btnFavorites.style.borderColor = "var(--border-light)";
+                document.getElementById('txt-fav').textContent = dict[currentLanguage].favText;
+            }
+            renderChannels();
+            closeMenu();
+        });
+
+        // Dark Mode Toggle Switch Action
+        const themeSwitch = document.getElementById('theme-toggle-switch');
         const themeText = document.getElementById('theme-text');
         const themeIcon = document.getElementById('theme-icon');
         
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('light-mode');
-            const isLight = document.body.classList.contains('light-mode');
-            
-            if(isLight) {
+        themeSwitch.addEventListener('change', () => {
+            if(!themeSwitch.checked) {
+                document.body.classList.add('light-mode');
                 themeIcon.className = "fas fa-sun";
                 themeText.textContent = dict[currentLanguage].themeLight;
             } else {
+                document.body.classList.remove('light-mode');
                 themeIcon.className = "fas fa-moon";
                 themeText.textContent = dict[currentLanguage].themeDark;
             }
         });
 
+        // Language Switch
         const langToggle = document.getElementById('lang-toggle');
-        const langToggleIcon = document.getElementById('lang-toggle-icon');
-        
         langToggle.addEventListener('click', () => {
             currentLanguage = (currentLanguage === 'bn') ? 'en' : 'bn';
-            langToggleIcon.className = (currentLanguage === 'en') ? "fas fa-toggle-on" : "fas fa-toggle-off";
             applyLanguage();
         });
 
@@ -837,24 +973,23 @@
             document.getElementById('page-title').textContent = currentLabels.title;
             document.getElementById('logo-text').innerHTML = currentLabels.logo;
             document.getElementById('menu-title').textContent = currentLabels.menuTitle;
-            document.getElementById('lbl-theme').textContent = currentLabels.lblTheme;
+            document.getElementById('user-name-text').textContent = currentLabels.userName;
             
-            const isLight = document.body.classList.contains('light-mode');
-            themeText.textContent = isLight ? currentLabels.themeLight : currentLabels.themeDark;
+            themeText.textContent = (!themeSwitch.checked) ? currentLabels.themeLight : currentLabels.themeDark;
             
-            document.getElementById('lbl-lang').textContent = currentLabels.lblLang;
-            document.getElementById('lang-text').textContent = currentLabels.langBtnText;
-            document.getElementById('lbl-ratio').textContent = currentLabels.lblRatio;
+            document.getElementById('txt-sub').textContent = currentLabels.subText;
+            document.getElementById('txt-recent').textContent = showRecentOnly ? currentLabels.recentActiveText : currentLabels.recentText;
+            document.getElementById('txt-fav').textContent = showFavoritesOnly ? currentLabels.favActiveText : currentLabels.favText;
             document.getElementById('opt-stretch').textContent = currentLabels.optStretch;
             document.getElementById('opt-contain').textContent = currentLabels.optContain;
-            document.getElementById('lbl-action').textContent = currentLabels.lblAction;
             document.getElementById('refresh-text').textContent = currentLabels.refreshText;
-            document.getElementById('lbl-support').textContent = currentLabels.lblSupport;
+            document.getElementById('lang-text').textContent = currentLabels.langBtnText;
             document.getElementById('support-text').textContent = currentLabels.supportText;
             document.getElementById('welcome-title').textContent = currentLabels.welcomeTitle;
             document.getElementById('welcome-desc').textContent = currentLabels.welcomeDesc;
             document.getElementById('notice-label').textContent = currentLabels.noticeLabel;
             document.getElementById('notice-text').textContent = currentLabels.notice;
+            document.getElementById('sub-modal-body').textContent = currentLabels.modalBody;
             
             searchInput.placeholder = currentLabels.searchPlaceholder;
             
@@ -869,6 +1004,7 @@
             renderChannels(); 
         }
 
+        // Aspect Ratio Switcher
         const aspectSelect = document.getElementById('aspect-ratio-select');
         const playerWrapper = document.getElementById('player-section-wrapper');
         aspectSelect.addEventListener('change', (e) => {
@@ -876,6 +1012,7 @@
             else { playerWrapper.classList.remove('aspect-contained'); }
         });
 
+        // Playlist & Player Refresh
         document.getElementById('refresh-player').addEventListener('click', () => {
             listContainer.innerHTML = '';
             totalChannelCounter.textContent = "Total CH: 0";
@@ -888,6 +1025,10 @@
                     </div>
                 `;
             }
+            showRecentOnly = false;
+            showFavoritesOnly = false;
+            btnRecent.style.background = "var(--card-bg)";
+            btnFavorites.style.background = "var(--card-bg)";
             fetchPlaylist();
             closeMenu();
         });
@@ -942,8 +1083,6 @@
             }
 
             if(allChannels.length === 0) return false;
-
-            // অটোমেটিক প্লেলিস্টের মোট চ্যানেল সংখ্যা বসানো
             totalChannelCounter.textContent = `Total CH: ${allChannels.length}`;
 
             categoryDropdown.innerHTML = `<option value="all" id="opt-all-cat">${dict[currentLanguage].allCat}</option>`;
@@ -961,14 +1100,21 @@
             const filterCat = categoryDropdown.value;
             listContainer.innerHTML = '';
 
-            const results = allChannels.filter(ch => {
+            let baseSource = allChannels;
+            if (showRecentOnly) baseSource = recentChannels;
+            if (showFavoritesOnly) baseSource = allChannels.filter(ch => favoriteChannels.includes(ch.url));
+
+            const results = baseSource.filter(ch => {
                 const titleMatch = ch.title.toLowerCase().includes(query);
-                if (query.length > 0) return titleMatch;
+                if (query.length > 0 || showRecentOnly || showFavoritesOnly) return titleMatch;
                 return titleMatch && (filterCat === 'all' || ch.category === filterCat);
             });
 
             if (results.length === 0) {
-                listContainer.innerHTML = `<div class="status-msg">${dict[currentLanguage].noChannel}</div>`;
+                let msg = dict[currentLanguage].noChannel;
+                if(showRecentOnly) msg = dict[currentLanguage].recentEmpty;
+                if(showFavoritesOnly) msg = dict[currentLanguage].favEmpty;
+                listContainer.innerHTML = `<div class="status-msg">${msg}</div>`;
                 return;
             }
 
@@ -976,7 +1122,10 @@
                 const card = document.createElement('div');
                 card.className = `channel-card ${currentActiveChannel && currentActiveChannel.url === ch.url ? 'active-card' : ''}`;
 
+                const isFav = favoriteChannels.includes(ch.url);
+
                 card.innerHTML = `
+                    <i class="fa-star fav-badge-icon ${isFav ? 'fas is-fav' : 'far'}" data-url="${ch.url}"></i>
                     <div class="card-logo">
                         <i class="fas fa-tv"></i>
                         ${ch.logo ? `<img src="${ch.logo}" onerror="this.style.display='none'" alt="logo">` : ''}
@@ -987,10 +1136,29 @@
                     </div>
                 `;
 
+                card.querySelector('.fav-badge-icon').addEventListener('click', (e) => {
+                    e.stopPropagation(); 
+                    const url = e.target.getAttribute('data-url');
+                    if (favoriteChannels.includes(url)) {
+                        favoriteChannels = favoriteChannels.filter(u => u !== url);
+                        e.target.className = "far fa-star fav-badge-icon";
+                    } else {
+                        favoriteChannels.push(url);
+                        e.target.className = "fas fa-star fav-badge-icon is-fav";
+                    }
+                    localStorage.setItem('tv_fav_channels', JSON.stringify(favoriteChannels));
+                    if (showFavoritesOnly) renderChannels();
+                });
+
                 card.addEventListener('click', () => {
                     document.querySelectorAll('.channel-card').forEach(c => c.classList.remove('active-card'));
                     card.classList.add('active-card');
                     currentActiveChannel = ch;
+                    
+                    recentChannels = recentChannels.filter(r => r.url !== ch.url);
+                    recentChannels.unshift(ch);
+                    if(recentChannels.length > 12) recentChannels.pop();
+
                     launchStream(ch);
                 });
                 listContainer.appendChild(card);
