@@ -503,7 +503,6 @@
             }
         }
 
-        // মাল্টিপল ফরম্যাট সাপোর্টেড অ্যাডভান্সড ক্যাটাগরি পার্সার
         function parseM3U(text) {
             if (!text || !text.includes("#EXTM3U")) return false;
             
@@ -518,20 +517,11 @@
                 
                 if (line.startsWith('#EXTINF:')) {
                     currentItem = {};
-                    
-                    // লোগো ডিটেকশন
                     const logoMatch = line.match(/tvg-logo="([^"]+)"/i);
                     currentItem.logo = logoMatch ? logoMatch[1] : '';
                     
-                    // ক্যাটাগরি ডিটেকশন (সব ধরনের group বা group-title ফরম্যাট রিড করার জন্য Regex টিউন)
-                    const groupMatch = line.match(/(?:group-title|group)="([^"]+)"/i);
-                    
-                    if (groupMatch && groupMatch[1].trim() !== "") {
-                        currentItem.category = groupMatch[1].trim();
-                    } else {
-                        currentItem.category = 'LIVE TV'; // কোনো ক্যাটাগরি সেট না থাকলে ডিফল্ট দেখাবে
-                    }
-                    
+                    const groupMatch = line.match(/group-title="([^"]+)"/i);
+                    currentItem.category = groupMatch ? groupMatch[1] : 'LIVE TV';
                     uniqueCategories.add(currentItem.category);
                     
                     const commaIndex = line.lastIndexOf(',');
@@ -546,7 +536,6 @@
 
             if(allChannels.length === 0) return false;
 
-            // ক্যাটাগরি ড্রপডাউন জেনারেট এবং সর্টিং
             categoryDropdown.innerHTML = '<option value="all">সব ক্যাটাগরি</option>';
             Array.from(uniqueCategories).sort().forEach(cat => {
                 const option = document.createElement('option');
