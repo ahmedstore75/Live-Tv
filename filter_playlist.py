@@ -5,17 +5,24 @@ from concurrent.futures import ThreadPoolExecutor
 url = "http://filex.me:8080/get.php?username=3114654477&password=5787654467&type=m3u_plus&output=ts"
 headers = {"User-Agent": "IPTVSmarters/1.0.3"}
 
-# বাদ দেওয়ার শব্দসমূহ (VOD, কার্টুন সিরিজ, ইউএস মিউজিক ফাইল, ১৮+)
+# বাদ দেওয়ার কীওয়ার্ড (VOD, রিপ্লে, হাইলাইটস, PPV, Bally Sports, অহেতুক ফাইল, ১৮+)
 BLOCK_KEYWORDS = [
+    # Movies & Series
     "MOVIE", "MOVIES", "SERIES", "VOD", "FILM", "CINEMA", "WEB SERIES", "MIX",
     "SCOOBY", "TOM & JERRY", "TOM AND JERRY", "MOTU_PATLU", "MOTU PATLU", "CHOTA BHEEM", "CHOTA_BHEEM",
     "US-MUSIC", "MUSIC CHOICE", "CHOICE |", "RADIO", "AUDIO",
+    
+    # Sports Junk & Replays (Your requested items)
+    "PPV", "NO SCHEDULED", "SCHEDULED EVENT", "REPLAY", "REPLAYS", "HIGHLIGHTS", 
+    "IFOLLOW", "BALLY SPORTS", "BALLY", "US: BALLY",
+    
+    # OTT & Adult
     "SONY LIV", "HOICHOI", "ZEE5", "NETFLIX", "AMAZON", "HOTSTAR",
     "SOUTH INDIA", "HOLLYWOOD", "BOLLYWOOD",
     "18+", "ADULT", "XXX", "PORN", "NSFW", "SEXY", "EXPLICIT"
 ]
 
-# ইন্ডিয়ান বাংলা চ্যানেলের কিওয়ার্ড তালিকা
+# ইন্ডিয়ান বাংলা ক্যাটাগরির জন্য নির্ধারিত কীওয়ার্ড
 INDIAN_BANGLA_KEYWORDS = [
     "ZEE BANGLA", "STAR JALSHA", "COLORS BANGLA", "JALSHA MOVIES", 
     "ZEE BANGLA CINEMA", "SONY AATH", "AKASH AATH", "NEWS18 BANGLA", 
@@ -29,7 +36,6 @@ def rewrite_category(line, new_category):
     if 'group-title="' in line:
         return re.sub(r'group-title="[^"]*"', f'group-title="{new_category}"', line, flags=re.IGNORECASE)
     else:
-        # group-title না থাকলে নতুন করে যুক্ত করবে
         return line.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{new_category}"')
 
 def is_channel_active(channel_tuple):
@@ -83,7 +89,7 @@ try:
                 if not is_blocked and not has_year and not has_season_ep and stream_url:
                     if stream_url not in seen_urls and channel_name not in seen_names:
                         
-                        # ১. ইন্ডিয়ান বাংলা (সবার আগে ফিল্টার হবে যেন BANGLADESH-এ না ঢোকে)
+                        # ১. ইন্ডিয়ান বাংলা (সবার আগে ফিল্টার হবে)
                         if any(ib in channel_name or ib in group_title for ib in INDIAN_BANGLA_KEYWORDS):
                             updated_line = rewrite_category(line, "INDIAN BANGLA")
                             categories["INDIAN BANGLA"].append((updated_line, stream_url))
@@ -113,8 +119,8 @@ try:
                             categories["KIDS"].append((updated_line, stream_url))
                             seen_urls.add(stream_url); seen_names.add(channel_name)
 
-                        # ৬. স্পোর্টস চ্যানেল
-                        elif any(k in group_title or k in channel_name for k in ["SPORT", "SPORTS", "CRICKET", "FOOTBALL", "TEN", "SONY", "STAR SPORTS", "WILLOW", "BEIN", "EUROSPORT", "T SPORTS", "GTV"]):
+                        # ৬. স্পোর্টস লাইভ টিভি (লাইভ চ্যানেল ফিল্টার)
+                        elif any(k in group_title or k in channel_name for k in ["SPORT", "SPORTS", "CRICKET", "FOOTBALL", "TEN", "SONY", "STAR SPORTS", "WILLOW", "BEIN", "EUROSPORT", "T SPORTS", "GTV", "ASTRO"]):
                             updated_line = rewrite_category(line, "SPORTS")
                             categories["SPORTS"].append((updated_line, stream_url))
                             seen_urls.add(stream_url); seen_names.add(channel_name)
@@ -156,7 +162,7 @@ try:
         with open("playlist.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(final_playlist))
             
-        print(f"✅ Fixed & Categorized Successfully! Total Active Channels: {len(active_channels)}")
+        print(f"✅ Filtered Successfully! Total Active Channels: {len(active_channels)}")
 
 except Exception as e:
     print(f"❌ Error: {e}")
