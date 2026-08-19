@@ -5,25 +5,23 @@ from concurrent.futures import ThreadPoolExecutor
 url = "http://filex.me:8080/get.php?username=3114654477&password=5787654467&type=m3u_plus&output=ts"
 headers = {"User-Agent": "IPTVSmarters/1.0.3"}
 
-# ১. মুভি, সিরিজ, ১৮+ এবং অপ্রয়োজনীয় ক্যাটাগরি সম্পূর্ণ ব্লক
+# বাদ দেওয়ার কীওয়ার্ডসমূহ (VOD, কার্টুন ভিডিও, মুভি, ১৮+)
 BLOCK_KEYWORDS = [
     "MOVIE", "MOVIES", "SERIES", "VOD", "FILM", "CINEMA", "WEB SERIES", "MIX",
-    "SONY LIV", "HOICHOI", "ZEE5", "NETFLIX", "AMAZON", "HOTSTAR", "ALT BALAJI",
-    "SOUTH INDIA", "HOLLYWOOD", "BOLLYWOOD", "TAMIL |", "TELUGU |", 
-    "KANNADA |", "MALAYALAM |", "BANGLA |", "HINDI |", "PUNJABI |",
+    "MOTU_PATLU", "MOTU PATLU", "CHOTA BHEEM", "CHOTA_BHEEM", "PUNJABI",
+    "SONY LIV", "HOICHOI", "ZEE5", "NETFLIX", "AMAZON", "HOTSTAR",
+    "SOUTH INDIA", "HOLLYWOOD", "BOLLYWOOD",
     "18+", "ADULT", "XXX", "PORN", "NSFW", "SEXY", "EXPLICIT"
 ]
-
-# ২. জনপ্রিয় চ্যানেল ও খেলার কিওয়ার্ড
-POPULAR_BD = ["SOMOY", "INDEPENDENT", "JAMUNA", "24", "EKBATTOR", "NTV", "ATN", "CHANNEL I", "DEEPTO", "GTV", "T SPORTS", "RTV", "MASRANGA", "BTV", "BENGAL"]
-POPULAR_IN = ["STAR PLUS", "SONY SAB", "ZEE TV", "COLORS", "STAR BHARAT", "SONY MAX", "STAR MOVIES", "ZEE CINEMA", "ANANDABAZAR", "ABP", "AAJ TAK"]
-POPULAR_PAK = ["GEO", "ARY", "HUM", "DUNYA", "EXPRESS", "PTV"]
-SPORTS_KEYWORDS = ["SPORT", "SPORTS", "CRICKET", "FOOTBALL", "TEN", "SONY", "STAR SPORTS", "WILLOW", "BEIN", "EUROSPORT", "ASTRO", "SUPERSPORT", "CANAL+", "SKY SPORTS", "ARENA"]
 
 YEAR_PATTERN = re.compile(r'\(?20[0-2][0-9]\)?')
 SEASON_EPISODE_PATTERN = re.compile(r'\b(S\d{1,2}|E\d{1,3}|EP\d{1,3}|EPISODE)\b', re.IGNORECASE)
 
-# চ্যানেল সক্রিয় (Active) কি না চেক করার ফাংশন
+# ক্যাটাগরির নাম পরিবর্তন করার ফাংশন
+def rewrite_category(line, new_category):
+    return re.sub(r'group-title="[^"]*"', f'group-title="{new_category}"', line, flags=re.IGNORECASE)
+
+# চ্যানেল সক্রিয় (Active) কিনা চেক করার ফাংশন
 def is_channel_active(channel_tuple):
     line, stream_url = channel_tuple
     try:
@@ -38,15 +36,22 @@ def is_channel_active(channel_tuple):
     return None
 
 try:
-    print("Downloading and processing playlist...")
+    print("Downloading playlist...")
     response = requests.get(url, headers=headers, timeout=60)
     
     if response.status_code == 200:
         lines = response.text.splitlines()
         
-        bd_raw = []
-        sports_raw = []
-        in_pak_raw = []
+        categories = {
+            "BANGLADESH": [],
+            "SPORTS": [],
+            "INDIAN": [],
+            "ISLAMIC": [],
+            "DOCUMENTARY": [],
+            "MUSIC": [],
+            "KIDS": [],
+            "NEWS": []
+        }
         
         seen_urls = set()
         seen_names = set()
@@ -67,43 +72,68 @@ try:
 
                 if not is_blocked and not has_year and not has_season_ep and stream_url:
                     if stream_url not in seen_urls and channel_name not in seen_names:
-                        channel_block = (line, stream_url)
+                        
+                        # ১. ইসলামিক চ্যানেল
+                        if any(k in group_title or k in channel_name for k in ["ISLAM", "ISLAMIC", "MADANI", "PEACE TV", "MAKKAH", "MADINAH", "SUNNAH"]):
+                            updated_line = rewrite_category(line, "ISLAMIC")
+                            categories["ISLAMIC"].append((updated_line, stream_url))
+                            seen_urls.add(stream_url); seen_names.add(channel_name)
 
-                        # ক. বাংলাদেশ জনপ্রিয় চ্যানেল (১ম পজিশন)
-                        if any(bd in group_title or bd in channel_name for bd in ["BANGLA", "BANGLADESH", "BD"]):
-                            if any(pop in channel_name for pop in POPULAR_BD) or "BD" in group_title:
-                                bd_raw.append(channel_block)
-                                seen_urls.add(stream_url)
-                                seen_names.add(channel_name)
+                        # ২. ডকুমেন্টারি চ্যানেল
+                        elif any(k in group_title or k in channel_name for k in ["DISCOVERY", "NAT GEO", "NATIONAL GEOGRAPHIC", "ANIMAL PLANET", "HISTORY", "DOCUMENTARY"]):
+                            updated_line = rewrite_category(line, "DOCUMENTARY")
+                            categories["DOCUMENTARY"].append((updated_line, stream_url))
+                            seen_urls.add(stream_url); seen_names.add(channel_name)
 
-                        # খ. সব দেশের অল স্পোর্টস চ্যানেল (২য় পজিশন)
-                        elif any(sp in group_title or sp in channel_name for sp in SPORTS_KEYWORDS):
-                            sports_raw.append(channel_block)
-                            seen_urls.add(stream_url)
-                            seen_names.add(channel_name)
+                        # ৩. মিউজিক চ্যানেল
+                        elif any(k in group_title or k in channel_name for k in ["MUSIC", "MTV", "9XM", "ZOOM", "SANGEET", "GANA", "9X"]):
+                            updated_line = rewrite_category(line, "MUSIC")
+                            categories["MUSIC"].append((updated_line, stream_url))
+                            seen_urls.add(stream_url); seen_names.add(channel_name)
 
-                        # গ. ইন্ডিয়া ও পাকিস্তানের জনপ্রিয় চ্যানেল (৩য় পজিশন)
-                        elif any(other in group_title or other in channel_name for other in ["INDIA", "INDIAN", "HINDI", "PAKISTAN", "PAK"]):
-                            if any(pop in channel_name for pop in POPULAR_IN + POPULAR_PAK):
-                                in_pak_raw.append(channel_block)
-                                seen_urls.add(stream_url)
-                                seen_names.add(channel_name)
+                        # ৪. কিডস লাইভ চ্যানেল (যেমন Nick, Cartoon Network)
+                        elif any(k in group_title or k in channel_name for k in ["CARTOON", "NICK", "POGO", "DISNEY", "SONY YAY"]):
+                            updated_line = rewrite_category(line, "KIDS")
+                            categories["KIDS"].append((updated_line, stream_url))
+                            seen_urls.add(stream_url); seen_names.add(channel_name)
+
+                        # ৫. স্পোর্টস চ্যানেল
+                        elif any(k in group_title or k in channel_name for k in ["SPORT", "SPORTS", "CRICKET", "FOOTBALL", "TEN", "SONY", "STAR SPORTS", "WILLOW", "BEIN", "EUROSPORT", "T SPORTS", "GTV"]):
+                            updated_line = rewrite_category(line, "SPORTS")
+                            categories["SPORTS"].append((updated_line, stream_url))
+                            seen_urls.add(stream_url); seen_names.add(channel_name)
+
+                        # ৬. বাংলাদেশ টিভি চ্যানেল
+                        elif any(k in group_title or k in channel_name for k in ["BANGLA", "BANGLADESH", "BD"]):
+                            updated_line = rewrite_category(line, "BANGLADESH")
+                            categories["BANGLADESH"].append((updated_line, stream_url))
+                            seen_urls.add(stream_url); seen_names.add(channel_name)
+
+                        # ৭. ইন্ডিয়ান চ্যানেল
+                        elif any(k in group_title or k in channel_name for k in ["INDIA", "INDIAN", "HINDI", "STAR PLUS", "ZEE TV", "COLORS", "SONY SAB"]):
+                            updated_line = rewrite_category(line, "INDIAN")
+                            categories["INDIAN"].append((updated_line, stream_url))
+                            seen_urls.add(stream_url); seen_names.add(channel_name)
 
                 if stream_url:
                     i += 1
             i += 1
 
-        print("Testing active status for filtered popular channels...")
-        all_raw = bd_raw + sports_raw + in_pak_raw
+        # সমস্ত নির্বাচিত চ্যানেল একত্রিত করা
+        all_selected = []
+        for cat_list in categories.values():
+            all_selected.extend(cat_list)
+
+        print("Testing active status for channels...")
         active_channels = []
         
         with ThreadPoolExecutor(max_workers=15) as executor:
-            results = executor.map(is_channel_active, all_raw)
+            results = executor.map(is_channel_active, all_selected)
             for res in results:
                 if res:
                     active_channels.append(res)
 
-        # M3U ফাইল তৈরি
+        # M3U ফাইল সেভ করা
         final_playlist = ["#EXTM3U"]
         for item in active_channels:
             final_playlist.append(item[0])
@@ -112,7 +142,7 @@ try:
         with open("playlist.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(final_playlist))
             
-        print(f"✅ Finished! Total Active Selected Channels: {len(active_channels)}")
+        print(f"✅ Filtered & Categorized Successfully! Total Active: {len(active_channels)}")
 
 except Exception as e:
     print(f"❌ Error: {e}")
