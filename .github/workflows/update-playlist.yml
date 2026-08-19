@@ -1,0 +1,28 @@
+name: Auto Fetch IPTV Data
+
+on:
+  schedule:
+    # প্রতিদিন রাত ১২টায় অটোমেটিক রান হবে (UTC সময়)
+    - cron: '0 0 * * *'
+  # ম্যানুয়ালি রান করার অপশন
+  workflow_dispatch:
+
+jobs:
+  fetch-and-save:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Data from Worker API
+        run: |
+          # Worker URL থেকে ডাটা এনে playlist.m3u8 ফাইলে সেভ করবে (-L রিডাইরেক্ট ফলো করে)
+          curl -L "https://saiptvlive.ahmed-bd-org.workers.dev/102.m3u8" -o playlist.m3u8
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u8
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update IPTV playlist" && git push)
