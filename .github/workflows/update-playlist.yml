@@ -4,8 +4,12 @@ on:
   schedule:
     # প্রতিদিন রাত ১২টায় অটোমেটিক রান হবে (UTC সময়)
     - cron: '0 0 * * *'
-  # ম্যানুয়ালি রান করার অপশন
+  # GitHub থেকে ম্যানুয়ালি রান করার জন্য
   workflow_dispatch:
+
+# গিটহাবে ফাইল পুশ করার অনুমতি (403 Error ঠিক করার জন্য)
+permissions:
+  contents: write
 
 jobs:
   fetch-and-save:
@@ -17,8 +21,8 @@ jobs:
 
       - name: Fetch Data from Worker API
         run: |
-          # Worker URL থেকে ডাটা এনে playlist.m3u8 ফাইলে সেভ করবে (-L রিডাইরেক্ট ফলো করে)
-          curl -L "https://saiptvlive.ahmed-bd-org.workers.dev/102.m3u8" -o playlist.m3u8
+          # VLC/Mozilla User-Agent সহ Worker লিঙ্ক থেকে ডাটা সেভ করবে
+          curl -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://saiptvlive.ahmed-bd-org.workers.dev/102.m3u8" -o playlist.m3u8
 
       - name: Commit and Push Changes
         run: |
