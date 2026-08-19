@@ -16,9 +16,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Fetch Data Direct
+      - name: Fetch Full M3U Playlist
         run: |
-          curl -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) VLC/3.0.18" "http://filex.me:8080/live/3114654477/5787654467/102.m3u8" -o playlist.m3u8
+          # Xtream Codes API থেকে সরাসরি আসল M3U প্লেলিস্ট সেভ করার কমান্ড
+          curl -L -A "IPTVSmarters/1.0.3" "http://filex.me:8080/get.php?username=3114654477&password=5787654467&type=m3u_plus&output=ts" -o playlist.m3u8
 
       - name: Commit and Push Changes
         run: |
