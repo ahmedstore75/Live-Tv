@@ -16,14 +16,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Fetch Full M3U Playlist
-        run: |
-          # Xtream Codes API থেকে সরাসরি আসল M3U প্লেলিস্ট সেভ করার কমান্ড
-          curl -L -A "IPTVSmarters/1.0.3" "http://filex.me:8080/get.php?username=3114654477&password=5787654467&type=m3u_plus&output=ts" -o playlist.m3u8
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Filter Script
+        run: python filter_playlist.py
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add playlist.m3u8
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update IPTV playlist" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update filtered IPTV playlist" && git push)
