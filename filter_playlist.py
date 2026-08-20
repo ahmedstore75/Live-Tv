@@ -2,7 +2,7 @@ import requests
 import re
 from concurrent.futures import ThreadPoolExecutor
 
-url = "http://filex.me:8080/get.php?username=3114654477&password=5787654467&type=m3u_plus&output=ts"
+url = "https://iptv-proxy.ahmed-bd-org.workers.dev"
 headers = {"User-Agent": "IPTVSmarters/1.0.3"}
 
 # বাদ দেওয়ার কীওয়ার্ড (VOD, রিপ্লে, হাইলাইটস, PPV, Bally Sports, অহেতুক ফাইল, ১৮+)
