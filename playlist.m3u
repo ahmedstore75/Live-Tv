@@ -1,205 +1,63 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="polsatviasathist.pl" tvg-name="DK: Viasat History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/35acee6c02fc03de676d8bc65dbea910.png" group-title="DOCUMENTARY",DK: Viasat History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ1NzdFdDYUVNVWllMHAwNlJvK1h6d3k5WjRnQ2x0bXdESVF6UUsxVmJaTQ
-#EXTINF:-1 tvg-id="discoverychannel.de" tvg-name="NO: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/8883649ca60f3ce8eb172e3b855f82b2.png" group-title="DOCUMENTARY",NO: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFQvYUpBZGM2VkRBZHVVamJKd3hMV2ZwU08wMFAyZ1FpVXQxZjMvTG9Bcw
-#EXTINF:-1 tvg-id="history.de" tvg-name="NO: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/1412b59decf9b24295305720efb0690a.png" group-title="DOCUMENTARY",NO: History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFQvYUpBZGM2VkRBZHVVamJKd3hMWEVvN0tMLzNhUkNSUFVxWkc1azhrWg
-#EXTINF:-1 tvg-id="investigationdiscovery.bg" tvg-name="NO: Investigation Discovery HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/c43c0be2204256f31abcdb2293644c9f.png" group-title="DOCUMENTARY",NO: Investigation Discovery HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFQvYUpBZGM2VkRBZHVVamJKd3hMWDJrM0hib3dQbUFIMmJERDFXWHhsNQ
-#EXTINF:-1 tvg-id="natgeo.de" tvg-name="NO: NAT GEO HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9e0991115ea1489b703ed29eec7f5365.png" group-title="DOCUMENTARY",NO: NAT GEO HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacURCd3dYdGVkdnhMMUd3RDRLWjBJRGIvYlZQMkZEOHhuSzZPaUZFWG1yUQ
-#EXTINF:-1 tvg-id="natgeowild.de" tvg-name="NO: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/a44ae0c7054790ee5393a6b87be73909.png" group-title="DOCUMENTARY",NO: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacURCd3dYdGVkdnhMMUd3RDRLWjBJQ3V0L2EvMk5TNzJQeUxkcE5oOTJpZw
-#EXTINF:-1 tvg-id="" tvg-name="BG: Docubox HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/1734b902c00c615754c9cc1cc05eb908.png" group-title="DOCUMENTARY",BG: Docubox HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac0FLczJ1QUJnVis2YWVpbkhNbW8zV3o4WDhaclA4eE9Jbk9YYlVUNTQyUA
-#EXTINF:-1 tvg-id="history.de" tvg-name="BG: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/47ba525a8e6709862b7adb179c838769.png" group-title="DOCUMENTARY",BG: History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac0FLczJ1QUJnVis2YWVpbkhNbW8zWHp1aUVPZDJjTHRycXFOd3d2aWtWdw
-#EXTINF:-1 tvg-id="investigationdiscovery.bg" tvg-name="BG: Investigation Discovery HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/b2ce464518474fe5182dd4a5306f4983.png" group-title="DOCUMENTARY",BG: Investigation Discovery HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac0FLczJ1QUJnVis2YWVpbkhNbW8zVW1HbHlVdlBVZ0J3WTF0REZwMFZiUw
-#EXTINF:-1 tvg-id="travelmix.ro" tvg-name="BG: Travel TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/69044b1b292dd9c2fdce3e13a8f94e2d.png" group-title="DOCUMENTARY",BG: Travel TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac0FLczJ1QUJnVis2YWVpbkhNbW8zVlpxV1Y1WFlnNklMSXVLNlVONStBKw
-#EXTINF:-1 tvg-id="polsatviasatexpl.pl" tvg-name="BG: Viasat Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/d8586c7a3e666f4a01444bf9e5eb00f8.png" group-title="DOCUMENTARY",BG: Viasat Explore HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac0FLczJ1QUJnVis2YWVpbkhNbW8zVjduYStac1ZBb0UxMHVTK3p0TC95ZA
-#EXTINF:-1 tvg-id="polsatviasathist.pl" tvg-name="BG: Viasat History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/6af8890088c5ba51800f18d2bcb5b2b8.png" group-title="DOCUMENTARY",BG: Viasat History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac0FLczJ1QUJnVis2YWVpbkhNbW8zVkp4QkV1NDJyWlN6a2dvamN1MVdzMw
-#EXTINF:-1 tvg-id="animalplanet.bg" tvg-name="BG: Animal Planet HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/f589d322b0dab7ed1de011b092f2c455.png" group-title="DOCUMENTARY",BG: Animal Planet HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaHl3Q1pLckNwTldpMU5YOUxndE9TbmdzQ1h6U29Md0gva21WTmJhRllEdg
-#EXTINF:-1 tvg-id="natgeo.de" tvg-name="BG: NAT GEO HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/32d9484e63dbb07887c08c71ef151af4.png" group-title="DOCUMENTARY",BG: NAT GEO HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaHl3Q1pLckNwTldpMU5YOUxndE9TbnhPSFh1RWtaMWppcEdFcWNBcktOSQ
-#EXTINF:-1 tvg-id="natgeowild.de" tvg-name="BG: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/e373072b6f192ac552d3d95c6e7349ed.png" group-title="DOCUMENTARY",BG: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ0JueURVd3RsWXJoNnpMaThQenlyWjJWVXhnaFBWb3J1UDIxcHBCUlNadw
-#EXTINF:-1 tvg-id="discoverychannel.de" tvg-name="HU: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/dccff278bdec5ba76805a626a7b8769a.png" group-title="DOCUMENTARY",HU: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabDZ5OStROVNSbXM1QndoTGJTaU1ocmNKRlB5ZHdpMkFiMmtHcjNpMng2NA
-#EXTINF:-1 tvg-id="history.de" tvg-name="HU: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/47176a5ee053034bca0c3f0a60103702.png" group-title="DOCUMENTARY",HU: History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabDZ5OStROVNSbXM1QndoTGJTaU1ob1NxQWwxdW1LMmI5cHBlYlRHVm9NdQ
-#EXTINF:-1 tvg-id="investigationdiscovery.bg" tvg-name="HU: Investigation Discovery HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/6fba63ba9c5c5b0f80bc5989ca171aa2.jpg" group-title="DOCUMENTARY",HU: Investigation Discovery HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabDZ5OStROVNSbXM1QndoTGJTaU1ocCtsZjRaMThNNVpFQTFVWWswRHhyTg
-#EXTINF:-1 tvg-id="trutv.us" tvg-name="HU: Spektrum HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f1afc19ba3a86d2bbf76049f48899ad6.png" group-title="DOCUMENTARY",HU: Spektrum HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabDZ5OStROVNSbXM1QndoTGJTaU1ocDBHbVhzVlNNUVcxUFUrN2FvTDloaA
-#EXTINF:-1 tvg-id="history2.ca" tvg-name="HU: Story 4 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8c4afe08c0d8ce53e301cc5751d07984.png" group-title="DOCUMENTARY",HU: Story 4 HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadWZ3NTQ0c3NuS0R1L3IyalhBOHQrM1FGbDljbVFQYllyZFl5bVJNQllMYQ
-#EXTINF:-1 tvg-id="travelchannel.pl" tvg-name="HU: Travel Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2ee285ed763b5d9932dd17d762061f48.png" group-title="DOCUMENTARY",HU: Travel Channel HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadWZ3NTQ0c3NuS0R1L3IyalhBOHQrMzNHWGM4TGl5blllZlZER0VVdTE5Sg
-#EXTINF:-1 tvg-id="polsatviasatexpl.pl" tvg-name="HU: Viasat Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/aac64ddc3199087f9f1ae0f07f623c39.png" group-title="DOCUMENTARY",HU: Viasat Explore HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadWZ3NTQ0c3NuS0R1L3IyalhBOHQrMHlsMS82R1h0MDdxaUdTVjNQQ0Y1WQ
-#EXTINF:-1 tvg-id="polsatviasathist.pl" tvg-name="HU: Viasat History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c77d7e945c20d56563a514d99591275f.png" group-title="DOCUMENTARY",HU: Viasat History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadWZ3NTQ0c3NuS0R1L3IyalhBOHQrM3NPaStEY2VDckFoSmUxOTdwNWhMdQ
-#EXTINF:-1 tvg-id="animalplanet.bg" tvg-name="HU: Animal Planet HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb8cb31d387df94b3348f9070790831c.png" group-title="DOCUMENTARY",HU: Animal Planet HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaSttNC9mbDc4UDdqRTBDU0hnWDZwL2tIZFJGRlRHL2FxVHhWelVySnlrTg
-#EXTINF:-1 tvg-id="natgeowild.de" tvg-name="HU: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/c3cdd713de8c6f4f64ff8841cf81504d.png" group-title="DOCUMENTARY",HU: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaSttNC9mbDc4UDdqRTBDU0hnWDZwLzV1WEtUYTB2MTdoQzVxTm9DR1o4Rg
-#EXTINF:-1 tvg-id="" tvg-name="RU: HDL" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/f5b941fc4b1729365b08543c569a8280.png" group-title="DOCUMENTARY",RU: HDL
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaanBwS2lGMytNek40VUpGeDBURWlSanVoa1o3RDJJaDVuSi9NcTdtVThmVQ
-#EXTINF:-1 tvg-id="6392" tvg-name="RU: Travel Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/f5d4c6eb0f67115eee9e03497693d55d.png" group-title="DOCUMENTARY",RU: Travel Channel HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaczBkK0w2M1FXQUM5c3ZBd0Q2U1luYTFhR05rZjFJOVhYRDZOcUphOW80NQ
-#EXTINF:-1 tvg-id="7561" tvg-name="RU: VIJU History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/e908cdf8ffd9ef01afd6a2ac8572259c.png" group-title="DOCUMENTARY",RU: VIJU History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaczBkK0w2M1FXQUM5c3ZBd0Q2U1luWVI3Rjl2VU9OTys5dWVCQXNJdVNvSw
-#EXTINF:-1 tvg-id="7158" tvg-name="RU: Viju+ Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/0392ef1607359524c3f65bbf620950c0.png" group-title="DOCUMENTARY",RU: Viju+ Explore HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaczBkK0w2M1FXQUM5c3ZBd0Q2U1luYjJ3cFNCTmpzdWZkUEVmRzBZelFPag
-#EXTINF:-1 tvg-id="" tvg-name="RU: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/021f73aca5f55aef6666975b0e8cac83.png" group-title="DOCUMENTARY",RU: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaanBwS2lGMytNek40VUpGeDBURWlSZ0d2MWN5Z0FFb2ExVWFQenJmQmtoRg
-#EXTINF:-1 tvg-id="6700" tvg-name="RU: NAT GEO HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/cf114374f105e36bfb5dcd82c0def630.png" group-title="DOCUMENTARY",RU: NAT GEO HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRuQVBrUmp1cFBEYUU2Qlp6Zk44Zm9US3owVU1Vb3d6MmczK1ZvMXd6bQ
-#EXTINF:-1 tvg-id="6700" tvg-name="RU: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/2e61f884c01a6009b322db9abfc1cc06.png" group-title="DOCUMENTARY",RU: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRuQVBrUmp1cFBEYUU2Qlp6Zk44ZlNmb1FpaUFrcUNWLzZ6dGFUUDE0eg
-#EXTINF:-1 tvg-id="6658" tvg-name="RU: Animal Planet HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/f4e0afcd338a74393b0c58d2c0a62f0e.png" group-title="DOCUMENTARY",RU: Animal Planet HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRuQVBrUmp1cFBEYUU2Qlp6Zk44ZkNRbnJWZUE3RWVxRHdicjZtbXlFaQ
-#EXTINF:-1 tvg-id="crimeinvestigation.ca" tvg-name="RS: Crime+ Investigation HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/197d6608c304c6d5c7a7603ba64faa4d.png" group-title="DOCUMENTARY",RS: Crime+ Investigation HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadGxpTGVVbFB4bnJsbi81aytpTWtXTlpITHdhSlVYcTdQT05KbGlLOFd3Qw
-#EXTINF:-1 tvg-id="discoveryscience.no" tvg-name="RS: Discovery Science HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/08a78648e5e48e1976e30d287dd83074.png" group-title="DOCUMENTARY",RS: Discovery Science HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadGxpTGVVbFB4bnJsbi81aytpTWtXT0Zjc20yY0NvQ3RPcnViRmsyaytWcQ
-#EXTINF:-1 tvg-id="discoverychannel.de" tvg-name="RS: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/097362b353851fdfde37efd8ffc2a4d9.png" group-title="DOCUMENTARY",RS: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadGxpTGVVbFB4bnJsbi81aytpTWtXTU4vay9wZ0ovVHkrbjhUMms5QTNGcA
-#EXTINF:-1 tvg-id="history.de" tvg-name="RS: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/e41359894904028aaf9a547c0b30ff4d.png" group-title="DOCUMENTARY",RS: History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadGxpTGVVbFB4bnJsbi81aytpTWtXTUpKTE1WSHQ4Z08rTG91RzgvM2hJcg
-#EXTINF:-1 tvg-id="history2.ca" tvg-name="RS: History 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/009138f9f74c2f917b0e4db19da13bb6.png" group-title="DOCUMENTARY",RS: History 2 HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadGxpTGVVbFB4bnJsbi81aytpTWtXUGdGSFd3L2xpUi9BVFMzMGhwRkU1VQ
-#EXTINF:-1 tvg-id="" tvg-name="RS: PINK Pedia HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/be210427ce7cd6962e05a5e13a6da6c4.png" group-title="DOCUMENTARY",RS: PINK Pedia HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadGxpTGVVbFB4bnJsbi81aytpTWtXT2g1c1lXaHNzVVF5Mnk3THpET3ZOZQ
-#EXTINF:-1 tvg-id="" tvg-name="RS: PINK Sci-fi & Fantasy HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9de636f1b13795a0c0877d0dad32bf04.png" group-title="DOCUMENTARY",RS: PINK Sci-fi & Fantasy HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVRoMmU1amFoeSttdDRCZVhVQ3FYZktoRkVvOS9tY0JhOG9PMnhkeFRhWg
-#EXTINF:-1 tvg-id="natgeo.de" tvg-name="RS: NAT GEO HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/47c824d96c25ee74c0f81296c3d2c065.png" group-title="DOCUMENTARY",RS: NAT GEO HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaVZFcEdLQTJzTWhleUF5dWFXeGFId29UMjRsSDQ5cVMrM3lzYmRVZjh0bQ
-#EXTINF:-1 tvg-id="natgeowild.de" tvg-name="RS: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/84926dfdd209c787387dbbd325be24ba.png" group-title="DOCUMENTARY",RS: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaGtZeitEV041VHlYTU0yMHRBdllnbzFKQUNTM2VGRGdCSUQ3Z1dHS1lVdQ
-#EXTINF:-1 tvg-id="crimeinvestigation.ca" tvg-name="HR: Crime+ Investigation HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/ad9653524d39e6cd6fa0f7be2429903a.png" group-title="DOCUMENTARY",HR: Crime+ Investigation HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabDkyK29LdEE5VXFUcUpuQi8xUHgvNmJvWTQ3UmlkWldGVlVXb3UzVnJVWg
-#EXTINF:-1 tvg-id="discoverychannel.de" tvg-name="HR: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/2ff14441804407d39aa4eb2553382f2b.png" group-title="DOCUMENTARY",HR: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadDkrUUdSWkV6cnFaQWFmNkRubUIxUjNQOTJ1RHpvYVFyMGFVUXhCT3Bicg
-#EXTINF:-1 tvg-id="" tvg-name="HR: Docubox HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/64843124bd2efb30a9187f69300372d6.png" group-title="DOCUMENTARY",HR: Docubox HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadDkrUUdSWkV6cnFaQWFmNkRubUIxUy82MStDaUUranUrUU1TQUNDOFZiYQ
-#EXTINF:-1 tvg-id="" tvg-name="HR: DOKU TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/a899e66151c0ad8ce2a4b4a8a411b55b.png" group-title="DOCUMENTARY",HR: DOKU TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadDkrUUdSWkV6cnFaQWFmNkRubUIxUUVvdXplQlNEL01vV2FjUFhacDNNbg
-#EXTINF:-1 tvg-id="history.de" tvg-name="HR: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/066fb601b8a7a918e2d0979564a9491e.png" group-title="DOCUMENTARY",HR: History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadDkrUUdSWkV6cnFaQWFmNkRubUIxUUJMUnV5Tk1lMzZ6bzJwUysvS3NQYw
-#EXTINF:-1 tvg-id="history2.ca" tvg-name="HR: History 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/84dbc3d80d60a6c25fa61a4541eb3b5e.jpg" group-title="DOCUMENTARY",HR: History 2 HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadDkrUUdSWkV6cnFaQWFmNkRubUIxUU5OcjJHVDZoNmtBMGFyR1FtMnRPMw
-#EXTINF:-1 tvg-id="scifiuniversal.pl" tvg-name="HR: Sci-fi HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cf9ab5b80e06c25c1efe401f6ffe0818.jpg" group-title="DOCUMENTARY",HR: Sci-fi HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadDkrUUdSWkV6cnFaQWFmNkRubUIxUVdZYW1lYU1LWmpPcy9jaVVBc2FQQw
-#EXTINF:-1 tvg-id="polsatviasatexpl.pl" tvg-name="HR: Viasat Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/06480719e59f295b057df972ec37c71f.jpg" group-title="DOCUMENTARY",HR: Viasat Explore HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadDkrUUdSWkV6cnFaQWFmNkRubUIxUjVtWkRYYWlac25TVXU3OU14VlAyVg
-#EXTINF:-1 tvg-id="polsatviasathist.pl" tvg-name="HR: Viasat History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5ba44a5f3944a8e7576334d949551203.png" group-title="DOCUMENTARY",HR: Viasat History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadDkrUUdSWkV6cnFaQWFmNkRubUIxU0VEWjE1eW5jNHpNY0N3OThwa29pcg
-#EXTINF:-1 tvg-id="animalplanet.bg" tvg-name="HR: Animal Planet HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/97e0294e8e35f7313d5ebe52d9d1a26f.png" group-title="DOCUMENTARY",HR: Animal Planet HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacnBoWVZlU0s4UEU1R01vYnpTMDYrUVdBUVZ1Q2w0Zmk2OXNkMkRiWlRLbA
-#EXTINF:-1 tvg-id="natgeowild.de" tvg-name="HR: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/330b3b21ad24d9696ead334dba4eee0c.png" group-title="DOCUMENTARY",HR: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacnBoWVZlU0s4UEU1R01vYnpTMDYrU3VqZW1DNWNLWkZXeU5QbS9lMFVnTw
-#EXTINF:-1 tvg-id="crimeinvestigation.ca" tvg-name="RO: Crime+ Investigation HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/dc64775fcb754d50758eec04699fe52f.png" group-title="DOCUMENTARY",RO: Crime+ Investigation HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFh0b0xwcmRXZ1RONWNCY29YTEc5ZWRqR24wRGdtNnd6d290a25VTlZMcA
-#EXTINF:-1 tvg-id="discoveryscience.no" tvg-name="RO: Discovery Science HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/582370ec71ef87665deb0ad698993ab8.png" group-title="DOCUMENTARY",RO: Discovery Science HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFh0b0xwcmRXZ1RONWNCY29YTEc5Y1I0UzJ5dFkvVXZMSGJjekNJQ1lFdw
-#EXTINF:-1 tvg-id="discoverychannel.de" tvg-name="RO: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/b71e4aceee440375a7ce9433b093e079.png" group-title="DOCUMENTARY",RO: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFh0b0xwcmRXZ1RONWNCY29YTEc5ZWxnZGpRV2JxOCswTHg1MVhXbjYwbA
-#EXTINF:-1 tvg-id="history.de" tvg-name="RO: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/d07b76ebf71f8cfd877a7016bc3bc639.png" group-title="DOCUMENTARY",RO: History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRHS21DWDFQbFdoMnpSc1hIT1BFWTIzSmpFUU9YN2pRSVRHcmxMZExMbw
-#EXTINF:-1 tvg-id="investigationdiscovery.bg" tvg-name="RO: Investigation Discovery HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/5cdae4a69fb5b094fb4b819c5a5777c1.png" group-title="DOCUMENTARY",RO: Investigation Discovery HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRHS21DWDFQbFdoMnpSc1hIT1BFWmd5SEdOUVRONmF5a085eDQ5dCtYaQ
-#EXTINF:-1 tvg-id="natgeo.de" tvg-name="RO: NAT GEO HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/cb8b055eecbdcfd97b524cfa64c5e495.png" group-title="DOCUMENTARY",RO: NAT GEO HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRHS21DWDFQbFdoMnpSc1hIT1BFYmQ3MkV1U0hxZTJnNGVuQzdlSEQ4bg
-#EXTINF:-1 tvg-id="travelchannel.pl" tvg-name="RO: Travel Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/8cd38bee433eb1ffeb6934d267184154.png" group-title="DOCUMENTARY",RO: Travel Channel HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRHS21DWDFQbFdoMnpSc1hIT1BFYjRxRkRzbnB5eGZhUW10VWpERm1DKw
-#EXTINF:-1 tvg-id="polsatviasatexpl.pl" tvg-name="RO: Viasat Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/5bc572666095a714d1b38f9a4df7031e.jpg" group-title="DOCUMENTARY",RO: Viasat Explore HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRHS21DWDFQbFdoMnpSc1hIT1BFWjBEQVJaMG5qZFg1alFtby9qSDRLOQ
-#EXTINF:-1 tvg-id="polsatviasathist.pl" tvg-name="RO: Viasat History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/6215d82f8d562228fa768f4cd6654713.png" group-title="DOCUMENTARY",RO: Viasat History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabzRHS21DWDFQbFdoMnpSc1hIT1BFYldaazl0dnVZNStUd1BPOXVOV1l1Ug
-#EXTINF:-1 tvg-id="animalplanet.bg" tvg-name="RO: Animal Planet HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/38a88fdd881f5379695d1c18ed537169.png" group-title="DOCUMENTARY",RO: Animal Planet HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabEo4L1REU2hiek04aEVqbnVLR0poSUYraXRwd0IvVVlubS9KN2R1NzlxcQ
-#EXTINF:-1 tvg-id="natgeowild.de" tvg-name="RO: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/7c1b14f0b36c27d31e7977e3621552e8.png" group-title="DOCUMENTARY",RO: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa0xTZjFkbCsreTRqYzZYUzU4WFF3cWZSNnpNZHJXb3c2WWcvNi9HN1dEeQ
-#EXTINF:-1 tvg-id="discoveryscience.no" tvg-name="TR: Discovery Science HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/259f5c55c4c7fe17aa7569ec673254c6.png" group-title="DOCUMENTARY",TR: Discovery Science HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nac0toOVN4OUlpOHFYdnM1NG4rZDVDSnhLQTlFRGg5UEJNUDFFYUUzUU9SUA
-#EXTINF:-1 tvg-id="discoverychannel.de" tvg-name="TR: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/7fc32221d2c98b43f8d3178589b8ea47.png" group-title="DOCUMENTARY",TR: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZqKzc4dGlGWkdoZTE1ZGhKd1YvM2dQUnlRdDRLdW4waWxzZzcvcmsrNw
-#EXTINF:-1 tvg-id="investigationdiscovery.bg" tvg-name="TR: Investigation Discovery HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/b8eb9865e3892d9489a26b1b35c352d8.png" group-title="DOCUMENTARY",TR: Investigation Discovery HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZqKzc4dGlGWkdoZTE1ZGhKd1YvMHZZVUQ2anIvRVJSazVibElvODhacQ
-#EXTINF:-1 tvg-id="natgeo.de" tvg-name="TR: NAT GEO HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/50248dfe48a3f0f7319c05a7da2eab69.png" group-title="DOCUMENTARY",TR: NAT GEO HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZqKzc4dGlGWkdoZTE1ZGhKd1YvMmpNbndXRDhRTGZkbzJOSlc3RmNJMA
-#EXTINF:-1 tvg-id="trtbelgesel.tr" tvg-name="TR: TGRT Belgesel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/c88396117f7be65d8414302424aebdfb.png" group-title="DOCUMENTARY",TR: TGRT Belgesel HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZqKzc4dGlGWkdoZTE1ZGhKd1YvMGJsQktzd0NmUnB6RXBRNWRiNGZ2OA
-#EXTINF:-1 tvg-id="trtbelgesel.tr" tvg-name="TR: TRT Belgesel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/2d5dda60ae62b888b5efb9a46e3603ab.png" group-title="DOCUMENTARY",TR: TRT Belgesel HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZqKzc4dGlGWkdoZTE1ZGhKd1YvMjJJdDlqSHN3UmlzZ21DMHY3N214YQ
-#EXTINF:-1 tvg-id="polsatviasatexpl.pl" tvg-name="TR: Viasat Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/b199a733ed1ced4e5a12ec6aaade62bd.png" group-title="DOCUMENTARY",TR: Viasat Explore HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacDZqKzc4dGlGWkdoZTE1ZGhKd1YvMWVGU0lMVFBFQzN5d1FxT3FrUjExYQ
-#EXTINF:-1 tvg-id="polsatviasathist.pl" tvg-name="TR: Viasat History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/6b5e58f28087af5e4e386665b549b67d.png" group-title="DOCUMENTARY",TR: Viasat History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nablg0NWRlUHpGcGFuU0d2andEZ20wYm1wZ0pQdFZLanFTbmxGcVZrQkpKTQ
-#EXTINF:-1 tvg-id="" tvg-name="TR: Vuslat TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/344049d08e78889075fb4a03936a8dba.png" group-title="DOCUMENTARY",TR: Vuslat TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nablg0NWRlUHpGcGFuU0d2andEZ20wWkxHdzcxc1NZZmFOSHlOYlpvQXNWWg
-#EXTINF:-1 tvg-id="ulketv.tr" tvg-name="TR: Ülke TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/ba0296292e9bd2ba9d07bf35fd60ae3f.png" group-title="DOCUMENTARY",TR: Ülke TV HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nablg0NWRlUHpGcGFuU0d2andEZ20wYStkQ1ZIcXk5VFJEbFdJMURQQ0d6NA
-#EXTINF:-1 tvg-id="natgeowild.de" tvg-name="TR: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/56d97c6609cc66e0b37f2839505118d5.png" group-title="DOCUMENTARY",TR: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nablg0NWRlUHpGcGFuU0d2andEZ20wWStBbkwwVHJVTTlyWlVUUUtpZDBsVA
-#EXTINF:-1 tvg-id="" tvg-name="PT: A&E HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/b34346f2d94d16e97f40441515e48cbf.png" group-title="DOCUMENTARY",PT: A&E HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacWtEeGpYNTBlYndLekZlWHBZNkJCZ2xMbXNtbmZFOVVXYUpXVHBpNFBEVQ
-#EXTINF:-1 tvg-id="AMC.Break.HD.pt" tvg-name="PT: AMC Break HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-05/0543568e9c7c0d015a60cae8d40e87e2.svg" group-title="DOCUMENTARY",PT: AMC Break HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacWtEeGpYNTBlYndLekZlWHBZNkJCZ3RJemhNMHJmWDFSZUxIODNOVnM5ZA
-#EXTINF:-1 tvg-id="AMC.Crime.HD.pt" tvg-name="PT: AMC Crime HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-05/1e90dfa040dfc0b5a501c08e3078693b.svg" group-title="DOCUMENTARY",PT: AMC Crime HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaE1qc0ZOWkp6YXg2ZmdMUHFLWElPREdDWk1HYzB2WmVMS2ZJY01kZVNLQg
-#EXTINF:-1 tvg-id="" tvg-name="PT: Crime+ Investigation HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/be299b5887efb6ac2ef139e7219f3af9.png" group-title="DOCUMENTARY",PT: Crime+ Investigation HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaE1qc0ZOWkp6YXg2ZmdMUHFLWElPQVVXYzhRVUZwbFVxMGVlV1NhM3ZSNQ
-#EXTINF:-1 tvg-id="" tvg-name="PT: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/637c9582b59e8b398d007e72e31e9fb0.png" group-title="DOCUMENTARY",PT: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaE1qc0ZOWkp6YXg2ZmdMUHFLWElPRE0wMHNjRmxpY0M1YmpEcEZMVElMeg
-#EXTINF:-1 tvg-id="" tvg-name="PT: Historia HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/6032909e08119f5609aef6340cb3740e.png" group-title="DOCUMENTARY",PT: Historia HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaE1qc0ZOWkp6YXg2ZmdMUHFLWElPQkhkRGdyTmhqbjY3eGFvMTVTa2NtQg
-#EXTINF:-1 tvg-id="" tvg-name="PT: Investigation Discovery HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/db6a791521e3d31c550efeb266ba2bb6.png" group-title="DOCUMENTARY",PT: Investigation Discovery HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaE1qc0ZOWkp6YXg2ZmdMUHFLWElPQS8wWWJnbmZLSFNuU1FDUGlHajJqVA
-#EXTINF:-1 tvg-id="" tvg-name="PT: Crime District HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/aa39afd1595de483bb3ea94a9220ba63.png" group-title="DOCUMENTARY",PT: Crime District HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaE1qc0ZOWkp6YXg2ZmdMUHFLWElPQnVoV3NuaFR4UmRjWm1ncU1ydk5uNw
-#EXTINF:-1 tvg-id="" tvg-name="PT: NAT GEO HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/574bf954a7d9977135a11aea5a17102d.png" group-title="DOCUMENTARY",PT: NAT GEO HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaW4ybERsc1hzTElJWXA1NnQwTmJDeE5KbGdSQ003ZXBkRWJ6QkZmM291Rw
-#EXTINF:-1 tvg-id="" tvg-name="PT: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/d4602c73330509214ee8324552e8e897.png" group-title="DOCUMENTARY",PT: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaaW4ybERsc1hzTElJWXA1NnQwTmJDd1dpeUxqcU9tMTJYcjZsVk5uMkJ5Nw
-#EXTINF:-1 tvg-id="discoveryscience.no" tvg-name="MX: Discovery Science HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/5f470d3d6be213306838028887def939.png" group-title="DOCUMENTARY",MX: Discovery Science HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NaZ2FoY2ZwVDNYNHlZcFRWSkt6WUxLRW9rL0p3RXFrOEl0emVDODBBYXVxMQ
-#EXTINF:-1 tvg-id="" tvg-name="MX: Discovery TLC HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/a4b4d1da27cf0705e9a72d4f7d392d3e.png" group-title="DOCUMENTARY",MX: Discovery TLC HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadXBDVUtKRkpkblNlZ1JzNFErMXZteWgwYnprSmFPcUU5eEZ2dTJtVHYyeg
-#EXTINF:-1 tvg-id="animalplanet.bg" tvg-name="MX: Animal Planet HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-04/47f1cf72c40b5586ef84fbd78dc4bb9b.svg" group-title="DOCUMENTARY",MX: Animal Planet HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1RjZWI1T29KcndNY00wQ3FVMUdPVWhiS1pJMmhpK0FHdTZyRGVzN1ZaQw
-#EXTINF:-1 tvg-id="history.de" tvg-name="GR: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-02/8c5d52a7f4a847096b53d02bed23246b.png" group-title="DOCUMENTARY",GR: History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjg2QTA4bkhUVVJMVStVdHE1NnN1d29wRVFCSFd1Yjk0YlZicld2NU83Qw
-#EXTINF:-1 tvg-id="travelchannel.pl" tvg-name="GR: Travel Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/b46ab14ba2edb7b9585a70cbb0c0d2d7.png" group-title="DOCUMENTARY",GR: Travel Channel HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjg2QTA4bkhUVVJMVStVdHE1NnN1d3F5ZytDSjIzYVExMDFPeHpnYndmWg
-#EXTINF:-1 tvg-id="polsatviasatexpl.pl" tvg-name="GR: Viasat Explore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/feb67ff1235bec83c84f7a11e9d0d9d2.png" group-title="DOCUMENTARY",GR: Viasat Explore HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjg2QTA4bkhUVVJMVStVdHE1NnN1eVhKMjZLQUlmVWtoc3dLSGt2aHVIUw
-#EXTINF:-1 tvg-id="polsatviasathist.pl" tvg-name="GR: Viasat History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/49ea7b2ed365a17750f3601b8cafb468.png" group-title="DOCUMENTARY",GR: Viasat History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjg2QTA4bkhUVVJMVStVdHE1NnN1ek1Rd0prcWo1RnVZOHpYMzI2eHI0RQ
-#EXTINF:-1 tvg-id="" tvg-name="GR: Xplore HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/71444284c86ddda76b603e52d3309c66.jpg" group-title="DOCUMENTARY",GR: Xplore HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nacjg2QTA4bkhUVVJMVStVdHE1NnN1eGduMGtxZEs4dHQwQjhGVDlZQUhleQ
-#EXTINF:-1 tvg-id="animalplanet.bg" tvg-name="GR: Animal Planet HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-02/cff959e95f1a780a177b5915cba79117.png" group-title="DOCUMENTARY",GR: Animal Planet HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naczd3Q2I1dVFFRVZGVS93Tkpza0RLRHVLUk92dkVqRDJRbmtSQ29XWW1hTA
-#EXTINF:-1 tvg-id="natgeowild.de" tvg-name="GR: NAT GEO WILD HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/db133939dc207e29ad2cef4f8a3e7a6a.png" group-title="DOCUMENTARY",GR: NAT GEO WILD HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naczd3Q2I1dVFFRVZGVS93Tkpza0RLRFE5dVNURW9MVWxrVzRhOXByUTdlVg
-#EXTINF:-1 tvg-id="discoverychannel.de" tvg-name="CH: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/6d601ee98228bdebace57a4c9fe882b4.png" group-title="DOCUMENTARY",CH: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabEt4Wk9XaWU4YzhzRnk1RG9aa3FQYjNqaDUzY0JRSnBscTd3Z1VmTmo5eQ
-#EXTINF:-1 tvg-id="history.de" tvg-name="CH: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/835a1d6dc6424bbaf8cfab7024b33813.png" group-title="DOCUMENTARY",CH: History HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabEt4Wk9XaWU4YzhzRnk1RG9aa3FQYWhmMm91SHArMnpYOG9oQTJBNDRsNA
-#EXTINF:-1 tvg-id="natgeo.de" tvg-name="CH: NAT GEO HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/088d5b2df426f74f42188ca9d5cd6eb2.png" group-title="DOCUMENTARY",CH: NAT GEO HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab2xvMlRhMWo1UWw0bDhPZE5ydUROWENHNU9PYjZQM0s5SDdLRlEwaTN1dQ
-#EXTINF:-1 tvg-id="discoveryturbo.uk" tvg-name="PL: Discovery Turbo XTRA (dtx) HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/ad2248ed73515048617dfac5243457f8.png" group-title="DOCUMENTARY",PL: Discovery Turbo XTRA (dtx) HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab0xLb3ppcDF2QUtFNTQxS3B0enRneGtmSVZBLzQ4YlBHcnoveHpyNW9TWQ
-#EXTINF:-1 tvg-id="canalplusdokumenttv.pl" tvg-name="PL: Canal+ Dokument HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/99d9e118f2944b07b5a917812c16932f.png" group-title="DOCUMENTARY",PL: Canal+ Dokument HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadnJXWU95UjFpK0wwU1M0V0FObTJ0Z3paa3pya3p5dWRjUVdDODZPK2VBeA
-#EXTINF:-1 tvg-id="cbsreality.pl" tvg-name="PL: CBS Reality HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/0bb4b67179871ccbc18d81a74ae8ede9.png" group-title="DOCUMENTARY",PL: CBS Reality HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadnJXWU95UjFpK0wwU1M0V0FObTJ0aVFwNmQ2QjkzVzNPQUc2NWgyc2RuMA
-#EXTINF:-1 tvg-id="discoverychannel.de" tvg-name="PL: Discovery World HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/5e3085bfa0a23c71340c2ecb0d3a2e4d.png" group-title="DOCUMENTARY",PL: Discovery World HD
-https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadnJXWU95UjFpK0wwU1M0V0FObTJ0Z20rc2RNVFdLTWpaN29LWGZGdEdONA
+#EXTINF:-1 tvg-id="" tvg-name="National GEO ᴴᴰ" tvg-logo="http://vplay.site:2052/images/Ge08vpI2Z44hU23OXCO49_wwAsaZiU23_PKlIOLY2dqxaRr5xIKuJu7Y_ombBGnd.png" group-title="BANGLADESH",National GEO ᴴᴰ
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05VZXFnaEtDN24xQWNxQm5pMVZZZE0yRUNseWZFa1ZTazJ4T2s2aFdLNA
+#EXTINF:-1 tvg-id="464120" tvg-name="Sun Bangla" tvg-logo="http://vplay.site:2052/images/Ge08vpI2Z44hU23OXCO495NFZ2rYO01XOwqvcXtEt6omDDQ8W6iGyVXoJobMEbLC.png" group-title="BANGLADESH",Sun Bangla
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05VZXFnaEtDN24xQWNxQm5pMVZZZCtPbStpVVFTdGJlZjlVS3NLTEJuUA
+#EXTINF:-1 tvg-id="494281" tvg-name="Zee 24 Ghanta" tvg-logo="http://vplay.site:2052/images/jvEOE3bgHAqnk27ZQ5X2mjvqO67kp7gnlV3G3_zvGIC5o2gIUl01TtTX4XCPvE5f.png" group-title="BANGLADESH",Zee 24 Ghanta
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05VZXFnaEtDN24xQWNxQm5pMVZZY3dXSTQxSXZaajJycFhkTnBoRGNlbA
+#EXTINF:-1 tvg-id="464208" tvg-name="Dhoom Music" tvg-logo="" group-title="BANGLADESH",Dhoom Music
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab05VZXFnaEtDN24xQWNxQm5pMVZZZlZITmpvbEpza2NnTmtmN0hqNlJUVA
+#EXTINF:-1 tvg-id="404001" tvg-name="BAngla TV BD HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBfvsWYUgwGfRXYrDFEtiEJUcRfZGM_LZ0odXxg_Lqun2.png" group-title="BANGLADESH",BAngla TV BD HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa2FEZjgzYlZiT2hJeGE2L1NtTWI3ektOeXpzWjkxZFU3eTA5SmdPR2oveg
+#EXTINF:-1 tvg-id="" tvg-name="SOnic Bengali HD" tvg-logo="https://rolextv.one:443/images/HjUNyHDk1GXCeTnp_TSKC-53wSDON4kVxalhwvqUW4sp0WigiXW2IDtz31mRp9pu.jpg" group-title="BANGLADESH",SOnic Bengali HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacHcxMVo0c0FCMVlpUHBBTWFwTDM3ZVdMYWhhOUQ5M0VianlUR1FEWVJoNQ
+#EXTINF:-1 tvg-id="" tvg-name="MOhona TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/mohona.jpg?x71442" group-title="BANGLADESH",MOhona TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5MzFzcVhJaktwUDhwc2JmckJHL1ZwcA
+#EXTINF:-1 tvg-id="464061" tvg-name="ANanda TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2018/04/Anandatvupdate.jpg?x71442" group-title="BANGLADESH",ANanda TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5MzFTZFZoOE80VnBRTTdNUGNDM1ZiSw
+#EXTINF:-1 tvg-id="464050" tvg-name="ME TV HD" tvg-logo="https://www.metvbd.com/media/common/logo.png" group-title="BANGLADESH",ME TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5Mk9FOXpmb053UTNLcS9rMjRRWVpLbQ
+#EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLADESH",EKkator TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5MStsUmQwUERobzlMTzNQbmd0cS9MYw
+#EXTINF:-1 tvg-id="" tvg-name="SOmoy TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/somoynews.jpg?x71442" group-title="BANGLADESH",SOmoy TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5MTg5NjI0MWtnc2xBeEZNVklhVjhVZQ
+#EXTINF:-1 tvg-id="" tvg-name="RTV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2017/01/rtvbd.jpg?x71442" group-title="BANGLADESH",RTV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Nab3FuckRNN1FzTTZrUllXdHFIY0U5MngwZWNmUHh3TmxYS0NtemV6TlNWSQ
+#EXTINF:-1 tvg-id="463827" tvg-name="SA TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/satvs.jpg?x71442" group-title="BANGLADESH",SA TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabU5iZmcrNzNwcjl0bUZHMlRqYUFJTVowNU5ITG1iczJ4Qi9NSlNmakVSVA
+#EXTINF:-1 tvg-id="" tvg-name="EKhon TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2024/08/ekhontv.jpg" group-title="BANGLADESH",EKhon TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabU5iZmcrNzNwcjl0bUZHMlRqYUFJTVpzb0pjbWdHdUpEVm51cnVmbW5mNg
+#EXTINF:-1 tvg-id="463822" tvg-name="BAngla PLUS HD" tvg-logo="https://i.postimg.cc/P5XXYFxd/20250529-111735.png" group-title="BANGLADESH",BAngla PLUS HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabU5iZmcrNzNwcjl0bUZHMlRqYUFJT0N3ZGhLMG55L2F0S1ZrUTYzSmxNZQ
+#EXTINF:-1 tvg-id="" tvg-name="RPlus NEWS HD" tvg-logo="" group-title="BANGLADESH",RPlus NEWS HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naa1hQSnNaM1pTajNOWk5wN0J3NG1WY01QZTRac2RGNTBZc2VKU3M1azlSTQ
+#EXTINF:-1 tvg-id="464077" tvg-name="EKhushey TV HD" tvg-logo="" group-title="BANGLADESH",EKhushey TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NacmoxdzFxUHVURXVVSXFZS3hyaFlmQnJmTzRGd3pmbzFucTJ5YUloNG9ibQ
+#EXTINF:-1 tvg-id="" tvg-name="BAN || Global Televiaion HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7Ux8KpuuUlHULgg9elosUqZ2L9bpzmON2EsVEto0UldxfIZH_9ZmLE63OBIirAXFhjB.png" group-title="BANGLADESH",BAN || Global Televiaion HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabE5jaG5mZlZ2V1NSYzFvSEJqOWRLb3NDQ1AyZzFCNm5qeE1ZYy9CV3ZrNA
+#EXTINF:-1 tvg-id="464232" tvg-name="BAN || DD Bangla HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxaRdS0ImAfHwpTtbwxEGI-4V5fvqRGmXYdlYLSqB947s.png" group-title="BANGLADESH",BAN || DD Bangla HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabE5jaG5mZlZ2V1NSYzFvSEJqOWRLcURhNEt2d0dSbEtFN1Y5YjhtS21CYg
+#EXTINF:-1 tvg-id="" tvg-name="BAN || DBC NEWS HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7Uxa_Llw9W4w35V2S9H5lRn9JoZfujXOKFN_JsNemGcpSc.png" group-title="BANGLADESH",BAN || DBC NEWS HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabE5jaG5mZlZ2V1NSYzFvSEJqOWRLcDhwVWxNb1JEUFFzOWhpREFFOVpTbQ
+#EXTINF:-1 tvg-id="" tvg-name="BAN || Bijoy TV HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxrGO9Wlh97tL2eKhOeJ2sjg.jpg" group-title="BANGLADESH",BAN || Bijoy TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naampwa2ptbzZLNWdVTjN0RERGbG1uYW1zOUVPdEVRa1IyWWdrQ2dITTh4cQ
+#EXTINF:-1 tvg-id="464208" tvg-name="BAN || Dhoom Music HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxRWrQ1-oGBmxLEY3uAaZQkw.jpg" group-title="BANGLADESH",BAN || Dhoom Music HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naampwa2ptbzZLNWdVTjN0RERGbG1uWXFTamxZNmVwcFVRQ1NYV3k5UTRWZw
+#EXTINF:-1 tvg-id="464120" tvg-name="BAN || SUN Bangla 4K HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxgzKjRkgtAZa-ihijcsIOiHBdBbtC2KZJKYwIruUvnXk.png" group-title="BANGLADESH",BAN || SUN Bangla 4K HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naampwa2ptbzZLNWdVTjN0RERGbG1uWWtnVmJ4MVV3UmlNQzZqZTFPMFY4UA
+#EXTINF:-1 tvg-id="463822" tvg-name="BAN || R Bangala 4K HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTDQMj2k0CsE7vVVQTclstM0E_P4MJGTNbHAn0ZUGU0ktlffa6PL8ivhJ5CH-goZ2z0.png" group-title="BANGLADESH",BAN || R Bangala 4K HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naampwa2ptbzZLNWdVTjN0RERGbG1uWTJZSVUreTRaU0NHZGNvclNnSndBYQ
+#EXTINF:-1 tvg-id="494281" tvg-name="BAN || ZEE 24 Ghanta HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxB0DsbCxpIYAH9M7cA_vuzXcY0lThP-5KQTfKlMywGwo.jpg" group-title="BANGLADESH",BAN || ZEE 24 Ghanta HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naampwa2ptbzZLNWdVTjN0RERGbG1uYWQ0YVR4akhNODgvcFAwcXRLTTlSSg
+#EXTINF:-1 tvg-id="464220" tvg-name="BAN || Kolkata TV HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7Uxll9EbdzyIDMmRmolg6Y95_L8G-eZxoaGywFiKorvXVo.png" group-title="BANGLADESH",BAN || Kolkata TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2Naampwa2ptbzZLNWdVTjN0RERGbG1uWlNxb1NRTHRNOUduMkdSQ2Z6cmVWMA
+#EXTINF:-1 tvg-id="" tvg-name="BAN || R PLUS NEWS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4FTLDOIpmlf-4H4TWQM_zv7XVFi9hexpKVA&s" group-title="BANGLADESH",BAN || R PLUS NEWS HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFlpMHBMVUw2L0t0ZnJJcW9wMHVtdlJwNFlpVDVNb01tWGVhZW55Q1ZLVw
+#EXTINF:-1 tvg-id="464124" tvg-name="BAN || Boisakhi HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxF_cJFx2ALymAIWjJshb-KdXQm9QZ5xMJpmjdTPWvgR4.png" group-title="BANGLADESH",BAN || Boisakhi HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NabFlpMHBMVUw2L0t0ZnJJcW9wMHVtdHFxWXFVUU1rZUdPdC93cHlBakxPdw
+#EXTINF:-1 tvg-id="464044" tvg-name="BAN || Jamuna TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBcassO-_hmlMKii_Xp5xc7RVhiBOuPeZH_rwsp3kX-j3.png" group-title="BANGLADESH",BAN || Jamuna TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NackFEV1RTN3pIZCthS0tJSHc3Z3NidTFJMHlQN21mbDkrUTQzSStNRDFDdg
+#EXTINF:-1 tvg-id="" tvg-name="BAN || Ekushey TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBaoXvESYnGRj_FdAhYnD76R3A_kWtR1-99BXV1Q208-kpKCr7UZXBBhWVOU41i9j6w.png" group-title="BANGLADESH",BAN || Ekushey TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NackFEV1RTN3pIZCthS0tJSHc3Z3Nic1Y3SDBMTVB0L2dSdnkwemRja01jRg
+#EXTINF:-1 tvg-id="" tvg-name="BAN || Deshe Bideshe TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBdjWwQaOBjENvscYXOvLJx6SlRfcL73bRObdF9wZt-6SVxMC2WeSqRQTXJyRZVxoPg.png" group-title="BANGLADESH",BAN || Deshe Bideshe TV HD
+https://filex.me:8443/akkvdGtMUWkvVnMvaWx3V2hXa2NadGNaSUpmYTg2UTl2bCtVRzJBbkVncWQ3VGtHdy8xZ3dISzNhYnBZVW9VMg
