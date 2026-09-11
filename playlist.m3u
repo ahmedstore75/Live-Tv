@@ -1,17 +1,23 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="BENGALI_DD BANGLA" tvg-logo="" group-title="BANGLADESH",BENGALI_DD BANGLA
 http://filex.me:8080/live/3114654477/5787654467/1370097.ts
-#EXTINF:-1 tvg-id="" tvg-name="National GEO ᴴᴰ" tvg-logo="http://vplay.site:2052/images/Ge08vpI2Z44hU23OXCO49_wwAsaZiU23_PKlIOLY2dqxaRr5xIKuJu7Y_ombBGnd.png" group-title="BANGLADESH",National GEO ᴴᴰ
-http://filex.me:8080/live/3114654477/5787654467/955394.ts
 #EXTINF:-1 tvg-id="464120" tvg-name="Sun Bangla" tvg-logo="http://vplay.site:2052/images/Ge08vpI2Z44hU23OXCO495NFZ2rYO01XOwqvcXtEt6omDDQ8W6iGyVXoJobMEbLC.png" group-title="BANGLADESH",Sun Bangla
 http://filex.me:8080/live/3114654477/5787654467/955395.ts
+#EXTINF:-1 tvg-id="494281" tvg-name="Zee 24 Ghanta" tvg-logo="http://vplay.site:2052/images/jvEOE3bgHAqnk27ZQ5X2mjvqO67kp7gnlV3G3_zvGIC5o2gIUl01TtTX4XCPvE5f.png" group-title="BANGLADESH",Zee 24 Ghanta
+http://filex.me:8080/live/3114654477/5787654467/955396.ts
 #EXTINF:-1 tvg-id="464208" tvg-name="Dhoom Music" tvg-logo="" group-title="BANGLADESH",Dhoom Music
 http://filex.me:8080/live/3114654477/5787654467/955397.ts
-#EXTINF:-1 tvg-id="464232" tvg-name="BAN || DD Bangla HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxaRdS0ImAfHwpTtbwxEGI-4V5fvqRGmXYdlYLSqB947s.png" group-title="BANGLADESH",BAN || DD Bangla HD
-http://filex.me:8080/live/3114654477/5787654467/522612.ts
-#EXTINF:-1 tvg-id="464131" tvg-name="BAN || NEWS 18 Bangla 4K HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBanvSzWi3xQ9mbatQuLVxjB5g8GcbyCxdZ_wuzhprv-G.png" group-title="BANGLADESH",BAN || NEWS 18 Bangla 4K HD
-http://filex.me:8080/live/3114654477/5787654467/522642.ts
-#EXTINF:-1 tvg-id="" tvg-name="BAN || Deshe Bideshe TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBdjWwQaOBjENvscYXOvLJx6SlRfcL73bRObdF9wZt-6SVxMC2WeSqRQTXJyRZVxoPg.png" group-title="BANGLADESH",BAN || Deshe Bideshe TV HD
-http://filex.me:8080/live/3114654477/5787654467/522650.ts
-#EXTINF:-1 tvg-id="" tvg-name="BAN || Channel I HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBaHunNKgAJ2A5k6mq3tXA4kVVzz2tqq0qO_t5nCbignY.png" group-title="BANGLADESH",BAN || Channel I HD
-http://filex.me:8080/live/3114654477/5787654467/522655.ts
+#EXTINF:-1 tvg-id="464050" tvg-name="ME TV HD" tvg-logo="https://www.metvbd.com/media/common/logo.png" group-title="BANGLADESH",ME TV HD
+http://filex.me:8080/live/3114654477/5787654467/520245.ts
+#EXTINF:-1 tvg-id="463822" tvg-name="BAngla PLUS HD" tvg-logo="https://i.postimg.cc/P5XXYFxd/20250529-111735.png" group-title="BANGLADESH",BAngla PLUS HD
+http://filex.me:8080/live/3114654477/5787654467/520252.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPlus NEWS HD" tvg-logo="" group-title="BANGLADESH",RPlus NEWS HD
+http://filex.me:8080/live/3114654477/5787654467/520408.ts
+#EXTINF:-1 tvg-id="463822" tvg-name="BAN || R Bangala 4K HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTDQMj2k0CsE7vVVQTclstM0E_P4MJGTNbHAn0ZUGU0ktlffa6PL8ivhJ5CH-goZ2z0.png" group-title="BANGLADESH",BAN || R Bangala 4K HD
+http://filex.me:8080/live/3114654477/5787654467/522627.ts
+#EXTINF:-1 tvg-id="" tvg-name="BAN || R PLUS NEWS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4FTLDOIpmlf-4H4TWQM_zv7XVFi9hexpKVA&s" group-title="BANGLADESH",BAN || R PLUS NEWS HD
+http://filex.me:8080/live/3114654477/5787654467/522633.ts
+#EXTINF:-1 tvg-id="464044" tvg-name="BAN || Jamuna TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBcassO-_hmlMKii_Xp5xc7RVhiBOuPeZH_rwsp3kX-j3.png" group-title="BANGLADESH",BAN || Jamuna TV HD
+http://filex.me:8080/live/3114654477/5787654467/522645.ts
+#EXTINF:-1 tvg-id="" tvg-name="BAN || AMAR BANGALA HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTDQMj2k0CsE7vVVQTclstM0m8jFDBrL9iWShsc1g0tzykhncOfIiULP1GEE6oKtwBE.png" group-title="BANGLADESH",BAN || AMAR BANGALA HD
+http://filex.me:8080/live/3114654477/5787654467/911069.ts
