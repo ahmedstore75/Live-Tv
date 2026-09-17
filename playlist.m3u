@@ -1,57 +1,209 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="BENGALI_DD BANGLA" tvg-logo="" group-title="BANGLADESH",BENGALI_DD BANGLA
-http://filex.me:8080/live/3114654477/5787654467/1370097.ts
-#EXTINF:-1 tvg-id="" tvg-name="National GEO ᴴᴰ" tvg-logo="http://vplay.site:2052/images/Ge08vpI2Z44hU23OXCO49_wwAsaZiU23_PKlIOLY2dqxaRr5xIKuJu7Y_ombBGnd.png" group-title="BANGLADESH",National GEO ᴴᴰ
-http://filex.me:8080/live/3114654477/5787654467/955394.ts
 #EXTINF:-1 tvg-id="464120" tvg-name="Sun Bangla" tvg-logo="http://vplay.site:2052/images/Ge08vpI2Z44hU23OXCO495NFZ2rYO01XOwqvcXtEt6omDDQ8W6iGyVXoJobMEbLC.png" group-title="BANGLADESH",Sun Bangla
 http://filex.me:8080/live/3114654477/5787654467/955395.ts
-#EXTINF:-1 tvg-id="494281" tvg-name="Zee 24 Ghanta" tvg-logo="http://vplay.site:2052/images/jvEOE3bgHAqnk27ZQ5X2mjvqO67kp7gnlV3G3_zvGIC5o2gIUl01TtTX4XCPvE5f.png" group-title="BANGLADESH",Zee 24 Ghanta
-http://filex.me:8080/live/3114654477/5787654467/955396.ts
-#EXTINF:-1 tvg-id="464208" tvg-name="Dhoom Music" tvg-logo="" group-title="BANGLADESH",Dhoom Music
-http://filex.me:8080/live/3114654477/5787654467/955397.ts
-#EXTINF:-1 tvg-id="404001" tvg-name="BAngla TV BD HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBfvsWYUgwGfRXYrDFEtiEJUcRfZGM_LZ0odXxg_Lqun2.png" group-title="BANGLADESH",BAngla TV BD HD
-http://filex.me:8080/live/3114654477/5787654467/519968.ts
-#EXTINF:-1 tvg-id="" tvg-name="MOhona TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/mohona.jpg?x71442" group-title="BANGLADESH",MOhona TV HD
-http://filex.me:8080/live/3114654477/5787654467/520240.ts
-#EXTINF:-1 tvg-id="464050" tvg-name="ME TV HD" tvg-logo="https://www.metvbd.com/media/common/logo.png" group-title="BANGLADESH",ME TV HD
-http://filex.me:8080/live/3114654477/5787654467/520245.ts
-#EXTINF:-1 tvg-id="" tvg-name="EKkator TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/10/ekattors-150x150.jpg?x71442" group-title="BANGLADESH",EKkator TV HD
-http://filex.me:8080/live/3114654477/5787654467/520247.ts
-#EXTINF:-1 tvg-id="" tvg-name="SOmoy TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2016/02/somoynews.jpg?x71442" group-title="BANGLADESH",SOmoy TV HD
-http://filex.me:8080/live/3114654477/5787654467/520248.ts
-#EXTINF:-1 tvg-id="" tvg-name="RTV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2017/01/rtvbd.jpg?x71442" group-title="BANGLADESH",RTV HD
-http://filex.me:8080/live/3114654477/5787654467/520249.ts
-#EXTINF:-1 tvg-id="463827" tvg-name="SA TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/satvs.jpg?x71442" group-title="BANGLADESH",SA TV HD
-http://filex.me:8080/live/3114654477/5787654467/520250.ts
-#EXTINF:-1 tvg-id="" tvg-name="EKhon TV HD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2024/08/ekhontv.jpg" group-title="BANGLADESH",EKhon TV HD
-http://filex.me:8080/live/3114654477/5787654467/520251.ts
-#EXTINF:-1 tvg-id="463822" tvg-name="BAngla PLUS HD" tvg-logo="https://i.postimg.cc/P5XXYFxd/20250529-111735.png" group-title="BANGLADESH",BAngla PLUS HD
-http://filex.me:8080/live/3114654477/5787654467/520252.ts
-#EXTINF:-1 tvg-id="" tvg-name="RPlus NEWS HD" tvg-logo="" group-title="BANGLADESH",RPlus NEWS HD
-http://filex.me:8080/live/3114654477/5787654467/520408.ts
-#EXTINF:-1 tvg-id="" tvg-name="BAN || DBC NEWS HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7Uxa_Llw9W4w35V2S9H5lRn9JoZfujXOKFN_JsNemGcpSc.png" group-title="BANGLADESH",BAN || DBC NEWS HD
-http://filex.me:8080/live/3114654477/5787654467/522619.ts
-#EXTINF:-1 tvg-id="464124" tvg-name="BAN || Boisakhi HD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxF_cJFx2ALymAIWjJshb-KdXQm9QZ5xMJpmjdTPWvgR4.png" group-title="BANGLADESH",BAN || Boisakhi HD
-http://filex.me:8080/live/3114654477/5787654467/522634.ts
-#EXTINF:-1 tvg-id="464044" tvg-name="BAN || Jamuna TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBcassO-_hmlMKii_Xp5xc7RVhiBOuPeZH_rwsp3kX-j3.png" group-title="BANGLADESH",BAN || Jamuna TV HD
-http://filex.me:8080/live/3114654477/5787654467/522645.ts
-#EXTINF:-1 tvg-id="" tvg-name="BAN || Ekushey TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBaoXvESYnGRj_FdAhYnD76R3A_kWtR1-99BXV1Q208-kpKCr7UZXBBhWVOU41i9j6w.png" group-title="BANGLADESH",BAN || Ekushey TV HD
-http://filex.me:8080/live/3114654477/5787654467/522648.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEN || Ekattor TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBaoXvESYnGRj_FdAhYnD76TMSldCuAGxGOuvKg4Hy0saYqh5_sv2AofbD81ZrGH8vg.png" group-title="BANGLADESH",BEN || Ekattor TV HD
-http://filex.me:8080/live/3114654477/5787654467/522649.ts
-#EXTINF:-1 tvg-id="" tvg-name="BAN || Deshe Bideshe TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBdjWwQaOBjENvscYXOvLJx6SlRfcL73bRObdF9wZt-6SVxMC2WeSqRQTXJyRZVxoPg.png" group-title="BANGLADESH",BAN || Deshe Bideshe TV HD
-http://filex.me:8080/live/3114654477/5787654467/522650.ts
-#EXTINF:-1 tvg-id="" tvg-name="BAN || Channel S HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBaHunNKgAJ2A5k6mq3tXA4kqjAic4U-pzAqirpqLUflO.png" group-title="BANGLADESH",BAN || Channel S HD
-http://filex.me:8080/live/3114654477/5787654467/522654.ts
-#EXTINF:-1 tvg-id="" tvg-name="BAN || Channel I HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBaHunNKgAJ2A5k6mq3tXA4kVVzz2tqq0qO_t5nCbignY.png" group-title="BANGLADESH",BAN || Channel I HD
-http://filex.me:8080/live/3114654477/5787654467/522655.ts
-#EXTINF:-1 tvg-id="495110" tvg-name="BAN || Channel 24 HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBbz5qPqX4roezfNBcxasLMhuxwvLU-Je3m0BaFacUZGb.png" group-title="BANGLADESH",BAN || Channel 24 HD
-http://filex.me:8080/live/3114654477/5787654467/522656.ts
-#EXTINF:-1 tvg-id="463822" tvg-name="BAN || Bangla TV HD" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBfvsWYUgwGfRXYrDFEtiEJUcRfZGM_LZ0odXxg_Lqun2.png" group-title="BANGLADESH",BAN || Bangla TV HD
-http://filex.me:8080/live/3114654477/5787654467/522659.ts
-#EXTINF:-1 tvg-id="464044" tvg-name="BAN || JAMUNA TV" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBcassO-_hmlMKii_Xp5xc7RVhiBOuPeZH_rwsp3kX-j3.png" group-title="BANGLADESH",BAN || JAMUNA TV
-http://filex.me:8080/live/3114654477/5787654467/911098.ts
-#EXTINF:-1 tvg-id="464276" tvg-name="BAN || MY TV" tvg-logo="https://mym2e.fun/images/HjwEu7iTOqkLhxl1ITLIBeRMvupz3EL1JBWMa2bJKOe3IbWA-mKk5LgKZKz-K_F7.png" group-title="BANGLADESH",BAN || MY TV
-http://filex.me:8080/live/3114654477/5787654467/911096.ts
-#EXTINF:-1 tvg-id="" tvg-name="BAN || GAZI TV FHD" tvg-logo="https://mym2e.fun/images/pJALEGYQDgwbUdRmcM-QRYikR-k2jDWt-xcbL2zgSTAqjv56J5E-3muEdNejl7UxI5TC9hf0rsv368OmlhdpCg.jpg" group-title="BANGLADESH",BAN || GAZI TV FHD
-http://filex.me:8080/live/3114654477/5787654467/911078.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 1 4K" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS",BeIN Sport 1 4K
+http://filex.me:8080/live/3114654477/5787654467/908609.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 2 4K" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS",BeIN Sport 2 4K
+http://filex.me:8080/live/3114654477/5787654467/908610.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 3 4K" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS",BeIN Sport 3 4K
+http://filex.me:8080/live/3114654477/5787654467/908611.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 4 4K" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS",BeIN Sport 4 4K
+http://filex.me:8080/live/3114654477/5787654467/908612.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 5 4K" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS",BeIN Sport 5 4K
+http://filex.me:8080/live/3114654477/5787654467/908613.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 8 4K" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS",BeIN Sport 8 4K
+http://filex.me:8080/live/3114654477/5787654467/908616.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport 9 4K" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS",BeIN Sport 9 4K
+http://filex.me:8080/live/3114654477/5787654467/908617.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports News 4K" tvg-logo="http://137.74.40.152/Categories.Logo/beinsports.png" group-title="SPORTS",BeIN Sports News 4K
+http://filex.me:8080/live/3114654477/5787654467/908608.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN | SONY TV ASIA HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/set_in.png" group-title="SPORTS",IN | SONY TV ASIA HD
+http://filex.me:8080/live/3114654477/5787654467/276648.ts
+#EXTINF:-1 tvg-id="463922" tvg-name="IN| SONY sab HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-sab-tv-in.png" group-title="SPORTS",IN| SONY sab HD
+http://filex.me:8080/live/3114654477/5787654467/276654.ts
+#EXTINF:-1 tvg-id="464071" tvg-name="IN| SONY max HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-max-in.png" group-title="SPORTS",IN| SONY max HD
+http://filex.me:8080/live/3114654477/5787654467/276652.ts
+#EXTINF:-1 tvg-id="464029" tvg-name="IN| SONY max 2 HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-max-2-in.png" group-title="SPORTS",IN| SONY max 2 HD
+http://filex.me:8080/live/3114654477/5787654467/276653.ts
+#EXTINF:-1 tvg-id="" tvg-name="WWE HD (2)" tvg-logo="" group-title="SPORTS",WWE HD (2)
+http://filex.me:8080/live/3114654477/5787654467/509259.ts
+#EXTINF:-1 tvg-id="" tvg-name="WWE HD (3)" tvg-logo="" group-title="SPORTS",WWE HD (3)
+http://filex.me:8080/live/3114654477/5787654467/509260.ts
+#EXTINF:-1 tvg-id="" tvg-name="Persiana Fight" tvg-logo="https://i.postimg.cc/qqz57Dkv/persiana-fight.jpg" group-title="SPORTS",Persiana Fight
+http://filex.me:8080/live/3114654477/5787654467/834858.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 24/7" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC FIGHT PASS 24/7
+http://filex.me:8080/live/3114654477/5787654467/934321.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 00:" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 00:
+http://filex.me:8080/live/3114654477/5787654467/934322.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 30" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 30
+http://filex.me:8080/live/3114654477/5787654467/934352.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 29" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 29
+http://filex.me:8080/live/3114654477/5787654467/934351.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 28" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 28
+http://filex.me:8080/live/3114654477/5787654467/934350.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 27" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 27
+http://filex.me:8080/live/3114654477/5787654467/934349.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 26" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 26
+http://filex.me:8080/live/3114654477/5787654467/934348.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 25" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 25
+http://filex.me:8080/live/3114654477/5787654467/934347.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 24" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 24
+http://filex.me:8080/live/3114654477/5787654467/934346.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 23" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 23
+http://filex.me:8080/live/3114654477/5787654467/934345.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 22" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 22
+http://filex.me:8080/live/3114654477/5787654467/934344.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 21" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 21
+http://filex.me:8080/live/3114654477/5787654467/934343.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 20" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 20
+http://filex.me:8080/live/3114654477/5787654467/934342.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 19" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 19
+http://filex.me:8080/live/3114654477/5787654467/934341.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 18" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 18
+http://filex.me:8080/live/3114654477/5787654467/934340.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 17" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 17
+http://filex.me:8080/live/3114654477/5787654467/934339.ts
+#EXTINF:-1 tvg-id="" tvg-name="FR - Kaiser: The Greatest Footballer Never to Play Football" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fJU0pVoQ8zvlnROxiIj6wKTo0vW.jpg" group-title="SPORTS",FR - Kaiser: The Greatest Footballer Never to Play Football
+http://filex.me:8080/movie/3114654477/5787654467/1927480.mkv
+#EXTINF:-1 tvg-id="" tvg-name="FR - Capital Special Elections pouvoir d'achat salaire retraite ce qui vous attend" tvg-logo="https://www.clicanoo.re/media/cache/thumbnail_single/assets/images/articles/2024/06/24/1684703-capital-special-elections-2024-66794b2413761497421970.jpg" group-title="SPORTS",FR - Capital Special Elections pouvoir d'achat salaire retraite ce qui vous attend
+http://filex.me:8080/movie/3114654477/5787654467/1926725.mkv
+#EXTINF:-1 tvg-id="" tvg-name="FR - Je voudrais que quelqu'un m'attende quelque part" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4dyGFTTy3LUVIFGvouUUfcFo6Rm.jpg" group-title="SPORTS",FR - Je voudrais que quelqu'un m'attende quelque part
+http://filex.me:8080/movie/3114654477/5787654467/1962122.mkv
+#EXTINF:-1 tvg-id="" tvg-name="FR - Jamel Debbouze - Maintenant ou Jamel" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/t4bEAUczz8lZNkyYgwkZRWs3mbc.jpg" group-title="SPORTS",FR - Jamel Debbouze - Maintenant ou Jamel
+http://filex.me:8080/movie/3114654477/5787654467/1959144.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IR - Detention" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wLuMoe16Z27DH96B2vg4FQNiAjj.jpg" group-title="SPORTS",IR - Detention
+http://filex.me:8080/movie/3114654477/5787654467/2160177.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IT - Willow (1988)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/d9xEILdvVRX8ZgFwPDbco6kKSaS.jpg" group-title="SPORTS",IT - Willow (1988)
+http://filex.me:8080/movie/3114654477/5787654467/2134351.mp4
+#EXTINF:-1 tvg-id="" tvg-name="IT - Voglia di tenerezza (1983)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l77DRjJuykqKMtD9GTK4YT7qKHW.jpg" group-title="SPORTS",IT - Voglia di tenerezza (1983)
+http://filex.me:8080/movie/3114654477/5787654467/2134331.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MERE  GHOS PIYA JILANI - ALHAJJ MUHAMMAD OWAIS RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MERE  GHOS PIYA JILANI - ALHAJJ MUHAMMAD OWAIS RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860238.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERAY NABI DA ISHQ - HAFIZ AHMED RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MERAY NABI DA ISHQ - HAFIZ AHMED RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860237.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA VIRD TERI DUA - SAIRA MARGHOOB - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MERA VIRD TERI DUA - SAIRA MARGHOOB - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860234.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA SOHNA NABI (BEAUTIFUL PROPHET) - MUHAMMAD UMAIR ZUBAIR - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MERA SOHNA NABI (BEAUTIFUL PROPHET) - MUHAMMAD UMAIR ZUBAIR - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860231.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA PEER SOHNA - SHAKEEL ASHRAF - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MERA PEER SOHNA - SHAKEEL ASHRAF - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860228.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA NOOR WALA AAYA HAI - AL HAAJ IMRAN SHEIKH ATTARI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MERA NOOR WALA AAYA HAI - AL HAAJ IMRAN SHEIKH ATTARI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860227.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA NABI MERA NABI - SHAKEEL ASHRAF - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MERA NABI MERA NABI - SHAKEEL ASHRAF - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860226.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA MAULA ALI ALI - MUHAMMAD NADEEM WARSI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MERA MAULA ALI ALI - MUHAMMAD NADEEM WARSI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860223.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA MASLAQ ISHQ E RASOOL - AL-HAAJ IMRAN SHEIKH ATTARI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MERA MASLAQ ISHQ E RASOOL - AL-HAAJ IMRAN SHEIKH ATTARI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860222.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA MAHI AAYA - OBAIDULLAH QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MERA MAHI AAYA - OBAIDULLAH QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860221.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA DIL BADAL DE - JUNAID JAMSHED - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MERA DIL BADAL DE - JUNAID JAMSHED - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860218.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERA DATA ALI HAJVERI - HAFIZ AHMED RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MERA DATA ALI HAJVERI - HAFIZ AHMED RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860216.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MENU TAAR DITTA EH - MUHAMMAD UMAIR ZUBAIR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MENU TAAR DITTA EH - MUHAMMAD UMAIR ZUBAIR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860214.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MENU DAR TE BULA LE SOHNIA - MUHAMMAD NAEEM SHAHZAD MADNI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MENU DAR TE BULA LE SOHNIA - MUHAMMAD NAEEM SHAHZAD MADNI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860213.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN TO PANJTAN KA GHULAM HOON - HASNAIN BROTHERS - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN TO PANJTAN KA GHULAM HOON - HASNAIN BROTHERS - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860212.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN TO JASHAN NABI KA - MUHAMMAD FAHAD RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN TO JASHAN NABI KA - MUHAMMAD FAHAD RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860209.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN TALIYAN NABI DIYAN CHUMDA - MUHAMMAD ASIF CHISHTI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN TALIYAN NABI DIYAN CHUMDA - MUHAMMAD ASIF CHISHTI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860207.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN TABEDAR SAHABA DA - ALHAAJ HAFIZ MUHAMMAD TAHIR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN TABEDAR SAHABA DA - ALHAAJ HAFIZ MUHAMMAD TAHIR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860205.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN SOHNEY DA UMTI AAN - SAHIBZADA ATTA HUSSAIN CHISHTI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN SOHNEY DA UMTI AAN - SAHIBZADA ATTA HUSSAIN CHISHTI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860204.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN SAU JAON YA MUSTAFA - JAVERIA SALEEM - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN SAU JAON YA MUSTAFA - JAVERIA SALEEM - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860203.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN SAU JAON - ISHRAT ALI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MEIN SAU JAON - ISHRAT ALI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860202.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN SADQE YA RASOOL ALLAH - SAYED HAIDER ABBAS SHAH - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN SADQE YA RASOOL ALLAH - SAYED HAIDER ABBAS SHAH - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860200.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN SADQAY JAWAN - MUHAMMAD ASIF CHISHTI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MEIN SADQAY JAWAN - MUHAMMAD ASIF CHISHTI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860198.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN NOKAR PANJTAN DA - MUHAMMAD DANIYAL UMAR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN NOKAR PANJTAN DA - MUHAMMAD DANIYAL UMAR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860197.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN NOKAR CHARON YAAR KA - AL HAAJ IMRAN SHEIKH ATTARI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN NOKAR CHARON YAAR KA - AL HAAJ IMRAN SHEIKH ATTARI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860196.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN NE YE KAB KAHA - MUHAMMAD NADEEM QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MEIN NE YE KAB KAHA - MUHAMMAD NADEEM QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860195.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN NAUKAR PANJTAN DA - SAYED HAIDER ABBAS SHAH - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN NAUKAR PANJTAN DA - SAYED HAIDER ABBAS SHAH - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860193.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN NAUKAR PANJTAN DA - HAFIZ MUHAMMAD IKRAM RAZA - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN NAUKAR PANJTAN DA - HAFIZ MUHAMMAD IKRAM RAZA - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860192.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN MEDINE CHALA - ALHAJJ SYED FASIHUDDIN SOHARWARDI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN MEDINE CHALA - ALHAJJ SYED FASIHUDDIN SOHARWARDI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860191.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN MALANG HAAN YA ALI DA - MUHAMMAD SALEEM QADRI BROTHERS - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN MALANG HAAN YA ALI DA - MUHAMMAD SALEEM QADRI BROTHERS - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860190.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN LAJPALAN DE LAR - HAFIZA MISBAH HAFEEZ - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MEIN LAJPALAN DE LAR - HAFIZA MISBAH HAFEEZ - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860187.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN LAJPALAN DE - MUHAMMAD USMAN ALMADNI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MEIN LAJPALAN DE - MUHAMMAD USMAN ALMADNI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860186.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN LAB KUSHA NAHIN - ALHAJJ MUHAMMAD OWAIS RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN LAB KUSHA NAHIN - ALHAJJ MUHAMMAD OWAIS RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860185.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN ISHQ E AHMED MEIN - MUHAMMAD UMAIR ZUBAIR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN ISHQ E AHMED MEIN - MUHAMMAD UMAIR ZUBAIR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860183.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN HOON GADA TERE GHAR KA - HAFIZ KAMRAN QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN HOON GADA TERE GHAR KA - HAFIZ KAMRAN QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860181.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN HATH BAN KE - MUHAMMAD UMAIR ZUBAIR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN HATH BAN KE - MUHAMMAD UMAIR ZUBAIR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860180.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN HANJUAN DI TASBIH KITI - SHAHBAZ QAMAR FAREEDI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN HANJUAN DI TASBIH KITI - SHAHBAZ QAMAR FAREEDI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860179.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN BATAON KYA HUSSAIN HAI - MUHAMMAD NUMAN JAVED QADRI - HI-TECH ISLAMIC - OFFICIAL HD VIDEO" tvg-logo="" group-title="ISLAMIC",MEIN BATAON KYA HUSSAIN HAI - MUHAMMAD NUMAN JAVED QADRI - HI-TECH ISLAMIC - OFFICIAL HD VIDEO
+http://filex.me:8080/movie/3114654477/5787654467/1860176.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEIN AAQA KE DARBAR TAK - HAFIZA MISBAH HAFEEZ - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEIN AAQA KE DARBAR TAK - HAFIZA MISBAH HAFEEZ - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860174.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEHFIL-E-SARKAR KI KYA BAAT HAI - MUHAMMAD REHAN RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEHFIL-E-SARKAR KI KYA BAAT HAI - MUHAMMAD REHAN RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860173.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEHFIL WASTAN DI SAJDI PAAK - QARI WAHEED CHISHTI QAWWAL - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEHFIL WASTAN DI SAJDI PAAK - QARI WAHEED CHISHTI QAWWAL - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860172.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEHFIL VICH AAQA DI - QARI SHAHID MEHMOOD QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEHFIL VICH AAQA DI - QARI SHAHID MEHMOOD QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860171.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEHFIL E MILAD VICH AAYE NE - HAFIZ MUHAMMAD MISBAH SHOUQ - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEHFIL E MILAD VICH AAYE NE - HAFIZ MUHAMMAD MISBAH SHOUQ - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860170.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEHFIL E MILAD KARNE KI LAGAN - MUHAMMAD FARHAN ALI QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEHFIL E MILAD KARNE KI LAGAN - MUHAMMAD FARHAN ALI QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860169.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEHBOOB KI MEHFIL KO MEHBOOB - HASNAIN BROTHERS - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEHBOOB KI MEHFIL KO MEHBOOB - HASNAIN BROTHERS - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860168.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEERAN WALYAN DE SARDAR - MUZAMMIL HUSSAIN QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEERAN WALYAN DE SARDAR - MUZAMMIL HUSSAIN QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860166.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEDINE WALA HAI - MUHAMMAD ZEESHAN GOUHAR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEDINE WALA HAI - MUHAMMAD ZEESHAN GOUHAR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860164.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEDINE VICH MAULA TU GHAR - SHAHBAZ QAMAR FAREEDI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MEDINE VICH MAULA TU GHAR - SHAHBAZ QAMAR FAREEDI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860163.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MEDINE PAAK DE ANDAR - SYED REHAN RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MEDINE PAAK DE ANDAR - SYED REHAN RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860162.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MAYE NI MAYE MAA DI SHAN - MUJAHID RAJA IQBAL CHISHTI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MAYE NI MAYE MAA DI SHAN - MUJAHID RAJA IQBAL CHISHTI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860160.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MAWALI YE MAWALI YA - MUHAMMAD ZEESHAN QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",MAWALI YE MAWALI YA - MUHAMMAD ZEESHAN QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+http://filex.me:8080/movie/3114654477/5787654467/1860159.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Maula Ya Salli Wasalim (Qaseeda Burda) _ Bilal Ali & Umer Farooq _ Hi-Tech Islamic Naat" tvg-logo="" group-title="ISLAMIC",Maula Ya Salli Wasalim (Qaseeda Burda) _ Bilal Ali & Umer Farooq _ Hi-Tech Islamic Naat
+http://filex.me:8080/movie/3114654477/5787654467/1860158.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Maula Ya Salli Wasalim (Qaseeda Burda) _ Bilal Ali & Umer Farooq _ Hi-Tech Islam" tvg-logo="" group-title="ISLAMIC",Maula Ya Salli Wasalim (Qaseeda Burda) _ Bilal Ali & Umer Farooq _ Hi-Tech Islam
+http://filex.me:8080/movie/3114654477/5787654467/1860157.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MAULA YA SALLI WASALIM (QASEEDA BURDA) - HASNAIN BROTHERS - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MAULA YA SALLI WASALIM (QASEEDA BURDA) - HASNAIN BROTHERS - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+http://filex.me:8080/movie/3114654477/5787654467/1860156.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Honey, I Shrunk the Kids - 1989" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/omQOzahi2NIeiYznNxHFDvNbvo6.jpg" group-title="KIDS",DS - Honey, I Shrunk the Kids - 1989
+http://filex.me:8080/movie/3114654477/5787654467/2161823.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Doctor Dolittle - 1998" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tLrchGMIkdo1KamQJA6fwvDQEy0.jpg" group-title="KIDS",DS - Doctor Dolittle - 1998
+http://filex.me:8080/movie/3114654477/5787654467/2161737.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - The Thin Red Line - 1998" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/seMydAaoxQP6F0xbE1jOcTmn5Jr.jpg" group-title="KIDS",DS - The Thin Red Line - 1998
+http://filex.me:8080/movie/3114654477/5787654467/2161701.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - The Sixth Sense - 1999" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg" group-title="KIDS",DS - The Sixth Sense - 1999
+http://filex.me:8080/movie/3114654477/5787654467/2161700.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - The Fly - 1986" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg" group-title="KIDS",DS - The Fly - 1986
+http://filex.me:8080/movie/3114654477/5787654467/2161696.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Babes in the Woods - 1932" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v6GjctO6e4MjT082EZLfiOIR1Fj.jpg" group-title="KIDS",DS - Babes in the Woods - 1932
+http://filex.me:8080/movie/3114654477/5787654467/2164949.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Beezy Bear - 1955" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kDjYZ7VCGSLIJm1JvTUBpJYsfK3.jpg" group-title="KIDS",DS - Beezy Bear - 1955
+http://filex.me:8080/movie/3114654477/5787654467/2164942.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Brave Little Tailor - 1938" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bxGAQdLZ2pyymIOC1PWX0jYUd1X.jpg" group-title="KIDS",DS - Brave Little Tailor - 1938
+http://filex.me:8080/movie/3114654477/5787654467/2164940.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Don's Fountain of Youth - 1953" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fJa2PxKZuKWvYvO97jt5YCIKPx3.jpg" group-title="KIDS",DS - Don's Fountain of Youth - 1953
+http://filex.me:8080/movie/3114654477/5787654467/2164930.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Flowers and Trees - 1932" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7qV8IuQll3DxZWYtCpj8HtwwGiL.jpg" group-title="KIDS",DS - Flowers and Trees - 1932
+http://filex.me:8080/movie/3114654477/5787654467/2164922.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Food for Feudin' - 1950" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wc6RlzWvqzotGHj9nuT03DrOFW2.jpg" group-title="KIDS",DS - Food for Feudin' - 1950
+http://filex.me:8080/movie/3114654477/5787654467/2164921.mkv
