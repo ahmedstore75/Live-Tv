@@ -1,1 +1,27 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="sportklub.pl" tvg-name="RS: Sport KLUB 3 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/4c1330777185e47ef3f0ee3ea69aa0fc.png" group-title="SPORTS",RS: Sport KLUB 3 HD
+https://filex.me:8443/live/3114654477/5787654467/317484.ts
+#EXTINF:-1 tvg-id="" tvg-name="IT - Il tenente dei carabinieri - 1986" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/d1iKtanS0VM3TTxEatZYHRQFiHg.jpg" group-title="SPORTS",IT - Il tenente dei carabinieri - 1986
+https://filex.me:8443/movie/3114654477/5787654467/2127290.mp4
+#EXTINF:-1 tvg-id="" tvg-name="WOH FALAK PEH BHI NAHIN HAI - MALIK RIZWAN QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",WOH FALAK PEH BHI NAHIN HAI - MALIK RIZWAN QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+https://filex.me:8443/movie/3114654477/5787654467/1861378.mkv
+#EXTINF:-1 tvg-id="" tvg-name="KALAM-E-BAHOO - HAFIZ AHMED RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",KALAM-E-BAHOO - HAFIZ AHMED RAZA QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+https://filex.me:8443/movie/3114654477/5787654467/1859859.mkv
+#EXTINF:-1 tvg-id="404001" tvg-name="IN | Disney Channel HD" tvg-logo="https://logos-world.net/wp-content/uploads/2021/08/Disney-Channel-Logo-700x394.png" group-title="KIDS",IN | Disney Channel HD
+https://filex.me:8443/live/3114654477/5787654467/246763.ts
+#EXTINF:-1 tvg-id="" tvg-name="FR - Aladdin et le Roi des voleurs" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kTH7qEyvdDYMoQraQZm3LFKCge3.jpg" group-title="KIDS",FR - Aladdin et le Roi des voleurs
+https://filex.me:8443/movie/3114654477/5787654467/1969357.mkv
+#EXTINF:-1 tvg-id="" tvg-name="FR - Aladdin" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ykUEbfpkf8d0w49pHh0AD2KrT52.jpg" group-title="KIDS",FR - Aladdin
+https://filex.me:8443/movie/3114654477/5787654467/1969356.mkv
+#EXTINF:-1 tvg-id="" tvg-name="FR - 1001 pattes" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/Ah3J9OJVc2CNCuH2zMydXy9fmIC.jpg" group-title="KIDS",FR - 1001 pattes
+https://filex.me:8443/movie/3114654477/5787654467/1969354.mkv
+#EXTINF:-1 tvg-id="" tvg-name="FR - Le Festin (1970)" tvg-logo="" group-title="KIDS",FR - Le Festin (1970)
+https://filex.me:8443/movie/3114654477/5787654467/1969349.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IT - Il mio amico Finnick" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gmZGAbI42ecAoixyvZI0Se4Qiau.jpg" group-title="KIDS",IT - Il mio amico Finnick
+https://filex.me:8443/movie/3114654477/5787654467/2144472.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IT - Nick Lo Scatenato" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tvBBAUCGdrJYW5yMoTQpt4LuZF2.jpg" group-title="KIDS",IT - Nick Lo Scatenato
+https://filex.me:8443/movie/3114654477/5787654467/2133277.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IT - Gli amici di Nick Hezard" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ynejEwhsW27Nn2lV4qcPiOjawcB.jpg" group-title="KIDS",IT - Gli amici di Nick Hezard
+https://filex.me:8443/movie/3114654477/5787654467/2131777.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IT - White Fang (1991)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/27wg0rVZW8hX7nWeHCwTf9DygGc.jpg" group-title="KIDS",IT - White Fang (1991)
+https://filex.me:8443/movie/3114654477/5787654467/2130358.mkv
