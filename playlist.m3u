@@ -1,1 +1,31 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="BGD_DURONTO TV HD" tvg-logo="" group-title="BANGLADESH",BGD_DURONTO TV HD
+https://filex.me:8443/live/3114654477/5787654467/1369531.ts
+#EXTINF:-1 tvg-id="" tvg-name="IR - Madar- AKBAR ABDI" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3lW5H6XLOfI8Ik9QPWCULAvHzVj.jpg" group-title="BANGLADESH",IR - Madar- AKBAR ABDI
+https://filex.me:8443/movie/3114654477/5787654467/2158591.mp4
+#EXTINF:-1 tvg-id="" tvg-name="IR - Safar Bekei- AKBAR ABDI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1c/Akbar_Abdi_2020.jpg" group-title="BANGLADESH",IR - Safar Bekei- AKBAR ABDI
+https://filex.me:8443/movie/3114654477/5787654467/2158522.mp4
+#EXTINF:-1 tvg-id="" tvg-name="IR - Pas Koochehaye Shemroon- AKBAR ABDI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGI3Y2UwZjUtMDA4NC00MmQyLTkzYzQtOTU0MTcxYThhYTQ0XkEyXkFqcGdeQXVyNTM0MDc1ODE@._V1_.jpg" group-title="BANGLADESH",IR - Pas Koochehaye Shemroon- AKBAR ABDI
+https://filex.me:8443/movie/3114654477/5787654467/2158400.mp4
+#EXTINF:-1 tvg-id="SONY.SPORTS.TEN.3.HD.in" tvg-name="IN | SONY Sports 3 4K" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-sports-ten-3-in.png" group-title="SPORTS",IN | SONY Sports 3 4K
+https://filex.me:8443/live/3114654477/5787654467/247157.ts
+#EXTINF:-1 tvg-id="464071" tvg-name="IN| SONY max HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-max-in.png" group-title="SPORTS",IN| SONY max HD
+https://filex.me:8443/live/3114654477/5787654467/276652.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC 13" tvg-logo="https://e7.pngegg.com/pngimages/765/515/png-clipart-logo-mixed-martial-arts-ufc-216-ferguson-vs-lee-sports-organization-mixed-martial-arts-company-text.png" group-title="SPORTS",UFC 13
+https://filex.me:8443/live/3114654477/5787654467/934335.ts
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/0de9b5c2e3ed2fc0346a675d5bfde849.png" group-title="SPORTS",SE: V Sport GOLF HD
+https://filex.me:8443/live/3114654477/5787654467/333100.ts
+#EXTINF:-1 tvg-id="sporttvplus.pt" tvg-name="HU: M4 Sport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/eee3bf5ae78f7fe0dbb050374ae20947.png" group-title="SPORTS",HU: M4 Sport HD
+https://filex.me:8443/live/3114654477/5787654467/318322.ts
+#EXTINF:-1 tvg-id="digisport2.ro" tvg-name="RO: DIGI Sport 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-07/df1803b73d696e77aa97ce6405a102b9.png" group-title="SPORTS",RO: DIGI Sport 2 HD
+https://filex.me:8443/live/3114654477/5787654467/317655.ts
+#EXTINF:-1 tvg-id="trtspor.tr" tvg-name="TR: TRT SPOR HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/b48e2102ca3ffba0bdbcebcb419bbd17.png" group-title="SPORTS",TR: TRT SPOR HD
+https://filex.me:8443/live/3114654477/5787654467/317197.ts
+#EXTINF:-1 tvg-id="eurosport2.de" tvg-name="GR: Eurosport 2 HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/eead215977c00f89242f31aeb35f44eb.png" group-title="SPORTS",GR: Eurosport 2 HD
+https://filex.me:8443/live/3114654477/5787654467/316288.ts
+#EXTINF:-1 tvg-id="" tvg-name="BR: BAND Sports HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-08/ceff609636ae03e6425dafdbd72ab1e3.png" group-title="SPORTS",BR: BAND Sports HD
+https://filex.me:8443/live/3114654477/5787654467/304294.ts
+#EXTINF:-1 tvg-id="" tvg-name="DE: Servus Motorsport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-06/b9e14c17fa60a7c361b1204b0f187e7a.png" group-title="SPORTS",DE: Servus Motorsport HD
+https://filex.me:8443/live/3114654477/5787654467/293483.ts
+#EXTINF:-1 tvg-id="" tvg-name="EG: NILE Sport HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/453e365ccf57c1c54ceac3778a4d8092.png" group-title="SPORTS",EG: NILE Sport HD
+https://filex.me:8443/live/3114654477/5787654467/302464.ts
