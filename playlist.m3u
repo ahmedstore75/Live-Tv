@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="DE - Dick und Doof - Die Wstenshne (1933)" tvg-logo="" group-title="SPORTS",DE - Dick und Doof - Die Wstenshne (1933)
-https://filex.me:8443/movie/3114654477/5787654467/2021345.mp4
-#EXTINF:-1 tvg-id="" tvg-name="DE - Dick und Doof - Als Geheimagenten beim FBI (1942)" tvg-logo="" group-title="SPORTS",DE - Dick und Doof - Als Geheimagenten beim FBI (1942)
-https://filex.me:8443/movie/3114654477/5787654467/2021342.mkv
-#EXTINF:-1 tvg-id="" tvg-name="UFC 194: Aldo vs. McGregor" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oa5hHzpKa6rEC0krSu7ZeVsVZ3W.jpg" group-title="SPORTS",UFC 194: Aldo vs. McGregor
-https://filex.me:8443/movie/3114654477/5787654467/2136044.mp4
-#EXTINF:-1 tvg-id="" tvg-name="UFC 193 Ronda Rousey vs Holly Holm" tvg-logo="" group-title="SPORTS",UFC 193 Ronda Rousey vs Holly Holm
-https://filex.me:8443/movie/3114654477/5787654467/2136043.mp4
-#EXTINF:-1 tvg-id="" tvg-name="UFC 188: Velasquez vs. Werdum" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2YklGzSvwqlliJuGl5pncoSqCwL.jpg" group-title="SPORTS",UFC 188: Velasquez vs. Werdum
-https://filex.me:8443/movie/3114654477/5787654467/2136039.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Fighter" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gmTLorYhXJZgdzUsUhvm1ZkRTl0.jpg" group-title="SPORTS",The Fighter
-https://filex.me:8443/movie/3114654477/5787654467/2136032.mkv
+#EXTINF:-1 tvg-id="9175" tvg-name="UK: Racing TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/6bfd35bd3d4c2f735e85a6ca1ad12ab5.png" group-title="SPORTS",UK: Racing TV HD
+https://filex.me:8443/live/3114654477/5787654467/495248.ts
+#EXTINF:-1 tvg-id="" tvg-name="MY: Astro Cricket HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/edc8a9c38c820781eb4785f4e5ee89ca.png" group-title="SPORTS",MY: Astro Cricket HD
+https://filex.me:8443/live/3114654477/5787654467/303500.ts
+#EXTINF:-1 tvg-id="" tvg-name="Chacha Bhatija Cartoon in Hindi _ New Action Gags - 18 _ New Cartoons _ Wow Kidz" tvg-logo="" group-title="INDIAN",Chacha Bhatija Cartoon in Hindi _ New Action Gags - 18 _ New Cartoons _ Wow Kidz
+https://filex.me:8443/movie/3114654477/5787654467/1847810.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MUHAMMAD UMAIR ZUBAIR QADRI - SARKAR BINA EHTEY KUCH - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MUHAMMAD UMAIR ZUBAIR QADRI - SARKAR BINA EHTEY KUCH - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+https://filex.me:8443/movie/3114654477/5787654467/1860397.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MUHAMMAD UMAIR ZUBAIR QADRI - SAB NAAWAN TOON NAAM PYARA - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MUHAMMAD UMAIR ZUBAIR QADRI - SAB NAAWAN TOON NAAM PYARA - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+https://filex.me:8443/movie/3114654477/5787654467/1860396.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MUHAMMAD UMAIR ZUBAIR QADRI - MEIN KUCH BHI NAHIN HOON - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MUHAMMAD UMAIR ZUBAIR QADRI - MEIN KUCH BHI NAHIN HOON - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+https://filex.me:8443/movie/3114654477/5787654467/1860394.mkv
