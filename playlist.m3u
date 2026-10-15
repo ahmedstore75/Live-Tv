@@ -1,13 +1,63 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="9175" tvg-name="UK: Racing TV HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/6bfd35bd3d4c2f735e85a6ca1ad12ab5.png" group-title="SPORTS",UK: Racing TV HD
-https://filex.me:8443/live/3114654477/5787654467/495248.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY: Astro Cricket HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/edc8a9c38c820781eb4785f4e5ee89ca.png" group-title="SPORTS",MY: Astro Cricket HD
-https://filex.me:8443/live/3114654477/5787654467/303500.ts
-#EXTINF:-1 tvg-id="" tvg-name="Chacha Bhatija Cartoon in Hindi _ New Action Gags - 18 _ New Cartoons _ Wow Kidz" tvg-logo="" group-title="INDIAN",Chacha Bhatija Cartoon in Hindi _ New Action Gags - 18 _ New Cartoons _ Wow Kidz
-https://filex.me:8443/movie/3114654477/5787654467/1847810.mkv
-#EXTINF:-1 tvg-id="" tvg-name="MUHAMMAD UMAIR ZUBAIR QADRI - SARKAR BINA EHTEY KUCH - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MUHAMMAD UMAIR ZUBAIR QADRI - SARKAR BINA EHTEY KUCH - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
-https://filex.me:8443/movie/3114654477/5787654467/1860397.mkv
-#EXTINF:-1 tvg-id="" tvg-name="MUHAMMAD UMAIR ZUBAIR QADRI - SAB NAAWAN TOON NAAM PYARA - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MUHAMMAD UMAIR ZUBAIR QADRI - SAB NAAWAN TOON NAAM PYARA - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
-https://filex.me:8443/movie/3114654477/5787654467/1860396.mkv
-#EXTINF:-1 tvg-id="" tvg-name="MUHAMMAD UMAIR ZUBAIR QADRI - MEIN KUCH BHI NAHIN HOON - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",MUHAMMAD UMAIR ZUBAIR QADRI - MEIN KUCH BHI NAHIN HOON - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
-https://filex.me:8443/movie/3114654477/5787654467/1860394.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DE - Toll Trieben es die alten Rmer (1966)" tvg-logo="" group-title="SPORTS",DE - Toll Trieben es die alten Rmer (1966)
+https://filex.me:8443/movie/3114654477/5787654467/2010932.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DE - Sie mchten Giganten sein (1971)" tvg-logo="" group-title="SPORTS",DE - Sie mchten Giganten sein (1971)
+https://filex.me:8443/movie/3114654477/5787654467/2010665.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DE - Rattennest (1955)" tvg-logo="" group-title="SPORTS",DE - Rattennest (1955)
+https://filex.me:8443/movie/3114654477/5787654467/2010571.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DE - Eine Faust geht nach Westen - 1981" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9kiBTjsxmQmS86x4aJ6lPq0ew4h.jpg" group-title="SPORTS",DE - Eine Faust geht nach Westen - 1981
+https://filex.me:8443/movie/3114654477/5787654467/2009968.mp4
+#EXTINF:-1 tvg-id="" tvg-name="DE - Die Verdammten des Krieges - 1989" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7MtaIc1tvOoJHvqjo5V9NIRncu5.jpg" group-title="SPORTS",DE - Die Verdammten des Krieges - 1989
+https://filex.me:8443/movie/3114654477/5787654467/2009919.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IT - Quarantena" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5dBKTysvECvRgtAU8korVixIRjh.jpg" group-title="SPORTS",IT - Quarantena
+https://filex.me:8443/movie/3114654477/5787654467/2128686.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IT - La sindrome di Stendhal" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ttgMlgv76nbh3vwRl91P4JkgroA.jpg" group-title="SPORTS",IT - La sindrome di Stendhal
+https://filex.me:8443/movie/3114654477/5787654467/2128484.mkv
+#EXTINF:-1 tvg-id="" tvg-name="IT - Al calare delle tenebre" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qoceKsM15yL5Tmyuhkdl7vM5Vi4.jpg" group-title="SPORTS",IT - Al calare delle tenebre
+https://filex.me:8443/movie/3114654477/5787654467/2127921.mkv
+#EXTINF:-1 tvg-id="" tvg-name="UK: AKAAL CHANNEL (INDIAN)" tvg-logo="https://s9.gifyu.com/images/SCeTH.png" group-title="INDIAN",UK: AKAAL CHANNEL (INDIAN)
+https://filex.me:8443/live/3114654477/5787654467/957763.ts
+#EXTINF:-1 tvg-id="" tvg-name="Chacha Bhatija Cartoon in Hindi _ New Action Gags - 06 _ New Cartoons _ Wow Kidz" tvg-logo="" group-title="INDIAN",Chacha Bhatija Cartoon in Hindi _ New Action Gags - 06 _ New Cartoons _ Wow Kidz
+https://filex.me:8443/movie/3114654477/5787654467/1847799.mkv
+#EXTINF:-1 tvg-id="" tvg-name="PK | NOOR TV HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy0MixFEp6-ToygFQ4HKDbh7XvKxDjeKueKc0ZrNYe-DHV8VrQ0_vOg8eA&s=10" group-title="ISLAMIC",PK | NOOR TV HD
+https://filex.me:8443/live/3114654477/5787654467/141305.ts
+#EXTINF:-1 tvg-id="" tvg-name="WOH MAH E FIROZAN - MUHAMMAD ZEESHAN GOUHAR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",WOH MAH E FIROZAN - MUHAMMAD ZEESHAN GOUHAR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+https://filex.me:8443/movie/3114654477/5787654467/1861384.mkv
+#EXTINF:-1 tvg-id="" tvg-name="SAB DA MALIK ALLAH - QARI SHAHID MEHMOOD QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC" tvg-logo="" group-title="ISLAMIC",SAB DA MALIK ALLAH - QARI SHAHID MEHMOOD QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC
+https://filex.me:8443/movie/3114654477/5787654467/1860994.mkv
+#EXTINF:-1 tvg-id="" tvg-name="MERE DIL TE LIKH DE APNA NAA - ABDUL GHAFOOR QADRI - HI-TECH ISLAMIC NAAT" tvg-logo="" group-title="ISLAMIC",MERE DIL TE LIKH DE APNA NAA - ABDUL GHAFOOR QADRI - HI-TECH ISLAMIC NAAT
+https://filex.me:8443/movie/3114654477/5787654467/1860254.mkv
+#EXTINF:-1 tvg-id="" tvg-name="KARAM SARKAR NE KITA - MUHAMMAD MUKHTAR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT" tvg-logo="" group-title="ISLAMIC",KARAM SARKAR NE KITA - MUHAMMAD MUKHTAR QADRI - OFFICIAL HD VIDEO - HI-TECH ISLAMIC - BEAUTIFUL NAAT
+https://filex.me:8443/movie/3114654477/5787654467/1859887.mkv
+#EXTINF:-1 tvg-id="" tvg-name="US: Discovery Velocity HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2bce6bd90e7e3b1f93a50bb36f73d686.png" group-title="DOCUMENTARY",US: Discovery Velocity HD
+https://filex.me:8443/live/3114654477/5787654467/291172.ts
+#EXTINF:-1 tvg-id="History.HD.us2" tvg-name="US: History HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d2acf62cd2fcd32d25ad9b4c2d001ae2.png" group-title="DOCUMENTARY",US: History HD
+https://filex.me:8443/live/3114654477/5787654467/291173.ts
+#EXTINF:-1 tvg-id="investigationdiscovery.bg" tvg-name="ES: Investigation Discovery HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/a803d238410485830062214859e54978.png" group-title="DOCUMENTARY",ES: Investigation Discovery HD
+https://filex.me:8443/live/3114654477/5787654467/292849.ts
+#EXTINF:-1 tvg-id="nickelodeon.it" tvg-name="NO: Nickelodeon HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/75b64216b9a2938149e0a70d57730065.png" group-title="KIDS",NO: Nickelodeon HD
+https://filex.me:8443/live/3114654477/5787654467/333237.ts
+#EXTINF:-1 tvg-id="" tvg-name="DS - Anna and the King - 1999" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/PIlOkljucv7HnvATbn4JwrAvSn.jpg" group-title="KIDS",DS - Anna and the King - 1999
+https://filex.me:8443/movie/3114654477/5787654467/2162420.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Beloved - 1998" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bLZo9tJijRBbxHAxMNXhs51pvC8.jpg" group-title="KIDS",DS - Beloved - 1998
+https://filex.me:8443/movie/3114654477/5787654467/2162418.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Greyfriars Bobby - 1961" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/e2gBOHVK8OIiv7ZVchaZVR92kxu.jpg" group-title="KIDS",DS - Greyfriars Bobby - 1961
+https://filex.me:8443/movie/3114654477/5787654467/2162406.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Julia - 1977" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qHtPzs9eVCilp88c1arq73gH6xk.jpg" group-title="KIDS",DS - Julia - 1977
+https://filex.me:8443/movie/3114654477/5787654467/2162404.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Miracle at Midnight - 1998" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xMPiWA66gST1XONqLtceHfe6xpi.jpg" group-title="KIDS",DS - Miracle at Midnight - 1998
+https://filex.me:8443/movie/3114654477/5787654467/2162402.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - 9.to.5.1980" tvg-logo="" group-title="KIDS",DS - 9.to.5.1980
+https://filex.me:8443/movie/3114654477/5787654467/2162373.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - The Full Monty - 1997" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/crtSEBd4ya9r5oEFHRatAud6Id8.jpg" group-title="KIDS",DS - The Full Monty - 1997
+https://filex.me:8443/movie/3114654477/5787654467/2161949.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Willow - 1988" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pAIRGMIdN7ZdZhflazdV2ezuJ9f.jpg" group-title="KIDS",DS - Willow - 1988
+https://filex.me:8443/movie/3114654477/5787654467/2161929.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Volcano - 1997" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6JA1o2Xz3QJRfdZqhAwlGqAVQyR.jpg" group-title="KIDS",DS - Volcano - 1997
+https://filex.me:8443/movie/3114654477/5787654467/2161928.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - Tron - 1982" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zwSFEczP7AzqugAHHIX3zHniT0t.jpg" group-title="KIDS",DS - Tron - 1982
+https://filex.me:8443/movie/3114654477/5787654467/2161925.mkv
+#EXTINF:-1 tvg-id="" tvg-name="DS - The Rocketeer - 1991" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2tDFRESFwKww1LHRE8W1Exj9edH.jpg" group-title="KIDS",DS - The Rocketeer - 1991
+https://filex.me:8443/movie/3114654477/5787654467/2161917.mkv
+#EXTINF:-1 tvg-id="" tvg-name="FR - Hercule" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uDstloXch50fq7txNb7H4Ek6173.jpg" group-title="KIDS",FR - Hercule
+https://filex.me:8443/movie/3114654477/5787654467/1969462.mkv
